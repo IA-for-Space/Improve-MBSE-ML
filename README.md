@@ -2,7 +2,7 @@
 
 Integrating Model-Based Systems Engineering with Machine Learning
 
-Author: 
+Author: Manuel Romero Martinez
 
 Advisor: [Guzmán-Álvarez, César Augusto](https://www.linkedin.com/in/ceguzal/) ([@cguz](@cguz))
 
