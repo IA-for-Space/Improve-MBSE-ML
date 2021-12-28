@@ -1,0 +1,3 @@
+[submodule "polaris/reports/application"]
+	path = polaris/reports/application
+	url = https://gitlab.com/librespacefoundation/polaris/polaris-reports.git

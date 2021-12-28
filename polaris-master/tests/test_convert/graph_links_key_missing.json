@@ -1,0 +1,16 @@
+{
+    "metadata": {
+        "data_format_version": 1,
+        "satellite_name": "LightSail-2"
+    },
+    "graph": {
+        "data_format_version": 1,
+        "nodes": [
+            {
+                "id": "daughter_atmp",
+                "name": "daughter_atmp",
+                "group": 0
+            }
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+include versioneer.py
+include polaris/_version.py
+include polaris/fetch/satellites.json
+include polaris/viz/dynamic_network_analysis_3d-ui.html
+include polaris/viz/polaris.js
+include polaris/viz/favicon.ico
+include polaris/viz/style_sheet.css
+include polaris/viz/toast.css
+include polaris/viz/modal.css
+graft polaris/reports/application/build

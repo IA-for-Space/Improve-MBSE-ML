@@ -1,0 +1,321 @@
+<?xml version="1.0" ?>
+<graph defaultedgetype="directed">
+	<nodes>
+		<node id="daughter_atmp" label="daughter_atmp"/>
+		<node id="daughter_btmp" label="daughter_btmp"/>
+		<node id="threev_pltmp" label="threev_pltmp"/>
+		<node id="rf_amptmp" label="rf_amptmp"/>
+		<node id="nx_tmp" label="nx_tmp"/>
+		<node id="px_tmp" label="px_tmp"/>
+		<node id="ny_tmp" label="ny_tmp"/>
+		<node id="py_tmp" label="py_tmp"/>
+		<node id="nz_tmp" label="nz_tmp"/>
+		<node id="pz_tmp" label="pz_tmp"/>
+		<node id="atmelpwrcurr" label="atmelpwrcurr"/>
+		<node id="atmelpwrbusv" label="atmelpwrbusv"/>
+		<node id="threev_pwrcurr" label="threev_pwrcurr"/>
+		<node id="threev_plpwrcurr" label="threev_plpwrcurr"/>
+		<node id="threev_plpwrbusv" label="threev_plpwrbusv"/>
+		<node id="fivev_plpwrcurr" label="fivev_plpwrcurr"/>
+		<node id="fivev_plpwrbusv" label="fivev_plpwrbusv"/>
+		<node id="daughter_apwrbusv" label="daughter_apwrbusv"/>
+		<node id="nx_intpwrcurr" label="nx_intpwrcurr"/>
+		<node id="nx_intpwrbusv" label="nx_intpwrbusv"/>
+		<node id="nx_extpwrcurr" label="nx_extpwrcurr"/>
+		<node id="nx_extpwrbusv" label="nx_extpwrbusv"/>
+		<node id="px_intpwrcurr" label="px_intpwrcurr"/>
+		<node id="px_intpwrbusv" label="px_intpwrbusv"/>
+		<node id="px_extpwrcurr" label="px_extpwrcurr"/>
+		<node id="px_extpwrbusv" label="px_extpwrbusv"/>
+		<node id="ny_intpwrcurr" label="ny_intpwrcurr"/>
+		<node id="ny_intpwrbusv" label="ny_intpwrbusv"/>
+		<node id="ny_extpwrcurr" label="ny_extpwrcurr"/>
+		<node id="ny_extpwrbusv" label="ny_extpwrbusv"/>
+		<node id="py_intpwrcurr" label="py_intpwrcurr"/>
+		<node id="py_intpwrbusv" label="py_intpwrbusv"/>
+		<node id="py_extpwrcurr" label="py_extpwrcurr"/>
+		<node id="py_extpwrbusv" label="py_extpwrbusv"/>
+		<node id="nz_extpwrcurr" label="nz_extpwrcurr"/>
+		<node id="nz_extpwrbusv" label="nz_extpwrbusv"/>
+		<node id="usercputime" label="usercputime"/>
+		<node id="syscputime" label="syscputime"/>
+		<node id="idlecputime" label="idlecputime"/>
+		<node id="processes" label="processes"/>
+		<node id="memfree" label="memfree"/>
+		<node id="cached" label="cached"/>
+		<node id="datafree" label="datafree"/>
+		<node id="nanderasures" label="nanderasures"/>
+		<node id="beaconcnt" label="beaconcnt"/>
+		<node id="long_dur_counter" label="long_dur_counter"/>
+		<node id="flags" label="flags"/>
+		<node id="q0_act" label="q0_act"/>
+		<node id="q1_act" label="q1_act"/>
+		<node id="q2_act" label="q2_act"/>
+		<node id="q3_act" label="q3_act"/>
+		<node id="x_rate" label="x_rate"/>
+		<node id="y_rate" label="y_rate"/>
+		<node id="z_rate" label="z_rate"/>
+		<node id="gyro_px" label="gyro_px"/>
+		<node id="gyro_py" label="gyro_py"/>
+		<node id="gyro_iz" label="gyro_iz"/>
+		<node id="gyro_pz" label="gyro_pz"/>
+		<node id="gyro_ix" label="gyro_ix"/>
+		<node id="gyro_iy" label="gyro_iy"/>
+		<node id="sol_nxx" label="sol_nxx"/>
+		<node id="sol_nxy" label="sol_nxy"/>
+		<node id="sol_nyx" label="sol_nyx"/>
+		<node id="sol_nyy" label="sol_nyy"/>
+		<node id="sol_nzx" label="sol_nzx"/>
+		<node id="sol_nzy" label="sol_nzy"/>
+		<node id="sol_pxx" label="sol_pxx"/>
+		<node id="sol_pxy" label="sol_pxy"/>
+		<node id="sol_pyx" label="sol_pyx"/>
+		<node id="sol_pyy" label="sol_pyy"/>
+		<node id="mag_nxx" label="mag_nxx"/>
+		<node id="mag_nxy" label="mag_nxy"/>
+		<node id="mag_nxz" label="mag_nxz"/>
+		<node id="mag_pxz" label="mag_pxz"/>
+		<node id="mag_pxx" label="mag_pxx"/>
+		<node id="mag_pxy" label="mag_pxy"/>
+		<node id="mag_nyz" label="mag_nyz"/>
+		<node id="mag_pyz" label="mag_pyz"/>
+		<node id="mag_pyx" label="mag_pyx"/>
+		<node id="mag_pyy" label="mag_pyy"/>
+		<node id="wheel_rpm" label="wheel_rpm"/>
+		<node id="cam0_status" label="cam0_status"/>
+		<node id="cam0_temp" label="cam0_temp"/>
+		<node id="cam0_last_contact" label="cam0_last_contact"/>
+		<node id="cam1_temp" label="cam1_temp"/>
+		<node id="cam1_last_contact" label="cam1_last_contact"/>
+		<node id="torqx_pwrcurr" label="torqx_pwrcurr"/>
+		<node id="torqx_pwrbusv" label="torqx_pwrbusv"/>
+		<node id="torqy_pwrcurr" label="torqy_pwrcurr"/>
+		<node id="torqy_pwrbusv" label="torqy_pwrbusv"/>
+		<node id="torqz_pwrcurr" label="torqz_pwrcurr"/>
+		<node id="torqz_pwrbusv" label="torqz_pwrbusv"/>
+		<node id="motor_pwrcurr" label="motor_pwrcurr"/>
+		<node id="bat0_curr" label="bat0_curr"/>
+		<node id="bat0_volt" label="bat0_volt"/>
+		<node id="bat0_temp" label="bat0_temp"/>
+		<node id="bat0_flags" label="bat0_flags"/>
+		<node id="bat0_ctlflags" label="bat0_ctlflags"/>
+		<node id="bat1_curr" label="bat1_curr"/>
+		<node id="bat1_volt" label="bat1_volt"/>
+		<node id="bat1_temp" label="bat1_temp"/>
+		<node id="bat1_flags" label="bat1_flags"/>
+		<node id="bat1_ctlflags" label="bat1_ctlflags"/>
+		<node id="bat2_curr" label="bat2_curr"/>
+		<node id="bat2_temp" label="bat2_temp"/>
+		<node id="bat2_ctlflags" label="bat2_ctlflags"/>
+		<node id="bat3_curr" label="bat3_curr"/>
+		<node id="bat3_temp" label="bat3_temp"/>
+		<node id="bat3_ctlflags" label="bat3_ctlflags"/>
+		<node id="bat4_curr" label="bat4_curr"/>
+		<node id="bat4_volt" label="bat4_volt"/>
+		<node id="bat4_temp" label="bat4_temp"/>
+		<node id="bat4_flags" label="bat4_flags"/>
+		<node id="bat4_ctlflags" label="bat4_ctlflags"/>
+		<node id="bat5_curr" label="bat5_curr"/>
+		<node id="bat5_volt" label="bat5_volt"/>
+		<node id="bat5_temp" label="bat5_temp"/>
+		<node id="bat5_flags" label="bat5_flags"/>
+		<node id="bat5_ctlflags" label="bat5_ctlflags"/>
+		<node id="bat6_curr" label="bat6_curr"/>
+		<node id="bat6_volt" label="bat6_volt"/>
+		<node id="bat6_temp" label="bat6_temp"/>
+		<node id="bat6_flags" label="bat6_flags"/>
+		<node id="bat6_ctlflags" label="bat6_ctlflags"/>
+		<node id="bat7_curr" label="bat7_curr"/>
+		<node id="bat7_volt" label="bat7_volt"/>
+		<node id="bat7_temp" label="bat7_temp"/>
+		<node id="bat7_flags" label="bat7_flags"/>
+		<node id="bat7_ctlflags" label="bat7_ctlflags"/>
+		<node id="comm_txcount" label="comm_txcount"/>
+		<node id="comm_txbytes" label="comm_txbytes"/>
+	</nodes>
+	<edges>
+		<edge id="0" source="daughter_atmp" target="daughter_btmp" weight="0.8489093780517578"/>
+		<edge id="1" source="daughter_atmp" target="px_tmp" weight="0.36937177181243896"/>
+		<edge id="2" source="daughter_atmp" target="ny_tmp" weight="0.26293864846229553"/>
+		<edge id="3" source="daughter_atmp" target="nz_tmp" weight="0.8073751926422119"/>
+		<edge id="4" source="daughter_atmp" target="atmelpwrbusv" weight="0.3895524740219116"/>
+		<edge id="5" source="daughter_atmp" target="threev_plpwrbusv" weight="0.48172885179519653"/>
+		<edge id="6" source="daughter_atmp" target="daughter_apwrbusv" weight="0.41091400384902954"/>
+		<edge id="7" source="daughter_atmp" target="nx_intpwrcurr" weight="0.5823737978935242"/>
+		<edge id="8" source="daughter_atmp" target="nx_intpwrbusv" weight="0.633436918258667"/>
+		<edge id="9" source="daughter_atmp" target="nx_extpwrbusv" weight="0.4594312012195587"/>
+		<edge id="10" source="daughter_atmp" target="px_intpwrbusv" weight="0.5469081997871399"/>
+		<edge id="11" source="daughter_atmp" target="px_extpwrbusv" weight="0.43587955832481384"/>
+		<edge id="12" source="daughter_atmp" target="ny_intpwrbusv" weight="0.5665771961212158"/>
+		<edge id="13" source="daughter_atmp" target="ny_extpwrbusv" weight="0.562867283821106"/>
+		<edge id="14" source="daughter_atmp" target="py_intpwrbusv" weight="0.3068629801273346"/>
+		<edge id="15" source="daughter_atmp" target="py_extpwrbusv" weight="0.5340247750282288"/>
+		<edge id="16" source="daughter_atmp" target="usercputime" weight="0.23367661237716675"/>
+		<edge id="17" source="daughter_atmp" target="flags" weight="1.0"/>
+		<edge id="18" source="daughter_atmp" target="sol_nzx" weight="0.25851520895957947"/>
+		<edge id="19" source="daughter_atmp" target="cam0_temp" weight="0.9772297143936157"/>
+		<edge id="20" source="daughter_atmp" target="bat0_flags" weight="1.0"/>
+		<edge id="21" source="daughter_atmp" target="bat1_flags" weight="1.0"/>
+		<edge id="22" source="daughter_atmp" target="bat4_flags" weight="1.0"/>
+		<edge id="23" source="daughter_atmp" target="bat5_flags" weight="1.0"/>
+		<edge id="24" source="daughter_atmp" target="bat6_flags" weight="1.0"/>
+		<edge id="25" source="daughter_atmp" target="bat7_flags" weight="1.0"/>
+		<edge id="26" source="daughter_btmp" target="daughter_atmp" weight="0.7449612617492676"/>
+		<edge id="27" source="daughter_btmp" target="threev_pltmp" weight="0.6645004153251648"/>
+		<edge id="28" source="daughter_btmp" target="ny_tmp" weight="0.28882792592048645"/>
+		<edge id="29" source="daughter_btmp" target="pz_tmp" weight="0.20727626979351044"/>
+		<edge id="30" source="daughter_btmp" target="nx_extpwrbusv" weight="0.2589143216609955"/>
+		<edge id="31" source="daughter_btmp" target="px_extpwrcurr" weight="0.2046085000038147"/>
+		<edge id="32" source="daughter_btmp" target="nz_extpwrbusv" weight="0.299506813287735"/>
+		<edge id="33" source="daughter_btmp" target="processes" weight="0.23172920942306519"/>
+		<edge id="34" source="daughter_btmp" target="nanderasures" weight="0.3372800052165985"/>
+		<edge id="35" source="threev_pltmp" target="rf_amptmp" weight="0.23185457289218903"/>
+		<edge id="36" source="threev_pltmp" target="nx_tmp" weight="0.25033143162727356"/>
+		<edge id="37" source="threev_pltmp" target="ny_tmp" weight="0.21609555184841156"/>
+		<edge id="38" source="threev_pltmp" target="atmelpwrbusv" weight="0.4729531407356262"/>
+		<edge id="39" source="threev_pltmp" target="nx_intpwrbusv" weight="0.24932697415351868"/>
+		<edge id="40" source="threev_pltmp" target="px_intpwrbusv" weight="0.33538466691970825"/>
+		<edge id="41" source="threev_pltmp" target="px_extpwrbusv" weight="0.38029736280441284"/>
+		<edge id="42" source="threev_pltmp" target="ny_intpwrbusv" weight="0.24123986065387726"/>
+		<edge id="43" source="threev_pltmp" target="ny_extpwrbusv" weight="0.2665092349052429"/>
+		<edge id="44" source="threev_pltmp" target="py_intpwrbusv" weight="0.656480073928833"/>
+		<edge id="45" source="threev_pltmp" target="py_extpwrbusv" weight="0.38780683279037476"/>
+		<edge id="46" source="threev_pltmp" target="nz_extpwrbusv" weight="0.4822452962398529"/>
+		<edge id="47" source="threev_pltmp" target="usercputime" weight="0.23460602760314941"/>
+		<edge id="48" source="threev_pltmp" target="nanderasures" weight="0.33516427874565125"/>
+		<edge id="49" source="threev_pltmp" target="beaconcnt" weight="0.22488081455230713"/>
+		<edge id="50" source="threev_pltmp" target="q2_act" weight="0.33138424158096313"/>
+		<edge id="51" source="threev_pltmp" target="sol_nxy" weight="0.6371076703071594"/>
+		<edge id="52" source="threev_pltmp" target="sol_nyx" weight="0.2430686354637146"/>
+		<edge id="53" source="threev_pltmp" target="mag_pyx" weight="0.27507469058036804"/>
+		<edge id="54" source="threev_pltmp" target="bat1_temp" weight="0.417682945728302"/>
+		<edge id="55" source="threev_pltmp" target="bat2_temp" weight="1.0"/>
+		<edge id="56" source="nx_tmp" target="threev_pltmp" weight="0.23340515792369843"/>
+		<edge id="57" source="nx_tmp" target="px_tmp" weight="0.3500068783760071"/>
+		<edge id="58" source="nx_tmp" target="ny_extpwrcurr" weight="0.774640679359436"/>
+		<edge id="59" source="nx_tmp" target="nz_extpwrcurr" weight="1.0"/>
+		<edge id="60" source="nx_tmp" target="processes" weight="0.27640047669410706"/>
+		<edge id="61" source="nx_tmp" target="cached" weight="0.3162377178668976"/>
+		<edge id="62" source="nx_tmp" target="q1_act" weight="0.3638664186000824"/>
+		<edge id="63" source="nx_tmp" target="q2_act" weight="0.4215396046638489"/>
+		<edge id="64" source="nx_tmp" target="sol_nyx" weight="0.20380577445030212"/>
+		<edge id="65" source="nx_tmp" target="sol_nzx" weight="0.24607449769973755"/>
+		<edge id="66" source="nx_tmp" target="mag_nxx" weight="1.0"/>
+		<edge id="67" source="nx_tmp" target="mag_nxy" weight="1.0"/>
+		<edge id="68" source="nx_tmp" target="mag_nxz" weight="0.36862248182296753"/>
+		<edge id="69" source="nx_tmp" target="mag_pxz" weight="0.5277364253997803"/>
+		<edge id="70" source="nx_tmp" target="mag_pxx" weight="0.511131763458252"/>
+		<edge id="71" source="nx_tmp" target="mag_pyy" weight="0.3836711645126343"/>
+		<edge id="72" source="nx_tmp" target="bat0_volt" weight="0.6035463809967041"/>
+		<edge id="73" source="nx_tmp" target="bat0_ctlflags" weight="1.0"/>
+		<edge id="74" source="nx_tmp" target="bat1_volt" weight="0.4690486490726471"/>
+		<edge id="75" source="nx_tmp" target="bat1_ctlflags" weight="1.0"/>
+		<edge id="76" source="nx_tmp" target="bat2_ctlflags" weight="1.0"/>
+		<edge id="77" source="nx_tmp" target="bat3_temp" weight="0.4355943500995636"/>
+		<edge id="78" source="nx_tmp" target="bat3_ctlflags" weight="1.0"/>
+		<edge id="79" source="nx_tmp" target="bat4_volt" weight="0.5846526622772217"/>
+		<edge id="80" source="nx_tmp" target="bat4_ctlflags" weight="1.0"/>
+		<edge id="81" source="nx_tmp" target="bat5_volt" weight="0.20873938500881195"/>
+		<edge id="82" source="nx_tmp" target="bat6_volt" weight="0.2226077765226364"/>
+		<edge id="83" source="nx_tmp" target="comm_txcount" weight="0.207997128367424"/>
+		<edge id="84" source="nx_tmp" target="comm_txbytes" weight="0.23886966705322266"/>
+		<edge id="85" source="px_tmp" target="nx_tmp" weight="0.420337051153183"/>
+		<edge id="86" source="px_tmp" target="processes" weight="0.2669198215007782"/>
+		<edge id="87" source="px_tmp" target="memfree" weight="0.20228609442710876"/>
+		<edge id="88" source="px_tmp" target="cached" weight="0.6837623119354248"/>
+		<edge id="89" source="px_tmp" target="long_dur_counter" weight="1.0"/>
+		<edge id="90" source="px_tmp" target="sol_nyx" weight="0.4997890591621399"/>
+		<edge id="91" source="px_tmp" target="sol_pxx" weight="0.22703975439071655"/>
+		<edge id="92" source="px_tmp" target="sol_pxy" weight="0.4409196078777313"/>
+		<edge id="93" source="px_tmp" target="cam0_status" weight="1.0"/>
+		<edge id="94" source="px_tmp" target="cam1_temp" weight="1.0"/>
+		<edge id="95" source="px_tmp" target="bat0_volt" weight="0.20249024033546448"/>
+		<edge id="96" source="px_tmp" target="bat1_volt" weight="0.2053597867488861"/>
+		<edge id="97" source="px_tmp" target="bat7_temp" weight="0.32554715871810913"/>
+		<edge id="98" source="px_tmp" target="comm_txbytes" weight="0.22239749133586884"/>
+		<edge id="99" source="ny_tmp" target="daughter_apwrbusv" weight="0.5890860557556152"/>
+		<edge id="100" source="py_tmp" target="bat0_temp" weight="0.30888640880584717"/>
+		<edge id="101" source="py_tmp" target="bat5_temp" weight="0.4965479373931885"/>
+		<edge id="102" source="pz_tmp" target="bat1_temp" weight="0.5823171138763428"/>
+		<edge id="103" source="pz_tmp" target="bat3_temp" weight="0.5644056797027588"/>
+		<edge id="104" source="fivev_plpwrcurr" target="fivev_plpwrbusv" weight="1.0"/>
+		<edge id="105" source="nx_intpwrcurr" target="mag_nxz" weight="0.23696359992027283"/>
+		<edge id="106" source="nx_intpwrbusv" target="threev_pwrcurr" weight="0.3580878674983978"/>
+		<edge id="107" source="nx_extpwrcurr" target="px_intpwrcurr" weight="0.9241895079612732"/>
+		<edge id="108" source="nx_extpwrcurr" target="ny_intpwrcurr" weight="0.9288777112960815"/>
+		<edge id="109" source="nx_extpwrcurr" target="py_intpwrcurr" weight="0.9036908745765686"/>
+		<edge id="110" source="nx_extpwrcurr" target="py_extpwrcurr" weight="0.8112802505493164"/>
+		<edge id="111" source="nx_extpwrcurr" target="bat0_curr" weight="0.8735367059707642"/>
+		<edge id="112" source="nx_extpwrcurr" target="bat1_curr" weight="0.6986910700798035"/>
+		<edge id="113" source="nx_extpwrcurr" target="bat2_curr" weight="0.4530864953994751"/>
+		<edge id="114" source="nx_extpwrcurr" target="bat3_curr" weight="0.38022685050964355"/>
+		<edge id="115" source="nx_extpwrcurr" target="bat4_curr" weight="0.8789952993392944"/>
+		<edge id="116" source="nx_extpwrcurr" target="bat4_temp" weight="1.0"/>
+		<edge id="117" source="nx_extpwrcurr" target="bat5_temp" weight="0.5034520626068115"/>
+		<edge id="118" source="nx_extpwrcurr" target="bat6_temp" weight="1.0"/>
+		<edge id="119" source="px_intpwrcurr" target="nx_extpwrcurr" weight="0.9842430949211121"/>
+		<edge id="120" source="ny_intpwrbusv" target="sol_nzy" weight="0.3254842758178711"/>
+		<edge id="121" source="usercputime" target="q0_act" weight="0.49458378553390503"/>
+		<edge id="122" source="usercputime" target="sol_pxx" weight="0.643345057964325"/>
+		<edge id="123" source="q1_act" target="mag_pyz" weight="0.4064878523349762"/>
+		<edge id="124" source="q2_act" target="mag_pxz" weight="0.25453728437423706"/>
+		<edge id="125" source="q3_act" target="sol_pyy" weight="0.2903326451778412"/>
+		<edge id="126" source="x_rate" target="gyro_px" weight="0.38329580426216125"/>
+		<edge id="127" source="y_rate" target="gyro_px" weight="0.5863757729530334"/>
+		<edge id="128" source="y_rate" target="gyro_py" weight="0.5451110601425171"/>
+		<edge id="129" source="z_rate" target="gyro_iz" weight="0.8112007975578308"/>
+		<edge id="130" source="z_rate" target="bat3_curr" weight="0.23149538040161133"/>
+		<edge id="131" source="gyro_px" target="x_rate" weight="0.5193958878517151"/>
+		<edge id="132" source="gyro_py" target="y_rate" weight="0.4942639172077179"/>
+		<edge id="133" source="gyro_iz" target="z_rate" weight="0.2808150351047516"/>
+		<edge id="134" source="gyro_pz" target="px_extpwrcurr" weight="0.30216988921165466"/>
+		<edge id="135" source="gyro_pz" target="y_rate" weight="0.44821980595588684"/>
+		<edge id="136" source="gyro_ix" target="gyro_iy" weight="0.2740717828273773"/>
+		<edge id="137" source="gyro_iy" target="gyro_ix" weight="0.2788597047328949"/>
+		<edge id="138" source="sol_nxx" target="x_rate" weight="0.33162111043930054"/>
+		<edge id="139" source="sol_nxx" target="z_rate" weight="0.2395344376564026"/>
+		<edge id="140" source="sol_nxx" target="sol_nyy" weight="0.36422258615493774"/>
+		<edge id="141" source="sol_nxx" target="sol_pyy" weight="0.22729650139808655"/>
+		<edge id="142" source="sol_nxy" target="sol_nxx" weight="0.45395001769065857"/>
+		<edge id="143" source="sol_nxy" target="sol_nyy" weight="0.5933991074562073"/>
+		<edge id="144" source="sol_nyx" target="rf_amptmp" weight="0.44515231251716614"/>
+		<edge id="145" source="sol_nyx" target="mag_nyz" weight="0.21821090579032898"/>
+		<edge id="146" source="sol_pxx" target="sol_nzx" weight="0.39691030979156494"/>
+		<edge id="147" source="sol_pxx" target="sol_pxy" weight="0.2502056658267975"/>
+		<edge id="148" source="sol_pyy" target="q3_act" weight="0.2365209311246872"/>
+		<edge id="149" source="sol_pyy" target="sol_nxx" weight="0.318579763174057"/>
+		<edge id="150" source="mag_nxz" target="threev_plpwrbusv" weight="0.3972087502479553"/>
+		<edge id="151" source="mag_pxx" target="syscputime" weight="0.42115914821624756"/>
+		<edge id="152" source="mag_pxx" target="mag_nxz" weight="0.20812487602233887"/>
+		<edge id="153" source="mag_pxx" target="mag_pxy" weight="0.3384546637535095"/>
+		<edge id="154" source="mag_pxy" target="gyro_ix" weight="0.20254485309123993"/>
+		<edge id="155" source="mag_pyz" target="py_tmp" weight="0.6421050429344177"/>
+		<edge id="156" source="mag_pyz" target="mag_pxx" weight="0.20795993506908417"/>
+		<edge id="157" source="mag_pyx" target="bat0_temp" weight="0.2818710207939148"/>
+		<edge id="158" source="mag_pyy" target="px_extpwrcurr" weight="0.30000874400138855"/>
+		<edge id="159" source="cam0_last_contact" target="cam1_last_contact" weight="0.8240792751312256"/>
+		<edge id="160" source="cam1_last_contact" target="cam0_last_contact" weight="0.8240792751312256"/>
+		<edge id="161" source="torqx_pwrcurr" target="torqx_pwrbusv" weight="0.9193362593650818"/>
+		<edge id="162" source="torqx_pwrcurr" target="torqz_pwrcurr" weight="1.0"/>
+		<edge id="163" source="torqx_pwrcurr" target="torqz_pwrbusv" weight="1.0"/>
+		<edge id="164" source="torqx_pwrbusv" target="torqx_pwrcurr" weight="0.9999858140945435"/>
+		<edge id="165" source="torqy_pwrcurr" target="fivev_plpwrcurr" weight="0.355008989572525"/>
+		<edge id="166" source="torqy_pwrcurr" target="torqy_pwrbusv" weight="0.9660951495170593"/>
+		<edge id="167" source="torqy_pwrbusv" target="torqy_pwrcurr" weight="0.9999764561653137"/>
+		<edge id="168" source="bat0_curr" target="bat2_curr" weight="0.4037754237651825"/>
+		<edge id="169" source="bat4_volt" target="sol_pyx" weight="0.2698284983634949"/>
+		<edge id="170" source="bat4_volt" target="bat5_curr" weight="0.6201730370521545"/>
+		<edge id="171" source="bat4_volt" target="bat6_curr" weight="0.8665226697921753"/>
+		<edge id="172" source="bat4_volt" target="bat7_curr" weight="0.8884585499763489"/>
+		<edge id="173" source="bat4_volt" target="bat7_volt" weight="0.35689863562583923"/>
+		<edge id="174" source="bat5_curr" target="bat5_volt" weight="0.2352096289396286"/>
+		<edge id="175" source="bat5_curr" target="bat7_volt" weight="0.3113063871860504"/>
+		<edge id="176" source="bat5_volt" target="bat6_volt" weight="0.3131229877471924"/>
+		<edge id="177" source="bat5_ctlflags" target="bat6_ctlflags" weight="0.9720432162284851"/>
+		<edge id="178" source="bat5_ctlflags" target="bat7_ctlflags" weight="0.9720432162284851"/>
+		<edge id="179" source="bat6_curr" target="mag_nyz" weight="0.21213480830192566"/>
+		<edge id="180" source="bat6_curr" target="bat5_curr" weight="0.2984480559825897"/>
+		<edge id="181" source="bat6_volt" target="bat5_volt" weight="0.29968714714050293"/>
+		<edge id="182" source="bat6_ctlflags" target="bat5_ctlflags" weight="0.9720432162284851"/>
+	</edges>
+</graph>

@@ -1,0 +1,5 @@
+
+[run]
+omit = 
+	# This file is generated externally. And it is Public Domaine.
+	polaris/_version.py

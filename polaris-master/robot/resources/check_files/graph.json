@@ -1,0 +1,2168 @@
+{
+    "metadata": {
+        "data_format_version": 1,
+        "satellite_name": "LightSail-2"
+    },
+    "graph": {
+        "data_format_version": 1,
+        "nodes": [
+            {
+                "id": "daughter_atmp",
+                "name": "daughter_atmp",
+                "group": 0
+            },
+            {
+                "id": "daughter_btmp",
+                "name": "daughter_btmp",
+                "group": 0
+            },
+            {
+                "id": "threev_pltmp",
+                "name": "threev_pltmp",
+                "group": 0
+            },
+            {
+                "id": "rf_amptmp",
+                "name": "rf_amptmp",
+                "group": 0
+            },
+            {
+                "id": "nx_tmp",
+                "name": "nx_tmp",
+                "group": 0
+            },
+            {
+                "id": "px_tmp",
+                "name": "px_tmp",
+                "group": 0
+            },
+            {
+                "id": "ny_tmp",
+                "name": "ny_tmp",
+                "group": 0
+            },
+            {
+                "id": "py_tmp",
+                "name": "py_tmp",
+                "group": 0
+            },
+            {
+                "id": "nz_tmp",
+                "name": "nz_tmp",
+                "group": 0
+            },
+            {
+                "id": "pz_tmp",
+                "name": "pz_tmp",
+                "group": 0
+            },
+            {
+                "id": "atmelpwrcurr",
+                "name": "atmelpwrcurr",
+                "group": 0
+            },
+            {
+                "id": "atmelpwrbusv",
+                "name": "atmelpwrbusv",
+                "group": 0
+            },
+            {
+                "id": "threev_pwrcurr",
+                "name": "threev_pwrcurr",
+                "group": 0
+            },
+            {
+                "id": "threev_plpwrcurr",
+                "name": "threev_plpwrcurr",
+                "group": 0
+            },
+            {
+                "id": "threev_plpwrbusv",
+                "name": "threev_plpwrbusv",
+                "group": 0
+            },
+            {
+                "id": "fivev_plpwrcurr",
+                "name": "fivev_plpwrcurr",
+                "group": 0
+            },
+            {
+                "id": "fivev_plpwrbusv",
+                "name": "fivev_plpwrbusv",
+                "group": 0
+            },
+            {
+                "id": "daughter_apwrbusv",
+                "name": "daughter_apwrbusv",
+                "group": 0
+            },
+            {
+                "id": "nx_intpwrcurr",
+                "name": "nx_intpwrcurr",
+                "group": 0
+            },
+            {
+                "id": "nx_intpwrbusv",
+                "name": "nx_intpwrbusv",
+                "group": 0
+            },
+            {
+                "id": "nx_extpwrcurr",
+                "name": "nx_extpwrcurr",
+                "group": 0
+            },
+            {
+                "id": "nx_extpwrbusv",
+                "name": "nx_extpwrbusv",
+                "group": 0
+            },
+            {
+                "id": "px_intpwrcurr",
+                "name": "px_intpwrcurr",
+                "group": 0
+            },
+            {
+                "id": "px_intpwrbusv",
+                "name": "px_intpwrbusv",
+                "group": 0
+            },
+            {
+                "id": "px_extpwrcurr",
+                "name": "px_extpwrcurr",
+                "group": 0
+            },
+            {
+                "id": "px_extpwrbusv",
+                "name": "px_extpwrbusv",
+                "group": 0
+            },
+            {
+                "id": "ny_intpwrcurr",
+                "name": "ny_intpwrcurr",
+                "group": 0
+            },
+            {
+                "id": "ny_intpwrbusv",
+                "name": "ny_intpwrbusv",
+                "group": 0
+            },
+            {
+                "id": "ny_extpwrcurr",
+                "name": "ny_extpwrcurr",
+                "group": 0
+            },
+            {
+                "id": "ny_extpwrbusv",
+                "name": "ny_extpwrbusv",
+                "group": 0
+            },
+            {
+                "id": "py_intpwrcurr",
+                "name": "py_intpwrcurr",
+                "group": 0
+            },
+            {
+                "id": "py_intpwrbusv",
+                "name": "py_intpwrbusv",
+                "group": 0
+            },
+            {
+                "id": "py_extpwrcurr",
+                "name": "py_extpwrcurr",
+                "group": 0
+            },
+            {
+                "id": "py_extpwrbusv",
+                "name": "py_extpwrbusv",
+                "group": 0
+            },
+            {
+                "id": "nz_extpwrcurr",
+                "name": "nz_extpwrcurr",
+                "group": 0
+            },
+            {
+                "id": "nz_extpwrbusv",
+                "name": "nz_extpwrbusv",
+                "group": 0
+            },
+            {
+                "id": "usercputime",
+                "name": "usercputime",
+                "group": 0
+            },
+            {
+                "id": "syscputime",
+                "name": "syscputime",
+                "group": 0
+            },
+            {
+                "id": "idlecputime",
+                "name": "idlecputime",
+                "group": 0
+            },
+            {
+                "id": "processes",
+                "name": "processes",
+                "group": 0
+            },
+            {
+                "id": "memfree",
+                "name": "memfree",
+                "group": 0
+            },
+            {
+                "id": "cached",
+                "name": "cached",
+                "group": 0
+            },
+            {
+                "id": "datafree",
+                "name": "datafree",
+                "group": 0
+            },
+            {
+                "id": "nanderasures",
+                "name": "nanderasures",
+                "group": 0
+            },
+            {
+                "id": "beaconcnt",
+                "name": "beaconcnt",
+                "group": 0
+            },
+            {
+                "id": "long_dur_counter",
+                "name": "long_dur_counter",
+                "group": 0
+            },
+            {
+                "id": "flags",
+                "name": "flags",
+                "group": 0
+            },
+            {
+                "id": "q0_act",
+                "name": "q0_act",
+                "group": 0
+            },
+            {
+                "id": "q1_act",
+                "name": "q1_act",
+                "group": 0
+            },
+            {
+                "id": "q2_act",
+                "name": "q2_act",
+                "group": 0
+            },
+            {
+                "id": "q3_act",
+                "name": "q3_act",
+                "group": 0
+            },
+            {
+                "id": "x_rate",
+                "name": "x_rate",
+                "group": 0
+            },
+            {
+                "id": "y_rate",
+                "name": "y_rate",
+                "group": 0
+            },
+            {
+                "id": "z_rate",
+                "name": "z_rate",
+                "group": 0
+            },
+            {
+                "id": "gyro_px",
+                "name": "gyro_px",
+                "group": 0
+            },
+            {
+                "id": "gyro_py",
+                "name": "gyro_py",
+                "group": 0
+            },
+            {
+                "id": "gyro_iz",
+                "name": "gyro_iz",
+                "group": 0
+            },
+            {
+                "id": "gyro_pz",
+                "name": "gyro_pz",
+                "group": 0
+            },
+            {
+                "id": "gyro_ix",
+                "name": "gyro_ix",
+                "group": 0
+            },
+            {
+                "id": "gyro_iy",
+                "name": "gyro_iy",
+                "group": 0
+            },
+            {
+                "id": "sol_nxx",
+                "name": "sol_nxx",
+                "group": 0
+            },
+            {
+                "id": "sol_nxy",
+                "name": "sol_nxy",
+                "group": 0
+            },
+            {
+                "id": "sol_nyx",
+                "name": "sol_nyx",
+                "group": 0
+            },
+            {
+                "id": "sol_nyy",
+                "name": "sol_nyy",
+                "group": 0
+            },
+            {
+                "id": "sol_nzx",
+                "name": "sol_nzx",
+                "group": 0
+            },
+            {
+                "id": "sol_nzy",
+                "name": "sol_nzy",
+                "group": 0
+            },
+            {
+                "id": "sol_pxx",
+                "name": "sol_pxx",
+                "group": 0
+            },
+            {
+                "id": "sol_pxy",
+                "name": "sol_pxy",
+                "group": 0
+            },
+            {
+                "id": "sol_pyx",
+                "name": "sol_pyx",
+                "group": 0
+            },
+            {
+                "id": "sol_pyy",
+                "name": "sol_pyy",
+                "group": 0
+            },
+            {
+                "id": "mag_nxx",
+                "name": "mag_nxx",
+                "group": 0
+            },
+            {
+                "id": "mag_nxy",
+                "name": "mag_nxy",
+                "group": 0
+            },
+            {
+                "id": "mag_nxz",
+                "name": "mag_nxz",
+                "group": 0
+            },
+            {
+                "id": "mag_pxz",
+                "name": "mag_pxz",
+                "group": 0
+            },
+            {
+                "id": "mag_pxx",
+                "name": "mag_pxx",
+                "group": 0
+            },
+            {
+                "id": "mag_pxy",
+                "name": "mag_pxy",
+                "group": 0
+            },
+            {
+                "id": "mag_nyz",
+                "name": "mag_nyz",
+                "group": 0
+            },
+            {
+                "id": "mag_pyz",
+                "name": "mag_pyz",
+                "group": 0
+            },
+            {
+                "id": "mag_pyx",
+                "name": "mag_pyx",
+                "group": 0
+            },
+            {
+                "id": "mag_pyy",
+                "name": "mag_pyy",
+                "group": 0
+            },
+            {
+                "id": "wheel_rpm",
+                "name": "wheel_rpm",
+                "group": 0
+            },
+            {
+                "id": "cam0_status",
+                "name": "cam0_status",
+                "group": 0
+            },
+            {
+                "id": "cam0_temp",
+                "name": "cam0_temp",
+                "group": 0
+            },
+            {
+                "id": "cam0_last_contact",
+                "name": "cam0_last_contact",
+                "group": 0
+            },
+            {
+                "id": "cam1_temp",
+                "name": "cam1_temp",
+                "group": 0
+            },
+            {
+                "id": "cam1_last_contact",
+                "name": "cam1_last_contact",
+                "group": 0
+            },
+            {
+                "id": "torqx_pwrcurr",
+                "name": "torqx_pwrcurr",
+                "group": 0
+            },
+            {
+                "id": "torqx_pwrbusv",
+                "name": "torqx_pwrbusv",
+                "group": 0
+            },
+            {
+                "id": "torqy_pwrcurr",
+                "name": "torqy_pwrcurr",
+                "group": 0
+            },
+            {
+                "id": "torqy_pwrbusv",
+                "name": "torqy_pwrbusv",
+                "group": 0
+            },
+            {
+                "id": "torqz_pwrcurr",
+                "name": "torqz_pwrcurr",
+                "group": 0
+            },
+            {
+                "id": "torqz_pwrbusv",
+                "name": "torqz_pwrbusv",
+                "group": 0
+            },
+            {
+                "id": "motor_pwrcurr",
+                "name": "motor_pwrcurr",
+                "group": 0
+            },
+            {
+                "id": "bat0_curr",
+                "name": "bat0_curr",
+                "group": 0
+            },
+            {
+                "id": "bat0_volt",
+                "name": "bat0_volt",
+                "group": 0
+            },
+            {
+                "id": "bat0_temp",
+                "name": "bat0_temp",
+                "group": 0
+            },
+            {
+                "id": "bat0_flags",
+                "name": "bat0_flags",
+                "group": 0
+            },
+            {
+                "id": "bat0_ctlflags",
+                "name": "bat0_ctlflags",
+                "group": 0
+            },
+            {
+                "id": "bat1_curr",
+                "name": "bat1_curr",
+                "group": 0
+            },
+            {
+                "id": "bat1_volt",
+                "name": "bat1_volt",
+                "group": 0
+            },
+            {
+                "id": "bat1_temp",
+                "name": "bat1_temp",
+                "group": 0
+            },
+            {
+                "id": "bat1_flags",
+                "name": "bat1_flags",
+                "group": 0
+            },
+            {
+                "id": "bat1_ctlflags",
+                "name": "bat1_ctlflags",
+                "group": 0
+            },
+            {
+                "id": "bat2_curr",
+                "name": "bat2_curr",
+                "group": 0
+            },
+            {
+                "id": "bat2_temp",
+                "name": "bat2_temp",
+                "group": 0
+            },
+            {
+                "id": "bat2_ctlflags",
+                "name": "bat2_ctlflags",
+                "group": 0
+            },
+            {
+                "id": "bat3_curr",
+                "name": "bat3_curr",
+                "group": 0
+            },
+            {
+                "id": "bat3_temp",
+                "name": "bat3_temp",
+                "group": 0
+            },
+            {
+                "id": "bat3_ctlflags",
+                "name": "bat3_ctlflags",
+                "group": 0
+            },
+            {
+                "id": "bat4_curr",
+                "name": "bat4_curr",
+                "group": 0
+            },
+            {
+                "id": "bat4_volt",
+                "name": "bat4_volt",
+                "group": 0
+            },
+            {
+                "id": "bat4_temp",
+                "name": "bat4_temp",
+                "group": 0
+            },
+            {
+                "id": "bat4_flags",
+                "name": "bat4_flags",
+                "group": 0
+            },
+            {
+                "id": "bat4_ctlflags",
+                "name": "bat4_ctlflags",
+                "group": 0
+            },
+            {
+                "id": "bat5_curr",
+                "name": "bat5_curr",
+                "group": 0
+            },
+            {
+                "id": "bat5_volt",
+                "name": "bat5_volt",
+                "group": 0
+            },
+            {
+                "id": "bat5_temp",
+                "name": "bat5_temp",
+                "group": 0
+            },
+            {
+                "id": "bat5_flags",
+                "name": "bat5_flags",
+                "group": 0
+            },
+            {
+                "id": "bat5_ctlflags",
+                "name": "bat5_ctlflags",
+                "group": 0
+            },
+            {
+                "id": "bat6_curr",
+                "name": "bat6_curr",
+                "group": 0
+            },
+            {
+                "id": "bat6_volt",
+                "name": "bat6_volt",
+                "group": 0
+            },
+            {
+                "id": "bat6_temp",
+                "name": "bat6_temp",
+                "group": 0
+            },
+            {
+                "id": "bat6_flags",
+                "name": "bat6_flags",
+                "group": 0
+            },
+            {
+                "id": "bat6_ctlflags",
+                "name": "bat6_ctlflags",
+                "group": 0
+            },
+            {
+                "id": "bat7_curr",
+                "name": "bat7_curr",
+                "group": 0
+            },
+            {
+                "id": "bat7_volt",
+                "name": "bat7_volt",
+                "group": 0
+            },
+            {
+                "id": "bat7_temp",
+                "name": "bat7_temp",
+                "group": 0
+            },
+            {
+                "id": "bat7_flags",
+                "name": "bat7_flags",
+                "group": 0
+            },
+            {
+                "id": "bat7_ctlflags",
+                "name": "bat7_ctlflags",
+                "group": 0
+            },
+            {
+                "id": "comm_txcount",
+                "name": "comm_txcount",
+                "group": 0
+            },
+            {
+                "id": "comm_txbytes",
+                "name": "comm_txbytes",
+                "group": 0
+            }
+        ],
+        "links": [
+            {
+                "source": "daughter_atmp",
+                "target": "daughter_btmp",
+                "value": 0.8489093780517578
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "nx_tmp",
+                "value": 0.1830982267856598
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "px_tmp",
+                "value": 0.36937177181243896
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "ny_tmp",
+                "value": 0.26293864846229553
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "py_tmp",
+                "value": 0.13059097528457642
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "nz_tmp",
+                "value": 0.8073751926422119
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "atmelpwrbusv",
+                "value": 0.3895524740219116
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "threev_pwrcurr",
+                "value": 0.16530078649520874
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "threev_plpwrbusv",
+                "value": 0.48172885179519653
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "daughter_apwrbusv",
+                "value": 0.41091400384902954
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "nx_intpwrcurr",
+                "value": 0.5823737978935242
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "nx_intpwrbusv",
+                "value": 0.633436918258667
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "nx_extpwrbusv",
+                "value": 0.4594312012195587
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "px_intpwrbusv",
+                "value": 0.5469081997871399
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "px_extpwrbusv",
+                "value": 0.43587955832481384
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "ny_intpwrbusv",
+                "value": 0.5665771961212158
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "ny_extpwrbusv",
+                "value": 0.562867283821106
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "py_intpwrbusv",
+                "value": 0.3068629801273346
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "py_extpwrbusv",
+                "value": 0.5340247750282288
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "nz_extpwrbusv",
+                "value": 0.16202379763126373
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "usercputime",
+                "value": 0.23367661237716675
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "syscputime",
+                "value": 0.1617906093597412
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "beaconcnt",
+                "value": 0.10439374297857285
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "flags",
+                "value": 1.0
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "gyro_pz",
+                "value": 0.10242462903261185
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "sol_nzx",
+                "value": 0.25851520895957947
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "cam0_temp",
+                "value": 0.9772297143936157
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "bat0_flags",
+                "value": 1.0
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "bat1_flags",
+                "value": 1.0
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "bat4_flags",
+                "value": 1.0
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "bat5_flags",
+                "value": 1.0
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "bat6_flags",
+                "value": 1.0
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "bat7_flags",
+                "value": 1.0
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "comm_txcount",
+                "value": 0.11311114579439163
+            },
+            {
+                "source": "daughter_atmp",
+                "target": "comm_txbytes",
+                "value": 0.16368770599365234
+            },
+            {
+                "source": "daughter_btmp",
+                "target": "daughter_atmp",
+                "value": 0.7449612617492676
+            },
+            {
+                "source": "daughter_btmp",
+                "target": "threev_pltmp",
+                "value": 0.6645004153251648
+            },
+            {
+                "source": "daughter_btmp",
+                "target": "nx_tmp",
+                "value": 0.14465101063251495
+            },
+            {
+                "source": "daughter_btmp",
+                "target": "ny_tmp",
+                "value": 0.28882792592048645
+            },
+            {
+                "source": "daughter_btmp",
+                "target": "pz_tmp",
+                "value": 0.20727626979351044
+            },
+            {
+                "source": "daughter_btmp",
+                "target": "nx_extpwrbusv",
+                "value": 0.2589143216609955
+            },
+            {
+                "source": "daughter_btmp",
+                "target": "px_extpwrcurr",
+                "value": 0.2046085000038147
+            },
+            {
+                "source": "daughter_btmp",
+                "target": "px_extpwrbusv",
+                "value": 0.11014415323734283
+            },
+            {
+                "source": "daughter_btmp",
+                "target": "nz_extpwrbusv",
+                "value": 0.299506813287735
+            },
+            {
+                "source": "daughter_btmp",
+                "target": "usercputime",
+                "value": 0.12114307284355164
+            },
+            {
+                "source": "daughter_btmp",
+                "target": "processes",
+                "value": 0.23172920942306519
+            },
+            {
+                "source": "daughter_btmp",
+                "target": "nanderasures",
+                "value": 0.3372800052165985
+            },
+            {
+                "source": "daughter_btmp",
+                "target": "mag_pyz",
+                "value": 0.1072927936911583
+            },
+            {
+                "source": "daughter_btmp",
+                "target": "comm_txbytes",
+                "value": 0.11581090837717056
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "rf_amptmp",
+                "value": 0.23185457289218903
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "nx_tmp",
+                "value": 0.25033143162727356
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "px_tmp",
+                "value": 0.1716379076242447
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "ny_tmp",
+                "value": 0.21609555184841156
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "py_tmp",
+                "value": 0.12824887037277222
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "nz_tmp",
+                "value": 0.10110332816839218
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "pz_tmp",
+                "value": 0.18334542214870453
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "atmelpwrbusv",
+                "value": 0.4729531407356262
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "nx_intpwrbusv",
+                "value": 0.24932697415351868
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "nx_extpwrbusv",
+                "value": 0.1551000475883484
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "px_intpwrbusv",
+                "value": 0.33538466691970825
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "px_extpwrbusv",
+                "value": 0.38029736280441284
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "ny_intpwrbusv",
+                "value": 0.24123986065387726
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "ny_extpwrbusv",
+                "value": 0.2665092349052429
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "py_intpwrbusv",
+                "value": 0.656480073928833
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "py_extpwrbusv",
+                "value": 0.38780683279037476
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "nz_extpwrbusv",
+                "value": 0.4822452962398529
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "usercputime",
+                "value": 0.23460602760314941
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "syscputime",
+                "value": 0.1702597737312317
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "idlecputime",
+                "value": 0.14949502050876617
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "nanderasures",
+                "value": 0.33516427874565125
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "beaconcnt",
+                "value": 0.22488081455230713
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "q1_act",
+                "value": 0.178261861205101
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "q2_act",
+                "value": 0.33138424158096313
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "q3_act",
+                "value": 0.152587890625
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "sol_nxy",
+                "value": 0.6371076703071594
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "sol_nyx",
+                "value": 0.2430686354637146
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "mag_pxx",
+                "value": 0.17212006449699402
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "mag_pyx",
+                "value": 0.27507469058036804
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "mag_pyy",
+                "value": 0.1672755479812622
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "bat1_temp",
+                "value": 0.417682945728302
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "bat2_temp",
+                "value": 1.0
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "bat3_curr",
+                "value": 0.1703115701675415
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "comm_txcount",
+                "value": 0.13283661007881165
+            },
+            {
+                "source": "threev_pltmp",
+                "target": "comm_txbytes",
+                "value": 0.1742922067642212
+            },
+            {
+                "source": "rf_amptmp",
+                "target": "x_rate",
+                "value": 0.14898301661014557
+            },
+            {
+                "source": "nx_tmp",
+                "target": "threev_pltmp",
+                "value": 0.23340515792369843
+            },
+            {
+                "source": "nx_tmp",
+                "target": "px_tmp",
+                "value": 0.3500068783760071
+            },
+            {
+                "source": "nx_tmp",
+                "target": "ny_tmp",
+                "value": 0.12080302834510803
+            },
+            {
+                "source": "nx_tmp",
+                "target": "ny_extpwrcurr",
+                "value": 0.774640679359436
+            },
+            {
+                "source": "nx_tmp",
+                "target": "nz_extpwrcurr",
+                "value": 1.0
+            },
+            {
+                "source": "nx_tmp",
+                "target": "usercputime",
+                "value": 0.19523821771144867
+            },
+            {
+                "source": "nx_tmp",
+                "target": "idlecputime",
+                "value": 0.15028716623783112
+            },
+            {
+                "source": "nx_tmp",
+                "target": "processes",
+                "value": 0.27640047669410706
+            },
+            {
+                "source": "nx_tmp",
+                "target": "cached",
+                "value": 0.3162377178668976
+            },
+            {
+                "source": "nx_tmp",
+                "target": "nanderasures",
+                "value": 0.18235279619693756
+            },
+            {
+                "source": "nx_tmp",
+                "target": "beaconcnt",
+                "value": 0.16488775610923767
+            },
+            {
+                "source": "nx_tmp",
+                "target": "q0_act",
+                "value": 0.15672840178012848
+            },
+            {
+                "source": "nx_tmp",
+                "target": "q1_act",
+                "value": 0.3638664186000824
+            },
+            {
+                "source": "nx_tmp",
+                "target": "q2_act",
+                "value": 0.4215396046638489
+            },
+            {
+                "source": "nx_tmp",
+                "target": "gyro_pz",
+                "value": 0.15560001134872437
+            },
+            {
+                "source": "nx_tmp",
+                "target": "sol_nyx",
+                "value": 0.20380577445030212
+            },
+            {
+                "source": "nx_tmp",
+                "target": "sol_nzx",
+                "value": 0.24607449769973755
+            },
+            {
+                "source": "nx_tmp",
+                "target": "mag_nxx",
+                "value": 1.0
+            },
+            {
+                "source": "nx_tmp",
+                "target": "mag_nxy",
+                "value": 1.0
+            },
+            {
+                "source": "nx_tmp",
+                "target": "mag_nxz",
+                "value": 0.36862248182296753
+            },
+            {
+                "source": "nx_tmp",
+                "target": "mag_pxz",
+                "value": 0.5277364253997803
+            },
+            {
+                "source": "nx_tmp",
+                "target": "mag_pxx",
+                "value": 0.511131763458252
+            },
+            {
+                "source": "nx_tmp",
+                "target": "mag_pyz",
+                "value": 0.13300354778766632
+            },
+            {
+                "source": "nx_tmp",
+                "target": "mag_pyy",
+                "value": 0.3836711645126343
+            },
+            {
+                "source": "nx_tmp",
+                "target": "bat0_volt",
+                "value": 0.6035463809967041
+            },
+            {
+                "source": "nx_tmp",
+                "target": "bat0_ctlflags",
+                "value": 1.0
+            },
+            {
+                "source": "nx_tmp",
+                "target": "bat1_volt",
+                "value": 0.4690486490726471
+            },
+            {
+                "source": "nx_tmp",
+                "target": "bat1_ctlflags",
+                "value": 1.0
+            },
+            {
+                "source": "nx_tmp",
+                "target": "bat2_ctlflags",
+                "value": 1.0
+            },
+            {
+                "source": "nx_tmp",
+                "target": "bat3_temp",
+                "value": 0.4355943500995636
+            },
+            {
+                "source": "nx_tmp",
+                "target": "bat3_ctlflags",
+                "value": 1.0
+            },
+            {
+                "source": "nx_tmp",
+                "target": "bat4_volt",
+                "value": 0.5846526622772217
+            },
+            {
+                "source": "nx_tmp",
+                "target": "bat4_ctlflags",
+                "value": 1.0
+            },
+            {
+                "source": "nx_tmp",
+                "target": "bat5_volt",
+                "value": 0.20873938500881195
+            },
+            {
+                "source": "nx_tmp",
+                "target": "bat6_volt",
+                "value": 0.2226077765226364
+            },
+            {
+                "source": "nx_tmp",
+                "target": "bat7_volt",
+                "value": 0.18061774969100952
+            },
+            {
+                "source": "nx_tmp",
+                "target": "comm_txcount",
+                "value": 0.207997128367424
+            },
+            {
+                "source": "nx_tmp",
+                "target": "comm_txbytes",
+                "value": 0.23886966705322266
+            },
+            {
+                "source": "px_tmp",
+                "target": "nx_tmp",
+                "value": 0.420337051153183
+            },
+            {
+                "source": "px_tmp",
+                "target": "idlecputime",
+                "value": 0.19476217031478882
+            },
+            {
+                "source": "px_tmp",
+                "target": "processes",
+                "value": 0.2669198215007782
+            },
+            {
+                "source": "px_tmp",
+                "target": "memfree",
+                "value": 0.20228609442710876
+            },
+            {
+                "source": "px_tmp",
+                "target": "cached",
+                "value": 0.6837623119354248
+            },
+            {
+                "source": "px_tmp",
+                "target": "beaconcnt",
+                "value": 0.13005249202251434
+            },
+            {
+                "source": "px_tmp",
+                "target": "long_dur_counter",
+                "value": 1.0
+            },
+            {
+                "source": "px_tmp",
+                "target": "q0_act",
+                "value": 0.13050922751426697
+            },
+            {
+                "source": "px_tmp",
+                "target": "q1_act",
+                "value": 0.16849948465824127
+            },
+            {
+                "source": "px_tmp",
+                "target": "sol_nyx",
+                "value": 0.4997890591621399
+            },
+            {
+                "source": "px_tmp",
+                "target": "sol_pxx",
+                "value": 0.22703975439071655
+            },
+            {
+                "source": "px_tmp",
+                "target": "sol_pxy",
+                "value": 0.4409196078777313
+            },
+            {
+                "source": "px_tmp",
+                "target": "wheel_rpm",
+                "value": 0.16204652190208435
+            },
+            {
+                "source": "px_tmp",
+                "target": "cam0_status",
+                "value": 1.0
+            },
+            {
+                "source": "px_tmp",
+                "target": "cam1_temp",
+                "value": 1.0
+            },
+            {
+                "source": "px_tmp",
+                "target": "bat0_volt",
+                "value": 0.20249024033546448
+            },
+            {
+                "source": "px_tmp",
+                "target": "bat1_volt",
+                "value": 0.2053597867488861
+            },
+            {
+                "source": "px_tmp",
+                "target": "bat7_temp",
+                "value": 0.32554715871810913
+            },
+            {
+                "source": "px_tmp",
+                "target": "comm_txcount",
+                "value": 0.13039100170135498
+            },
+            {
+                "source": "px_tmp",
+                "target": "comm_txbytes",
+                "value": 0.22239749133586884
+            },
+            {
+                "source": "ny_tmp",
+                "target": "daughter_apwrbusv",
+                "value": 0.5890860557556152
+            },
+            {
+                "source": "py_tmp",
+                "target": "usercputime",
+                "value": 0.11655089259147644
+            },
+            {
+                "source": "py_tmp",
+                "target": "bat0_temp",
+                "value": 0.30888640880584717
+            },
+            {
+                "source": "py_tmp",
+                "target": "bat5_temp",
+                "value": 0.4965479373931885
+            },
+            {
+                "source": "pz_tmp",
+                "target": "nx_intpwrcurr",
+                "value": 0.1028330847620964
+            },
+            {
+                "source": "pz_tmp",
+                "target": "sol_pxy",
+                "value": 0.11509978771209717
+            },
+            {
+                "source": "pz_tmp",
+                "target": "wheel_rpm",
+                "value": 0.1738414317369461
+            },
+            {
+                "source": "pz_tmp",
+                "target": "bat1_temp",
+                "value": 0.5823171138763428
+            },
+            {
+                "source": "pz_tmp",
+                "target": "bat3_temp",
+                "value": 0.5644056797027588
+            },
+            {
+                "source": "atmelpwrcurr",
+                "target": "threev_pwrcurr",
+                "value": 0.15934233367443085
+            },
+            {
+                "source": "atmelpwrcurr",
+                "target": "threev_plpwrcurr",
+                "value": 0.10229994356632233
+            },
+            {
+                "source": "atmelpwrbusv",
+                "target": "memfree",
+                "value": 0.1247233971953392
+            },
+            {
+                "source": "threev_pwrcurr",
+                "target": "motor_pwrcurr",
+                "value": 0.10156964510679245
+            },
+            {
+                "source": "fivev_plpwrcurr",
+                "target": "threev_pwrcurr",
+                "value": 0.1572122722864151
+            },
+            {
+                "source": "fivev_plpwrcurr",
+                "target": "fivev_plpwrbusv",
+                "value": 1.0
+            },
+            {
+                "source": "fivev_plpwrcurr",
+                "target": "mag_pyx",
+                "value": 0.12047676742076874
+            },
+            {
+                "source": "fivev_plpwrbusv",
+                "target": "fivev_plpwrcurr",
+                "value": 0.16381902992725372
+            },
+            {
+                "source": "nx_intpwrcurr",
+                "target": "sol_nzy",
+                "value": 0.11085439473390579
+            },
+            {
+                "source": "nx_intpwrcurr",
+                "target": "mag_nxz",
+                "value": 0.23696359992027283
+            },
+            {
+                "source": "nx_intpwrbusv",
+                "target": "threev_pwrcurr",
+                "value": 0.3580878674983978
+            },
+            {
+                "source": "nx_intpwrbusv",
+                "target": "gyro_py",
+                "value": 0.16946949064731598
+            },
+            {
+                "source": "nx_intpwrbusv",
+                "target": "gyro_ix",
+                "value": 0.1136704683303833
+            },
+            {
+                "source": "nx_intpwrbusv",
+                "target": "sol_nzy",
+                "value": 0.14161911606788635
+            },
+            {
+                "source": "nx_extpwrcurr",
+                "target": "px_intpwrcurr",
+                "value": 0.9241895079612732
+            },
+            {
+                "source": "nx_extpwrcurr",
+                "target": "ny_intpwrcurr",
+                "value": 0.9288777112960815
+            },
+            {
+                "source": "nx_extpwrcurr",
+                "target": "ny_extpwrcurr",
+                "value": 0.14858591556549072
+            },
+            {
+                "source": "nx_extpwrcurr",
+                "target": "py_intpwrcurr",
+                "value": 0.9036908745765686
+            },
+            {
+                "source": "nx_extpwrcurr",
+                "target": "py_extpwrcurr",
+                "value": 0.8112802505493164
+            },
+            {
+                "source": "nx_extpwrcurr",
+                "target": "bat0_curr",
+                "value": 0.8735367059707642
+            },
+            {
+                "source": "nx_extpwrcurr",
+                "target": "bat0_volt",
+                "value": 0.11930742114782333
+            },
+            {
+                "source": "nx_extpwrcurr",
+                "target": "bat1_curr",
+                "value": 0.6986910700798035
+            },
+            {
+                "source": "nx_extpwrcurr",
+                "target": "bat1_volt",
+                "value": 0.11726568639278412
+            },
+            {
+                "source": "nx_extpwrcurr",
+                "target": "bat2_curr",
+                "value": 0.4530864953994751
+            },
+            {
+                "source": "nx_extpwrcurr",
+                "target": "bat3_curr",
+                "value": 0.38022685050964355
+            },
+            {
+                "source": "nx_extpwrcurr",
+                "target": "bat4_curr",
+                "value": 0.8789952993392944
+            },
+            {
+                "source": "nx_extpwrcurr",
+                "target": "bat4_temp",
+                "value": 1.0
+            },
+            {
+                "source": "nx_extpwrcurr",
+                "target": "bat5_temp",
+                "value": 0.5034520626068115
+            },
+            {
+                "source": "nx_extpwrcurr",
+                "target": "bat6_temp",
+                "value": 1.0
+            },
+            {
+                "source": "nx_extpwrcurr",
+                "target": "bat7_temp",
+                "value": 0.14261367917060852
+            },
+            {
+                "source": "px_intpwrcurr",
+                "target": "nx_extpwrcurr",
+                "value": 0.9842430949211121
+            },
+            {
+                "source": "ny_intpwrbusv",
+                "target": "sol_nzy",
+                "value": 0.3254842758178711
+            },
+            {
+                "source": "usercputime",
+                "target": "idlecputime",
+                "value": 0.11274788528680801
+            },
+            {
+                "source": "usercputime",
+                "target": "q0_act",
+                "value": 0.49458378553390503
+            },
+            {
+                "source": "usercputime",
+                "target": "gyro_iy",
+                "value": 0.11385414749383926
+            },
+            {
+                "source": "usercputime",
+                "target": "sol_pxx",
+                "value": 0.643345057964325
+            },
+            {
+                "source": "usercputime",
+                "target": "wheel_rpm",
+                "value": 0.16537123918533325
+            },
+            {
+                "source": "usercputime",
+                "target": "bat3_curr",
+                "value": 0.17022620141506195
+            },
+            {
+                "source": "usercputime",
+                "target": "comm_txcount",
+                "value": 0.14981013536453247
+            },
+            {
+                "source": "memfree",
+                "target": "motor_pwrcurr",
+                "value": 0.11267933994531631
+            },
+            {
+                "source": "q1_act",
+                "target": "mag_pyz",
+                "value": 0.4064878523349762
+            },
+            {
+                "source": "q2_act",
+                "target": "mag_pxz",
+                "value": 0.25453728437423706
+            },
+            {
+                "source": "q3_act",
+                "target": "sol_pyy",
+                "value": 0.2903326451778412
+            },
+            {
+                "source": "x_rate",
+                "target": "gyro_px",
+                "value": 0.38329580426216125
+            },
+            {
+                "source": "y_rate",
+                "target": "gyro_px",
+                "value": 0.5863757729530334
+            },
+            {
+                "source": "y_rate",
+                "target": "gyro_py",
+                "value": 0.5451110601425171
+            },
+            {
+                "source": "z_rate",
+                "target": "gyro_iz",
+                "value": 0.8112007975578308
+            },
+            {
+                "source": "z_rate",
+                "target": "bat3_curr",
+                "value": 0.23149538040161133
+            },
+            {
+                "source": "gyro_px",
+                "target": "x_rate",
+                "value": 0.5193958878517151
+            },
+            {
+                "source": "gyro_py",
+                "target": "y_rate",
+                "value": 0.4942639172077179
+            },
+            {
+                "source": "gyro_iz",
+                "target": "z_rate",
+                "value": 0.2808150351047516
+            },
+            {
+                "source": "gyro_pz",
+                "target": "px_extpwrcurr",
+                "value": 0.30216988921165466
+            },
+            {
+                "source": "gyro_pz",
+                "target": "y_rate",
+                "value": 0.44821980595588684
+            },
+            {
+                "source": "gyro_pz",
+                "target": "gyro_iz",
+                "value": 0.10313916951417923
+            },
+            {
+                "source": "gyro_pz",
+                "target": "gyro_iy",
+                "value": 0.11127404123544693
+            },
+            {
+                "source": "gyro_ix",
+                "target": "gyro_iy",
+                "value": 0.2740717828273773
+            },
+            {
+                "source": "gyro_ix",
+                "target": "motor_pwrcurr",
+                "value": 0.14583607017993927
+            },
+            {
+                "source": "gyro_iy",
+                "target": "gyro_ix",
+                "value": 0.2788597047328949
+            },
+            {
+                "source": "gyro_iy",
+                "target": "bat2_curr",
+                "value": 0.11321057379245758
+            },
+            {
+                "source": "sol_nxx",
+                "target": "x_rate",
+                "value": 0.33162111043930054
+            },
+            {
+                "source": "sol_nxx",
+                "target": "z_rate",
+                "value": 0.2395344376564026
+            },
+            {
+                "source": "sol_nxx",
+                "target": "sol_nxy",
+                "value": 0.16015692055225372
+            },
+            {
+                "source": "sol_nxx",
+                "target": "sol_nyy",
+                "value": 0.36422258615493774
+            },
+            {
+                "source": "sol_nxx",
+                "target": "sol_pyy",
+                "value": 0.22729650139808655
+            },
+            {
+                "source": "sol_nxy",
+                "target": "sol_nxx",
+                "value": 0.45395001769065857
+            },
+            {
+                "source": "sol_nxy",
+                "target": "sol_nyy",
+                "value": 0.5933991074562073
+            },
+            {
+                "source": "sol_nxy",
+                "target": "sol_pyy",
+                "value": 0.10785583406686783
+            },
+            {
+                "source": "sol_nxy",
+                "target": "bat4_volt",
+                "value": 0.116398386657238
+            },
+            {
+                "source": "sol_nxy",
+                "target": "bat6_volt",
+                "value": 0.12146677076816559
+            },
+            {
+                "source": "sol_nxy",
+                "target": "bat7_temp",
+                "value": 0.16968266665935516
+            },
+            {
+                "source": "sol_nyx",
+                "target": "rf_amptmp",
+                "value": 0.44515231251716614
+            },
+            {
+                "source": "sol_nyx",
+                "target": "threev_plpwrcurr",
+                "value": 0.12115457653999329
+            },
+            {
+                "source": "sol_nyx",
+                "target": "mag_nyz",
+                "value": 0.21821090579032898
+            },
+            {
+                "source": "sol_nyx",
+                "target": "bat1_volt",
+                "value": 0.19693081080913544
+            },
+            {
+                "source": "sol_nyx",
+                "target": "bat7_temp",
+                "value": 0.11064600199460983
+            },
+            {
+                "source": "sol_nyy",
+                "target": "sol_nxy",
+                "value": 0.1204741895198822
+            },
+            {
+                "source": "sol_nzx",
+                "target": "memfree",
+                "value": 0.1960848867893219
+            },
+            {
+                "source": "sol_nzy",
+                "target": "threev_pwrcurr",
+                "value": 0.16005678474903107
+            },
+            {
+                "source": "sol_nzy",
+                "target": "nx_intpwrcurr",
+                "value": 0.16973356902599335
+            },
+            {
+                "source": "sol_nzy",
+                "target": "q3_act",
+                "value": 0.10076878219842911
+            },
+            {
+                "source": "sol_nzy",
+                "target": "sol_pxy",
+                "value": 0.11736608296632767
+            },
+            {
+                "source": "sol_pxx",
+                "target": "sol_nzx",
+                "value": 0.39691030979156494
+            },
+            {
+                "source": "sol_pxx",
+                "target": "sol_nzy",
+                "value": 0.1811387538909912
+            },
+            {
+                "source": "sol_pxx",
+                "target": "sol_pxy",
+                "value": 0.2502056658267975
+            },
+            {
+                "source": "sol_pxy",
+                "target": "sol_nzy",
+                "value": 0.11192914843559265
+            },
+            {
+                "source": "sol_pyy",
+                "target": "q3_act",
+                "value": 0.2365209311246872
+            },
+            {
+                "source": "sol_pyy",
+                "target": "sol_nxx",
+                "value": 0.318579763174057
+            },
+            {
+                "source": "mag_nxz",
+                "target": "threev_plpwrbusv",
+                "value": 0.3972087502479553
+            },
+            {
+                "source": "mag_pxz",
+                "target": "daughter_btmp",
+                "value": 0.10007864981889725
+            },
+            {
+                "source": "mag_pxz",
+                "target": "beaconcnt",
+                "value": 0.19297997653484344
+            },
+            {
+                "source": "mag_pxz",
+                "target": "gyro_pz",
+                "value": 0.18547381460666656
+            },
+            {
+                "source": "mag_pxz",
+                "target": "mag_pxy",
+                "value": 0.10960803180932999
+            },
+            {
+                "source": "mag_pxz",
+                "target": "mag_pyy",
+                "value": 0.13587211072444916
+            },
+            {
+                "source": "mag_pxx",
+                "target": "ny_tmp",
+                "value": 0.10907801240682602
+            },
+            {
+                "source": "mag_pxx",
+                "target": "syscputime",
+                "value": 0.42115914821624756
+            },
+            {
+                "source": "mag_pxx",
+                "target": "idlecputime",
+                "value": 0.16123872995376587
+            },
+            {
+                "source": "mag_pxx",
+                "target": "gyro_pz",
+                "value": 0.1881161481142044
+            },
+            {
+                "source": "mag_pxx",
+                "target": "mag_nxz",
+                "value": 0.20812487602233887
+            },
+            {
+                "source": "mag_pxx",
+                "target": "mag_pxy",
+                "value": 0.3384546637535095
+            },
+            {
+                "source": "mag_pxx",
+                "target": "wheel_rpm",
+                "value": 0.10538078844547272
+            },
+            {
+                "source": "mag_pxy",
+                "target": "gyro_ix",
+                "value": 0.20254485309123993
+            },
+            {
+                "source": "mag_pxy",
+                "target": "gyro_iy",
+                "value": 0.12672142684459686
+            },
+            {
+                "source": "mag_pyz",
+                "target": "py_tmp",
+                "value": 0.6421050429344177
+            },
+            {
+                "source": "mag_pyz",
+                "target": "pz_tmp",
+                "value": 0.14847394824028015
+            },
+            {
+                "source": "mag_pyz",
+                "target": "mag_pxx",
+                "value": 0.20795993506908417
+            },
+            {
+                "source": "mag_pyz",
+                "target": "mag_pyx",
+                "value": 0.11188911646604538
+            },
+            {
+                "source": "mag_pyz",
+                "target": "bat0_temp",
+                "value": 0.16009898483753204
+            },
+            {
+                "source": "mag_pyz",
+                "target": "comm_txcount",
+                "value": 0.17521119117736816
+            },
+            {
+                "source": "mag_pyx",
+                "target": "pz_tmp",
+                "value": 0.18050800263881683
+            },
+            {
+                "source": "mag_pyx",
+                "target": "bat0_temp",
+                "value": 0.2818710207939148
+            },
+            {
+                "source": "mag_pyy",
+                "target": "px_extpwrcurr",
+                "value": 0.30000874400138855
+            },
+            {
+                "source": "mag_pyy",
+                "target": "mag_pyz",
+                "value": 0.10640976577997208
+            },
+            {
+                "source": "wheel_rpm",
+                "target": "sol_pyy",
+                "value": 0.17219538986682892
+            },
+            {
+                "source": "wheel_rpm",
+                "target": "mag_nyz",
+                "value": 0.14382536709308624
+            },
+            {
+                "source": "cam0_last_contact",
+                "target": "cam1_last_contact",
+                "value": 0.8240792751312256
+            },
+            {
+                "source": "cam0_last_contact",
+                "target": "motor_pwrcurr",
+                "value": 0.17068275809288025
+            },
+            {
+                "source": "cam1_last_contact",
+                "target": "cam0_last_contact",
+                "value": 0.8240792751312256
+            },
+            {
+                "source": "torqx_pwrcurr",
+                "target": "memfree",
+                "value": 0.13821616768836975
+            },
+            {
+                "source": "torqx_pwrcurr",
+                "target": "torqx_pwrbusv",
+                "value": 0.9193362593650818
+            },
+            {
+                "source": "torqx_pwrcurr",
+                "target": "torqz_pwrcurr",
+                "value": 1.0
+            },
+            {
+                "source": "torqx_pwrcurr",
+                "target": "torqz_pwrbusv",
+                "value": 1.0
+            },
+            {
+                "source": "torqx_pwrbusv",
+                "target": "torqx_pwrcurr",
+                "value": 0.9999858140945435
+            },
+            {
+                "source": "torqy_pwrcurr",
+                "target": "fivev_plpwrcurr",
+                "value": 0.355008989572525
+            },
+            {
+                "source": "torqy_pwrcurr",
+                "target": "torqy_pwrbusv",
+                "value": 0.9660951495170593
+            },
+            {
+                "source": "torqy_pwrbusv",
+                "target": "fivev_plpwrcurr",
+                "value": 0.10557826608419418
+            },
+            {
+                "source": "torqy_pwrbusv",
+                "target": "torqy_pwrcurr",
+                "value": 0.9999764561653137
+            },
+            {
+                "source": "bat0_curr",
+                "target": "bat2_curr",
+                "value": 0.4037754237651825
+            },
+            {
+                "source": "bat0_temp",
+                "target": "mag_pyx",
+                "value": 0.12285153567790985
+            },
+            {
+                "source": "bat1_curr",
+                "target": "nx_intpwrcurr",
+                "value": 0.1449883133172989
+            },
+            {
+                "source": "bat2_curr",
+                "target": "motor_pwrcurr",
+                "value": 0.11864332109689713
+            },
+            {
+                "source": "bat4_volt",
+                "target": "sol_pyx",
+                "value": 0.2698284983634949
+            },
+            {
+                "source": "bat4_volt",
+                "target": "bat5_curr",
+                "value": 0.6201730370521545
+            },
+            {
+                "source": "bat4_volt",
+                "target": "bat6_curr",
+                "value": 0.8665226697921753
+            },
+            {
+                "source": "bat4_volt",
+                "target": "bat7_curr",
+                "value": 0.8884585499763489
+            },
+            {
+                "source": "bat4_volt",
+                "target": "bat7_volt",
+                "value": 0.35689863562583923
+            },
+            {
+                "source": "bat5_curr",
+                "target": "memfree",
+                "value": 0.12511588633060455
+            },
+            {
+                "source": "bat5_curr",
+                "target": "bat4_volt",
+                "value": 0.16777434945106506
+            },
+            {
+                "source": "bat5_curr",
+                "target": "bat5_volt",
+                "value": 0.2352096289396286
+            },
+            {
+                "source": "bat5_curr",
+                "target": "bat6_volt",
+                "value": 0.18216246366500854
+            },
+            {
+                "source": "bat5_curr",
+                "target": "bat7_volt",
+                "value": 0.3113063871860504
+            },
+            {
+                "source": "bat5_volt",
+                "target": "bat6_volt",
+                "value": 0.3131229877471924
+            },
+            {
+                "source": "bat5_ctlflags",
+                "target": "mag_pyx",
+                "value": 0.13679899275302887
+            },
+            {
+                "source": "bat5_ctlflags",
+                "target": "bat6_ctlflags",
+                "value": 0.9720432162284851
+            },
+            {
+                "source": "bat5_ctlflags",
+                "target": "bat7_ctlflags",
+                "value": 0.9720432162284851
+            },
+            {
+                "source": "bat6_curr",
+                "target": "mag_nyz",
+                "value": 0.21213480830192566
+            },
+            {
+                "source": "bat6_curr",
+                "target": "bat5_curr",
+                "value": 0.2984480559825897
+            },
+            {
+                "source": "bat6_volt",
+                "target": "bat5_volt",
+                "value": 0.29968714714050293
+            },
+            {
+                "source": "bat6_ctlflags",
+                "target": "bat5_ctlflags",
+                "value": 0.9720432162284851
+            }
+        ]
+    }
+}

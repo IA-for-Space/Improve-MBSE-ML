@@ -1,0 +1,20 @@
+{
+  "file_layout": {
+    "root_dir": "."
+  },
+  "satellite": {
+    "name": "LightSail-2",
+    "batch": {
+      "fetch": false,
+      "learn": true,
+      "viz": false
+    },
+    "learn": {
+      "configuration_file": "./resources/learn_config.json",
+      "input_file": "normalized_frames_integration_test.json",
+      "output_graph_file": "graph.json",
+      "graph_link_threshold": 0.2,
+      "force_cpu": true
+    }
+  }
+}
