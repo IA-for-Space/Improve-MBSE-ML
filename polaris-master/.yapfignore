@@ -1,6 +1,0 @@
-polaris/_version.py
-.tox
-build
-versioneer.py
-playground
-.venv

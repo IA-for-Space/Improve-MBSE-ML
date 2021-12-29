@@ -1,9 +1,0 @@
-version: 2
-
-python:
-  version: 3.8 # Until https://gitlab.com/librespacefoundation/polaris/polaris/-/issues/124 is resolved
-  install:
-    - method: pip
-      path: .
-      extra_requirements:
-        - docs
