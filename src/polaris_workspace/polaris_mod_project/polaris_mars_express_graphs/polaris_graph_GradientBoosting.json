@@ -1,0 +1,968 @@
+{
+    "metadata": {
+        "data_format_version": 1,
+        "satellite_name": "marsexpress_dataset"
+    },
+    "graph": {
+        "data_format_version": 1,
+        "nodes": [
+            {
+                "id": "NPWD2372",
+                "name": "NPWD2372",
+                "group": 0
+            },
+            {
+                "id": "NPWD2401",
+                "name": "NPWD2401",
+                "group": 0
+            },
+            {
+                "id": "NPWD2402",
+                "name": "NPWD2402",
+                "group": 0
+            },
+            {
+                "id": "NPWD2451",
+                "name": "NPWD2451",
+                "group": 0
+            },
+            {
+                "id": "NPWD2471",
+                "name": "NPWD2471",
+                "group": 0
+            },
+            {
+                "id": "NPWD2472",
+                "name": "NPWD2472",
+                "group": 0
+            },
+            {
+                "id": "NPWD2481",
+                "name": "NPWD2481",
+                "group": 0
+            },
+            {
+                "id": "NPWD2482",
+                "name": "NPWD2482",
+                "group": 0
+            },
+            {
+                "id": "NPWD2491",
+                "name": "NPWD2491",
+                "group": 0
+            },
+            {
+                "id": "NPWD2501",
+                "name": "NPWD2501",
+                "group": 0
+            },
+            {
+                "id": "NPWD2531",
+                "name": "NPWD2531",
+                "group": 0
+            },
+            {
+                "id": "NPWD2532",
+                "name": "NPWD2532",
+                "group": 0
+            },
+            {
+                "id": "NPWD2551",
+                "name": "NPWD2551",
+                "group": 0
+            },
+            {
+                "id": "NPWD2552",
+                "name": "NPWD2552",
+                "group": 0
+            },
+            {
+                "id": "NPWD2561",
+                "name": "NPWD2561",
+                "group": 0
+            },
+            {
+                "id": "NPWD2562",
+                "name": "NPWD2562",
+                "group": 0
+            },
+            {
+                "id": "NPWD2691",
+                "name": "NPWD2691",
+                "group": 0
+            },
+            {
+                "id": "NPWD2692",
+                "name": "NPWD2692",
+                "group": 0
+            },
+            {
+                "id": "NPWD2721",
+                "name": "NPWD2721",
+                "group": 0
+            },
+            {
+                "id": "NPWD2722",
+                "name": "NPWD2722",
+                "group": 0
+            },
+            {
+                "id": "NPWD2742",
+                "name": "NPWD2742",
+                "group": 0
+            },
+            {
+                "id": "NPWD2771",
+                "name": "NPWD2771",
+                "group": 0
+            },
+            {
+                "id": "NPWD2791",
+                "name": "NPWD2791",
+                "group": 0
+            },
+            {
+                "id": "NPWD2792",
+                "name": "NPWD2792",
+                "group": 0
+            },
+            {
+                "id": "NPWD2801",
+                "name": "NPWD2801",
+                "group": 0
+            },
+            {
+                "id": "NPWD2802",
+                "name": "NPWD2802",
+                "group": 0
+            },
+            {
+                "id": "NPWD2821",
+                "name": "NPWD2821",
+                "group": 0
+            },
+            {
+                "id": "NPWD2851",
+                "name": "NPWD2851",
+                "group": 0
+            },
+            {
+                "id": "NPWD2852",
+                "name": "NPWD2852",
+                "group": 0
+            },
+            {
+                "id": "NPWD2871",
+                "name": "NPWD2871",
+                "group": 0
+            },
+            {
+                "id": "NPWD2872",
+                "name": "NPWD2872",
+                "group": 0
+            },
+            {
+                "id": "NPWD2881",
+                "name": "NPWD2881",
+                "group": 0
+            },
+            {
+                "id": "NPWD2882",
+                "name": "NPWD2882",
+                "group": 0
+            },
+            {
+                "id": "sa",
+                "name": "sa",
+                "group": 0
+            },
+            {
+                "id": "sx",
+                "name": "sx",
+                "group": 0
+            },
+            {
+                "id": "sy",
+                "name": "sy",
+                "group": 0
+            },
+            {
+                "id": "sz",
+                "name": "sz",
+                "group": 0
+            },
+            {
+                "id": "sunmars_km",
+                "name": "sunmars_km",
+                "group": 0
+            },
+            {
+                "id": "earthmars_km",
+                "name": "earthmars_km",
+                "group": 0
+            },
+            {
+                "id": "sunmarsearthangle_deg",
+                "name": "sunmarsearthangle_deg",
+                "group": 0
+            },
+            {
+                "id": "solarconstantmars",
+                "name": "solarconstantmars",
+                "group": 0
+            },
+            {
+                "id": "eclipseduration_min",
+                "name": "eclipseduration_min",
+                "group": 0
+            },
+            {
+                "id": "occultationduration_min",
+                "name": "occultationduration_min",
+                "group": 0
+            },
+            {
+                "id": "AAA",
+                "name": "AAA",
+                "group": 0
+            },
+            {
+                "id": "HHH",
+                "name": "HHH",
+                "group": 0
+            },
+            {
+                "id": "MMM",
+                "name": "MMM",
+                "group": 0
+            },
+            {
+                "id": "OOO",
+                "name": "OOO",
+                "group": 0
+            },
+            {
+                "id": "PSF",
+                "name": "PSF",
+                "group": 0
+            },
+            {
+                "id": "PWF",
+                "name": "PWF",
+                "group": 0
+            },
+            {
+                "id": "SEQ",
+                "name": "SEQ",
+                "group": 0
+            },
+            {
+                "id": "SSS",
+                "name": "SSS",
+                "group": 0
+            },
+            {
+                "id": "SXX",
+                "name": "SXX",
+                "group": 0
+            },
+            {
+                "id": "TMB",
+                "name": "TMB",
+                "group": 0
+            },
+            {
+                "id": "TTT",
+                "name": "TTT",
+                "group": 0
+            },
+            {
+                "id": "VVV",
+                "name": "VVV",
+                "group": 0
+            },
+            {
+                "id": "XXX",
+                "name": "XXX",
+                "group": 0
+            },
+            {
+                "id": "ACF",
+                "name": "ACF",
+                "group": 0
+            },
+            {
+                "id": "DMC",
+                "name": "DMC",
+                "group": 0
+            },
+            {
+                "id": "DMF",
+                "name": "DMF",
+                "group": 0
+            }
+        ],
+        "links": [
+            {
+                "source": "NPWD2372",
+                "target": "NPWD2491",
+                "value": 0.5619200921949258
+            },
+            {
+                "source": "NPWD2372",
+                "target": "NPWD2742",
+                "value": 0.12189375497489623
+            },
+            {
+                "source": "NPWD2372",
+                "target": "NPWD2791",
+                "value": 0.6075790545077265
+            },
+            {
+                "source": "NPWD2372",
+                "target": "MMM",
+                "value": 0.10565421723416929
+            },
+            {
+                "source": "NPWD2372",
+                "target": "PSF",
+                "value": 0.3577204368008516
+            },
+            {
+                "source": "NPWD2401",
+                "target": "NPWD2471",
+                "value": 0.19013162483636656
+            },
+            {
+                "source": "NPWD2401",
+                "target": "NPWD2482",
+                "value": 0.8906661800359497
+            },
+            {
+                "source": "NPWD2401",
+                "target": "NPWD2771",
+                "value": 0.21728893163466642
+            },
+            {
+                "source": "NPWD2451",
+                "target": "NPWD2551",
+                "value": 0.12362233917181802
+            },
+            {
+                "source": "NPWD2451",
+                "target": "NPWD2771",
+                "value": 0.15746854018790077
+            },
+            {
+                "source": "NPWD2472",
+                "target": "NPWD2792",
+                "value": 0.8850780823390308
+            },
+            {
+                "source": "NPWD2472",
+                "target": "PSF",
+                "value": 0.13479663621613913
+            },
+            {
+                "source": "NPWD2472",
+                "target": "XXX",
+                "value": 0.10838411140838047
+            },
+            {
+                "source": "NPWD2482",
+                "target": "NPWD2401",
+                "value": 0.9380352639538478
+            },
+            {
+                "source": "NPWD2482",
+                "target": "NPWD2552",
+                "value": 0.20097981718705685
+            },
+            {
+                "source": "NPWD2491",
+                "target": "NPWD2372",
+                "value": 0.5932663645074207
+            },
+            {
+                "source": "NPWD2491",
+                "target": "NPWD2481",
+                "value": 0.15860142852246623
+            },
+            {
+                "source": "NPWD2491",
+                "target": "NPWD2551",
+                "value": 0.10953327111912693
+            },
+            {
+                "source": "NPWD2491",
+                "target": "NPWD2561",
+                "value": 0.1312815144359817
+            },
+            {
+                "source": "NPWD2491",
+                "target": "NPWD2562",
+                "value": 0.17509309222124092
+            },
+            {
+                "source": "NPWD2491",
+                "target": "NPWD2852",
+                "value": 0.12887726590801962
+            },
+            {
+                "source": "NPWD2491",
+                "target": "TMB",
+                "value": 0.17089583596136435
+            },
+            {
+                "source": "NPWD2491",
+                "target": "ACF",
+                "value": 0.16160884200348474
+            },
+            {
+                "source": "NPWD2531",
+                "target": "NPWD2851",
+                "value": 0.2778687135774099
+            },
+            {
+                "source": "NPWD2532",
+                "target": "NPWD2501",
+                "value": 0.10639926050820814
+            },
+            {
+                "source": "NPWD2551",
+                "target": "NPWD2451",
+                "value": 0.14773625978505253
+            },
+            {
+                "source": "NPWD2551",
+                "target": "NPWD2481",
+                "value": 0.12588995008019105
+            },
+            {
+                "source": "NPWD2551",
+                "target": "MMM",
+                "value": 0.18436347250976973
+            },
+            {
+                "source": "NPWD2551",
+                "target": "SXX",
+                "value": 0.13926758050204407
+            },
+            {
+                "source": "NPWD2551",
+                "target": "XXX",
+                "value": 0.10422217737922863
+            },
+            {
+                "source": "NPWD2561",
+                "target": "NPWD2501",
+                "value": 0.47912614712440854
+            },
+            {
+                "source": "NPWD2561",
+                "target": "NPWD2881",
+                "value": 0.699972113002531
+            },
+            {
+                "source": "NPWD2561",
+                "target": "OOO",
+                "value": 0.3595311904404261
+            },
+            {
+                "source": "NPWD2562",
+                "target": "NPWD2402",
+                "value": 0.8713733511131324
+            },
+            {
+                "source": "NPWD2562",
+                "target": "HHH",
+                "value": 0.7440968266896002
+            },
+            {
+                "source": "NPWD2692",
+                "target": "NPWD2872",
+                "value": 0.1763109053645374
+            },
+            {
+                "source": "NPWD2721",
+                "target": "NPWD2802",
+                "value": 0.613985955185615
+            },
+            {
+                "source": "NPWD2771",
+                "target": "NPWD2451",
+                "value": 0.41216909123935236
+            },
+            {
+                "source": "NPWD2792",
+                "target": "NPWD2472",
+                "value": 0.9084230816464567
+            },
+            {
+                "source": "NPWD2792",
+                "target": "NPWD2851",
+                "value": 0.1299009918342417
+            },
+            {
+                "source": "NPWD2792",
+                "target": "AAA",
+                "value": 0.20762030596610886
+            },
+            {
+                "source": "NPWD2792",
+                "target": "ACF",
+                "value": 0.1302932007604601
+            },
+            {
+                "source": "NPWD2801",
+                "target": "NPWD2691",
+                "value": 0.413769808636328
+            },
+            {
+                "source": "NPWD2801",
+                "target": "NPWD2821",
+                "value": 0.46891240999692757
+            },
+            {
+                "source": "NPWD2802",
+                "target": "NPWD2532",
+                "value": 0.13131859478110675
+            },
+            {
+                "source": "NPWD2802",
+                "target": "NPWD2721",
+                "value": 0.5997928028228962
+            },
+            {
+                "source": "NPWD2821",
+                "target": "NPWD2691",
+                "value": 0.24351032001058895
+            },
+            {
+                "source": "NPWD2821",
+                "target": "NPWD2801",
+                "value": 0.5163396229713676
+            },
+            {
+                "source": "NPWD2821",
+                "target": "NPWD2871",
+                "value": 0.1034938258182678
+            },
+            {
+                "source": "NPWD2821",
+                "target": "NPWD2882",
+                "value": 0.10931580310510833
+            },
+            {
+                "source": "NPWD2851",
+                "target": "NPWD2531",
+                "value": 0.9659324409128857
+            },
+            {
+                "source": "NPWD2851",
+                "target": "NPWD2532",
+                "value": 0.19717828263063858
+            },
+            {
+                "source": "NPWD2852",
+                "target": "NPWD2471",
+                "value": 0.2171026394998507
+            },
+            {
+                "source": "NPWD2852",
+                "target": "NPWD2552",
+                "value": 0.14133119087322085
+            },
+            {
+                "source": "NPWD2852",
+                "target": "NPWD2692",
+                "value": 0.3258613809616233
+            },
+            {
+                "source": "NPWD2852",
+                "target": "NPWD2871",
+                "value": 0.47944175796410055
+            },
+            {
+                "source": "NPWD2852",
+                "target": "NPWD2872",
+                "value": 0.5010987675453772
+            },
+            {
+                "source": "NPWD2852",
+                "target": "NPWD2882",
+                "value": 0.39664678328833153
+            },
+            {
+                "source": "NPWD2871",
+                "target": "NPWD2471",
+                "value": 0.1726338250492774
+            },
+            {
+                "source": "NPWD2871",
+                "target": "NPWD2821",
+                "value": 0.13865237196891383
+            },
+            {
+                "source": "NPWD2871",
+                "target": "NPWD2882",
+                "value": 0.18128785994330487
+            },
+            {
+                "source": "NPWD2872",
+                "target": "NPWD2552",
+                "value": 0.35345369329974846
+            },
+            {
+                "source": "NPWD2872",
+                "target": "NPWD2691",
+                "value": 0.11581377238194818
+            },
+            {
+                "source": "NPWD2872",
+                "target": "NPWD2692",
+                "value": 0.27824728210138727
+            },
+            {
+                "source": "NPWD2872",
+                "target": "NPWD2882",
+                "value": 0.12992421153428624
+            },
+            {
+                "source": "NPWD2881",
+                "target": "NPWD2561",
+                "value": 0.3109955912821217
+            },
+            {
+                "source": "NPWD2881",
+                "target": "OOO",
+                "value": 0.12708772497855303
+            },
+            {
+                "source": "NPWD2882",
+                "target": "NPWD2471",
+                "value": 0.12808872701652455
+            },
+            {
+                "source": "NPWD2882",
+                "target": "NPWD2821",
+                "value": 0.13184310230819124
+            },
+            {
+                "source": "NPWD2882",
+                "target": "NPWD2871",
+                "value": 0.1864960267321766
+            },
+            {
+                "source": "sa",
+                "target": "sx",
+                "value": 0.2509753009643386
+            },
+            {
+                "source": "sa",
+                "target": "sy",
+                "value": 0.3254640840836404
+            },
+            {
+                "source": "sa",
+                "target": "sz",
+                "value": 0.13509632868512134
+            },
+            {
+                "source": "sa",
+                "target": "MMM",
+                "value": 0.10446370980133861
+            },
+            {
+                "source": "sa",
+                "target": "OOO",
+                "value": 0.30698847963011283
+            },
+            {
+                "source": "sa",
+                "target": "SSS",
+                "value": 0.19527421811414983
+            },
+            {
+                "source": "sa",
+                "target": "VVV",
+                "value": 0.1943701130861302
+            },
+            {
+                "source": "sa",
+                "target": "ACF",
+                "value": 0.10345347129673761
+            },
+            {
+                "source": "sx",
+                "target": "NPWD2852",
+                "value": 0.6681612975288737
+            },
+            {
+                "source": "sx",
+                "target": "sa",
+                "value": 0.3630133044256609
+            },
+            {
+                "source": "sx",
+                "target": "sz",
+                "value": 0.4714684488898579
+            },
+            {
+                "source": "sy",
+                "target": "sa",
+                "value": 0.25222265809170247
+            },
+            {
+                "source": "sz",
+                "target": "NPWD2532",
+                "value": 0.15043499916880862
+            },
+            {
+                "source": "sz",
+                "target": "NPWD2721",
+                "value": 0.11055182902478769
+            },
+            {
+                "source": "sz",
+                "target": "NPWD2802",
+                "value": 0.15124255312367121
+            },
+            {
+                "source": "sz",
+                "target": "sa",
+                "value": 0.20429643864372973
+            },
+            {
+                "source": "sz",
+                "target": "sx",
+                "value": 0.6737906897319481
+            },
+            {
+                "source": "sz",
+                "target": "MMM",
+                "value": 0.14352957864773663
+            },
+            {
+                "source": "sz",
+                "target": "VVV",
+                "value": 0.11281164493389588
+            },
+            {
+                "source": "sunmars_km",
+                "target": "earthmars_km",
+                "value": 0.2803738154696658
+            },
+            {
+                "source": "sunmars_km",
+                "target": "solarconstantmars",
+                "value": 0.9999995680275642
+            },
+            {
+                "source": "sunmars_km",
+                "target": "occultationduration_min",
+                "value": 0.16057451458072725
+            },
+            {
+                "source": "earthmars_km",
+                "target": "NPWD2481",
+                "value": 0.18850079422844493
+            },
+            {
+                "source": "earthmars_km",
+                "target": "NPWD2501",
+                "value": 0.12690324845016954
+            },
+            {
+                "source": "earthmars_km",
+                "target": "NPWD2722",
+                "value": 0.45469797986507293
+            },
+            {
+                "source": "earthmars_km",
+                "target": "sunmarsearthangle_deg",
+                "value": 0.9320685565685027
+            },
+            {
+                "source": "earthmars_km",
+                "target": "DMC",
+                "value": 0.13402361008565186
+            },
+            {
+                "source": "sunmarsearthangle_deg",
+                "target": "NPWD2451",
+                "value": 0.10905751330086418
+            },
+            {
+                "source": "sunmarsearthangle_deg",
+                "target": "NPWD2742",
+                "value": 0.2808907896659001
+            },
+            {
+                "source": "sunmarsearthangle_deg",
+                "target": "earthmars_km",
+                "value": 0.3103958378977335
+            },
+            {
+                "source": "sunmarsearthangle_deg",
+                "target": "eclipseduration_min",
+                "value": 0.16615225334579953
+            },
+            {
+                "source": "sunmarsearthangle_deg",
+                "target": "occultationduration_min",
+                "value": 0.3837847606017187
+            },
+            {
+                "source": "sunmarsearthangle_deg",
+                "target": "VVV",
+                "value": 0.10850590031552974
+            },
+            {
+                "source": "sunmarsearthangle_deg",
+                "target": "DMC",
+                "value": 0.1645621428473238
+            },
+            {
+                "source": "solarconstantmars",
+                "target": "sunmars_km",
+                "value": 0.9999997327508774
+            },
+            {
+                "source": "solarconstantmars",
+                "target": "earthmars_km",
+                "value": 0.32267235896709723
+            },
+            {
+                "source": "solarconstantmars",
+                "target": "PWF",
+                "value": 0.14302531667200244
+            },
+            {
+                "source": "eclipseduration_min",
+                "target": "NPWD2551",
+                "value": 0.20956046393307698
+            },
+            {
+                "source": "eclipseduration_min",
+                "target": "NPWD2771",
+                "value": 0.1594918483006827
+            },
+            {
+                "source": "eclipseduration_min",
+                "target": "occultationduration_min",
+                "value": 0.2611738197919102
+            },
+            {
+                "source": "occultationduration_min",
+                "target": "eclipseduration_min",
+                "value": 0.4018222201765371
+            },
+            {
+                "source": "HHH",
+                "target": "NPWD2562",
+                "value": 0.5821016696996276
+            },
+            {
+                "source": "HHH",
+                "target": "TTT",
+                "value": 0.15072759988747816
+            },
+            {
+                "source": "MMM",
+                "target": "NPWD2551",
+                "value": 0.14903498692340617
+            },
+            {
+                "source": "MMM",
+                "target": "sz",
+                "value": 0.1186555618630851
+            },
+            {
+                "source": "MMM",
+                "target": "TTT",
+                "value": 0.3259554051985689
+            },
+            {
+                "source": "OOO",
+                "target": "NPWD2561",
+                "value": 0.31919039767483576
+            },
+            {
+                "source": "PSF",
+                "target": "NPWD2372",
+                "value": 0.15087686783698437
+            },
+            {
+                "source": "PSF",
+                "target": "SSS",
+                "value": 0.12113745206023012
+            },
+            {
+                "source": "PSF",
+                "target": "TTT",
+                "value": 0.1869867362631694
+            },
+            {
+                "source": "SEQ",
+                "target": "SXX",
+                "value": 0.13369398210521555
+            },
+            {
+                "source": "SEQ",
+                "target": "XXX",
+                "value": 0.24356538645041492
+            },
+            {
+                "source": "SXX",
+                "target": "SEQ",
+                "value": 0.13674768868400236
+            },
+            {
+                "source": "SXX",
+                "target": "XXX",
+                "value": 0.24027550784469057
+            },
+            {
+                "source": "TTT",
+                "target": "MMM",
+                "value": 0.2266028029318729
+            },
+            {
+                "source": "TTT",
+                "target": "PSF",
+                "value": 0.16919513685197057
+            },
+            {
+                "source": "TTT",
+                "target": "TMB",
+                "value": 0.26181953735769553
+            },
+            {
+                "source": "XXX",
+                "target": "SEQ",
+                "value": 0.48097390099061715
+            },
+            {
+                "source": "XXX",
+                "target": "SXX",
+                "value": 0.342593537652652
+            },
+            {
+                "source": "ACF",
+                "target": "PWF",
+                "value": 0.2803553634131435
+            },
+            {
+                "source": "ACF",
+                "target": "TMB",
+                "value": 0.1917445777607895
+            },
+            {
+                "source": "ACF",
+                "target": "DMC",
+                "value": 0.189171906232313
+            }
+        ]
+    }
+}
