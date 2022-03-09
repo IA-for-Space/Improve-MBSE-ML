@@ -138,9 +138,13 @@ class CausalnexDataset:
         df = self.edges_to_dataframe()
         df.to_csv(file)
     
-    def reset_threshold(self, threshold = 0):
+    def reset_threshold(self, threshold = 0, keep_previous_changes = True):
         self.threshold = threshold        
         self.structure = from_pandas(self.data, max_iter=900)
-        self.structure.remove_edges_from(self.edges_to_remove)
-        self.structure.remove_edges_below_threshold(threshold)
-        self.structure.add_edges_from(self.edges_to_add)
+        if keep_previous_changes:
+            self.structure.remove_edges_from(self.edges_to_remove)
+            self.structure.remove_edges_below_threshold(threshold)
+            self.structure.add_edges_from(self.edges_to_add)
+        else:
+            self.edges_to_add = []
+            self.edges_to_remove = []
