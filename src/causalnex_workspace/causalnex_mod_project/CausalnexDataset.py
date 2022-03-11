@@ -23,20 +23,18 @@ class CausalnexDataset:
 
   
 
-    def get_graph(self, nodes = [], largest_subgraph = False):
+    def get_graph(self, specific_nodes = [], largest_subgraph = False):
         print("Run Image(result.draw(format='png')) to draw the graph")
 
         new_structure = self.structure.copy() 
 
-        if len(nodes) == 0:
-            nodes = self.structure.nodes
+        if len(specific_nodes) == 0:
+            specific_nodes = self.structure.nodes
         else:
-            df = self.edges_to_dataframe(nodes)
-            nodes = list(df["source"]) + list(df["target"])
+            df = self.edges_to_dataframe(specific_nodes)
+            specific_nodes = list(df["source"]) + list(df["target"])
         
-        #self.structure.remove_edges_below_threshold(self.threshold)
-        #new_structure.remove_edges_below_threshold(self.threshold)
-        new_structure.remove_nodes_from([x for x in new_structure.nodes if x not in nodes])
+        new_structure.remove_nodes_from([x for x in new_structure.nodes if x not in specific_nodes])
 
         if largest_subgraph:
             new_structure = new_structure.get_largest_subgraph()
@@ -63,7 +61,7 @@ class CausalnexDataset:
                                         "labelloc": "t",
                                         "fontcolor": "red"
                                     }
-                                    for node in nodes
+                                    for node in specific_nodes
                                 }
         edge_attributes = {
                                 (u, v): {
@@ -80,14 +78,14 @@ class CausalnexDataset:
         )
         return viz
     
-    def edges_to_dataframe(self, nodes = []):
+    def edges_to_dataframe(self, specific_nodes = []):
         edges = []
         
 
         for u,v  in self.structure.adj.items():
             for w in v:
-                if len(nodes) > 0:
-                    if (u in nodes or w in nodes) and (u, v) and v[w]["weight"] > self.threshold:
+                if len(specific_nodes) > 0:
+                    if (u in specific_nodes or w in specific_nodes) and (u, v) and v[w]["weight"] > self.threshold:
                         edges.append((u, w, v[w]["weight"]))
                 else:
                     if v[w]["weight"] > self.threshold:
@@ -98,9 +96,9 @@ class CausalnexDataset:
         return df
     
 
-    def get_edges_data(self, nodes=[], dataframe = None):
+    def get_edges_data(self, specific_nodes=[], dataframe = None):
         if dataframe == None:
-            self.edges_to_dataframe(nodes)
+            self.edges_to_dataframe(specific_nodes)
             return self.edges.describe()
         else:
             return dataframe.describe()
