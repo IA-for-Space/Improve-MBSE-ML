@@ -1,0 +1,33 @@
+:root {
+  --color-toggle-light: yellow;
+  --color-toggle-dark: blue;
+}
+
+.light {
+  --background-color: #f0f2f5;
+}
+.dark {
+  --background-color: #000524;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Nunito Sans", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.apexcharts-menu {
+  background: var(--background-color) !important;
+}
+
+rect {
+  fill: var(--background-color) !important;
+  stroke: unset !important;
+}

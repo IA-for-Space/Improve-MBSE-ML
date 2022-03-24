@@ -1,0 +1,567 @@
+Packet
+Packet 2232613
+
+Type: Telemetry Beacon
+
+Mission: LS
+
+Software: LS2-v0.94
+
+Hardware: LightSail Flight Unit B
+
+Posted at: Sat Jul 20 16:28:21 2019
+ UTC
+Human-readable form: 
+LS-2:
+000: CPU Current                    = 0.033691 [A]
+001: CPU Voltage                    = 4.937500 [V]
+002: CPU Power                      = 166.4 [mW]
+003: Payload 3v3 Temp               = -2.500000 [c]
+004: Payload 3v3 Voltage            = 3.281250 [V]
+005: Payload 3v3 Current            = 0.023438 [A]
+006: Payload 3v3 Power              = 76.9 [mW]
+007: Payload 5v0 Voltage            = 5.062500 [V]
+008: Payload 5v0 Current            = 0.257812 [A]
+009: Payload 5v0 Power              = 1305.2 [mW]
+010: RF Amp Temp                    = -1.500000 [c]
+011: RF Amp Voltage                 = 0.000000 [V]
+012: RF Amp Current                 = 0.000000 [A]
+013: RF Amp Power                   = 0.0 [mW]
+014: RF Amp Temp                    = 4.500000 [c]
+015: Bus 3v3 Voltage                = 3.312500 [V]
+016: Bus 3v3 Current                = 0.020020 [A]
+017: Bus 3v3 Power                  = 66.3 [mW]
+018: Daughter B Temp                = -2.500000 [c]
+019: Daughter B Voltage             = 0.000000 [V]
+020: Daughter B Current             = 0.000000 [A]
+021: Daughter B Power               = 0.0 [mW]
+022: -X Temp                        = 11.500000 [c]
+023: -X Ext Sol Voltage             = 4.937500 [V]
+024: -X Ext Sol Current             = 0.140625 [A]
+025: -X Ext Sol Power               = 694.3 [mW]
+026: -X Int Sol Voltage             = 4.937500 [V]
+027: -X Int Sol Current             = 0.000000 [A]
+028: -X Int Sol Power               = 0.0 [mW]
+029: +X Temp                        = 6.000000 [c]
+030: +X Ext Sol Voltage             = 4.937500 [V]
+031: +X Ext Sol Current             = 0.000000 [A]
+032: +X Ext Sol Power               = 0.0 [mW]
+033: +X Int Sol Voltage             = 4.937500 [V]
+034: +X Int Sol Current             = 0.000000 [A]
+035: +X Int Sol Power               = 0.0 [mW]
+036: -Y Temp                        = 27.000000 [c]
+037: -Y Ext Sol Voltage             = 4.937500 [V]
+038: -Y Ext Sol Current             = 0.000000 [A]
+039: -Y Ext Sol Power               = 0.0 [mW]
+040: -Y Int Sol Voltage             = 4.937500 [V]
+041: -Y Int Sol Current             = 0.078125 [A]
+042: -Y Int Sol Power               = 385.7 [mW]
+043: +Y Temp                        = -28.500000 [c]
+044: +Y Ext Sol Voltage             = 4.937500 [V]
+045: +Y Ext Sol Current             = 0.093750 [A]
+046: +Y Ext Sol Power               = 462.9 [mW]
+047: +Y Int Sol Voltage             = 4.937500 [V]
+048: +Y Int Sol Current             = 0.125000 [A]
+049: +Y Int Sol Power               = 617.2 [mW]
+050: +Z Temp                        = 6.000000 [c]
+051: -Z Temp                        = -8.500000 [c]
+052: -Z Ext Sol Voltage             = 4.937500 [V]
+053: -Z Ext Sol Current             = 0.015625 [A]
+054: -Z Ext Sol Power               = 77.1 [mW]
+055: Battery 0 Voltage              = 3.843750 [V]
+056: Battery 0 Current              = -0.007812 [A]
+057: Battery 0 Power                = -30.0 [mW]
+058: Battery 0 Temp                 = 0.500000 [c]
+059: Battery 0 Status               = A1 [bit flags]
+060:          Charging Active       = no 
+061:          Charging SW Enabled   = no 
+062:          Discharging Active    = YES 
+063:          Discharging SW Enabled = YES 
+064:          Over Volt             = YES 
+065:          Under Volt            = no 
+066:          Charge Over Curr      = no 
+067:          Discharge Over Curr   = no 
+068: Battery 0 SW Control Status    = 00 [bit flags]
+069:          Over Volt             = no 
+070:          Under Volt            = no 
+071:          Charging Active       = YES 
+072:          Discharging Active    = YES 
+073:          Over Volt Recovery    = off 
+074:          SW Control Configured = on 
+075:          Cell Disabled         = no 
+076:          Ignored               = no 
+077: Battery 1 Voltage              = 3.875000 [V]
+078: Battery 1 Current              = 0.000000 [A]
+079: Battery 1 Power                = 0.0 [mW]
+080: Battery 1 Temp                 = 0.500000 [c]
+081: Battery 1 Status               = A1 [bit flags]
+082:          Charging Active       = no 
+083:          Charging SW Enabled   = no 
+084:          Discharging Active    = YES 
+085:          Discharging SW Enabled = YES 
+086:          Over Volt             = YES 
+087:          Under Volt            = no 
+088:          Charge Over Curr      = no 
+089:          Discharge Over Curr   = no 
+090: Battery 1 SW Control Status    = 00 [bit flags]
+091:          Over Volt             = no 
+092:          Under Volt            = no 
+093:          Charging Active       = YES 
+094:          Discharging Active    = YES 
+095:          Over Volt Recovery    = off 
+096:          SW Control Configured = on 
+097:          Cell Disabled         = no 
+098:          Ignored               = no 
+099: Battery 2 Voltage              = 3.843750 [V]
+100: Battery 2 Current              = -0.007812 [A]
+101: Battery 2 Power                = -30.0 [mW]
+102: Battery 2 Temp                 = 0.000000 [c]
+103: Battery 2 Status               = A1 [bit flags]
+104:          Charging Active       = no 
+105:          Charging SW Enabled   = no 
+106:          Discharging Active    = YES 
+107:          Discharging SW Enabled = YES 
+108:          Over Volt             = YES 
+109:          Under Volt            = no 
+110:          Charge Over Curr      = no 
+111:          Discharge Over Curr   = no 
+112: Battery 2 SW Control Status    = 00 [bit flags]
+113:          Over Volt             = no 
+114:          Under Volt            = no 
+115:          Charging Active       = YES 
+116:          Discharging Active    = YES 
+117:          Over Volt Recovery    = off 
+118:          SW Control Configured = on 
+119:          Cell Disabled         = no 
+120:          Ignored               = no 
+121: Battery 3 Voltage              = 3.875000 [V]
+122: Battery 3 Current              = -0.007812 [A]
+123: Battery 3 Power                = -30.3 [mW]
+124: Battery 3 Temp                 = 0.500000 [c]
+125: Battery 3 Status               = A1 [bit flags]
+126:          Charging Active       = no 
+127:          Charging SW Enabled   = no 
+128:          Discharging Active    = YES 
+129:          Discharging SW Enabled = YES 
+130:          Over Volt             = YES 
+131:          Under Volt            = no 
+132:          Charge Over Curr      = no 
+133:          Discharge Over Curr   = no 
+134: Battery 3 SW Control Status    = 00 [bit flags]
+135:          Over Volt             = no 
+136:          Under Volt            = no 
+137:          Charging Active       = YES 
+138:          Discharging Active    = YES 
+139:          Over Volt Recovery    = off 
+140:          SW Control Configured = on 
+141:          Cell Disabled         = no 
+142:          Ignored               = no 
+143: Battery 4 Voltage              = 3.875000 [V]
+144: Battery 4 Current              = -0.007812 [A]
+145: Battery 4 Power                = -30.3 [mW]
+146: Battery 4 Temp                 = -0.500000 [c]
+147: Battery 4 Status               = A1 [bit flags]
+148:          Charging Active       = no 
+149:          Charging SW Enabled   = no 
+150:          Discharging Active    = YES 
+151:          Discharging SW Enabled = YES 
+152:          Over Volt             = YES 
+153:          Under Volt            = no 
+154:          Charge Over Curr      = no 
+155:          Discharge Over Curr   = no 
+156: Battery 4 SW Control Status    = 00 [bit flags]
+157:          Over Volt             = no 
+158:          Under Volt            = no 
+159:          Charging Active       = YES 
+160:          Discharging Active    = YES 
+161:          Over Volt Recovery    = off 
+162:          SW Control Configured = on 
+163:          Cell Disabled         = no 
+164:          Ignored               = no 
+165: Battery 5 Voltage              = 3.875000 [V]
+166: Battery 5 Current              = -0.007812 [A]
+167: Battery 5 Power                = -30.3 [mW]
+168: Battery 5 Temp                 = -0.500000 [c]
+169: Battery 5 Status               = A1 [bit flags]
+170:          Charging Active       = no 
+171:          Charging SW Enabled   = no 
+172:          Discharging Active    = YES 
+173:          Discharging SW Enabled = YES 
+174:          Over Volt             = YES 
+175:          Under Volt            = no 
+176:          Charge Over Curr      = no 
+177:          Discharge Over Curr   = no 
+178: Battery 5 SW Control Status    = 00 [bit flags]
+179:          Over Volt             = no 
+180:          Under Volt            = no 
+181:          Charging Active       = YES 
+182:          Discharging Active    = YES 
+183:          Over Volt Recovery    = off 
+184:          SW Control Configured = on 
+185:          Cell Disabled         = no 
+186:          Ignored               = no 
+187: Battery 6 Voltage              = 3.875000 [V]
+188: Battery 6 Current              = 0.000000 [A]
+189: Battery 6 Power                = 0.0 [mW]
+190: Battery 6 Temp                 = 0.000000 [c]
+191: Battery 6 Status               = A1 [bit flags]
+192:          Charging Active       = no 
+193:          Charging SW Enabled   = no 
+194:          Discharging Active    = YES 
+195:          Discharging SW Enabled = YES 
+196:          Over Volt             = YES 
+197:          Under Volt            = no 
+198:          Charge Over Curr      = no 
+199:          Discharge Over Curr   = no 
+200: Battery 6 SW Control Status    = 00 [bit flags]
+201:          Over Volt             = no 
+202:          Under Volt            = no 
+203:          Charging Active       = YES 
+204:          Discharging Active    = YES 
+205:          Over Volt Recovery    = off 
+206:          SW Control Configured = on 
+207:          Cell Disabled         = no 
+208:          Ignored               = no 
+209: Battery 7 Voltage              = 3.875000 [V]
+210: Battery 7 Current              = -0.007812 [A]
+211: Battery 7 Power                = -30.3 [mW]
+212: Battery 7 Temp                 = 0.000000 [c]
+213: Battery 7 Status               = A5 [bit flags]
+214:          Charging Active       = no 
+215:          Charging SW Enabled   = no 
+216:          Discharging Active    = YES 
+217:          Discharging SW Enabled = YES 
+218:          Over Volt             = YES 
+219:          Under Volt            = no 
+220:          Charge Over Curr      = YES 
+221:          Discharge Over Curr   = no 
+222: Battery 7 SW Control Status    = 00 [bit flags]
+223:          Over Volt             = no 
+224:          Under Volt            = no 
+225:          Charging Active       = YES 
+226:          Discharging Active    = YES 
+227:          Over Volt Recovery    = off 
+228:          SW Control Configured = on 
+229:          Cell Disabled         = no 
+230:          Ignored               = no 
+231: Battery Power                  = -22 [mW]
+232: Long Duration Counter          = 30 
+233: User CPU Time                  = 37756 [jiffies]
+234: Sys CPU Time                   = 61770 [jiffies]
+235: Idle CPU Time                  = 675932 [jiffies]
+236: Processes                      = 1748 
+237: Memory Free                    = 42472 [kB]
+238: Memory Buffered                = 0 [kB]
+239: Memory Cached                  = 64048 [kB]
+240: /data free                     = 286860 kB
+241: NAND Erasures                  = 127 
+242: Beacon Count                   = 1106 
+243: RTC                            = 1563640098 [b]
+244: Boot Time                      = 1563632335 
+245: RX Packets                     = 0 
+246: RX Bytes                       = 0 [b]
+247: TX Packets                     = 1450 
+248: TX Bytes                       = 610432 [b]
+249: Camera +X Last Contact         = 4 [s]
+250:          Enabled               = Yes 
+251:          Powered               = Off 
+252:          Heater Enabled        = Yes 
+253:          Heater                = On 
+254:          Busy                  = No 
+255:          Overtemp Enabled      = Yes 
+256:          Overtemp              = No 
+257:          Htr Running           = No 
+258:          Temperature           = 4.000000 [c]
+259:          Slots Remaining       = 20 
+260:          Failures              = 0 
+261: Camera -X Last Contact         = 4 [s]
+262:          Enabled               = Yes 
+263:          Powered               = Off 
+264:          Heater Enabled        = Yes 
+265:          Heater                = On 
+266:          Busy                  = No 
+267:          Overtemp Enabled      = Yes 
+268:          Overtemp              = No 
+269:          Htr Running           = No 
+270:          Temperature           = 15.500000 [c]
+271:          Slots Remaining       = 20 
+272:          Failures              = 0 
+273: ADCS Mode                      = 0 
+274:          Mode                  = Detumble 
+275: ADCS Flags                     = 0x13 [bitmask]
+276:          Filter                = converged 
+277:          Panels                = deployed 
+278:          Sail                  = stowed 
+279:          Eclipse               = illuminated 
+280: Quaternion[0]                  = -0.226562 
+281: Quaternion[1]                  = -0.390625 
+282: Quaternion[2]                  = 0.765625 
+283: Quaternion[3]                  = -0.468750 
+284: Rate X                         = 0.007812 [rad/s]
+285: Rate Y                         = -0.007812 [rad/s]
+286: Rate Z                         = 0.062500 [rad/s]
+287: Gyro X                         = 0.000000 [deg/s]
+288: Gyro Y                         = 0.000000 [deg/s]
+289: Gyro Z                         = 0.000000 [deg/s]
+290: Intrepid Gyro X                = 0.750000 [deg/s]
+291: Intrepid Gyro Y                = -0.375000 [deg/s]
+292: Intrepid Gyro Z                = 3.875000 [deg/s]
+293: -X Solar Sens X                = 145 
+294: -X Solar Sens Y                = 69 
+295: +X Solar Sens X                = 31 
+296: +X Solar Sens Y                = 88 
+297: -Y Solar Sens X                = 107 
+298: -Y Solar Sens Y                = 131 
+299: +Y Solar Sens X                = 88 
+300: +Y Solar Sens Y                = 110 
+301: +Z Solar Sens X                = 69 
+302: +Z Solar Sens Y                = 112 
+303: +X Magnetometer X              = 24300 [nt]
+304: +X Magnetometer Y              = -3300 [nt]
+305: +X Magnetometer Z              = -9100 [nt]
+306: +Y Magnetometer X              = -15000 [nt]
+307: +Y Magnetometer Y              = -21800 [nt]
+308: +Y Magnetometer Z              = 12100 [nt]
+309: X Torquer Voltage              = 0.000000 [V]
+310: X Torquer Current              = -0.015625 [A]
+311: X Torquer Power                = -0.0 [mW]
+312: Y Torquer Voltage              = 0.000000 [V]
+313: Y Torquer Current              = -0.015625 [A]
+314: Y Torquer Power                = -0.0 [mW]
+315: Z Torquer Voltage              = 0.000000 [V]
+316: Z Torquer Current              = 0.000000 [A]
+317: Z Torquer Power                = 0.0 [mW]
+318: Motor Voltage                  = 0.000000 [V]
+319: Motor Current                  = 0.000000 [A]
+320: Motor Power                    = 0.0 [mW]
+321: -X Panel                       = deployed 
+322: +X Panel                       = deployed 
+323: -Y Panel                       = deployed 
+324: +Y Panel                       = deployed 
+325: Deployment                     = safe 
+326: PIC Power                      = off 
+327: PIC Activity                   = idle 
+328: Motor State                    = halted 
+329: Motor Count                    = 0 
+330: Motor Limit                    = 135563 
+331: Wheel Speed                    = 0 [RPM]
+332: SS Votes <  3                  = 5800 [count;  wraps at 4096]
+333: SS Votes == 3                  = 400 [count; wraps at 4096]
+334: SS Votes >  3                  = 1500 [count; wraps at 4096]
+
+
+KVP form: 
+atmelPwr_curr=2208,1563640101
+atmelPwr_volt=323584,1563640101
+threeV_plTmp=17316,1563640101
+threeV_plPwr_volt=215040,1563640101
+threeV_plPwr_curr=1536,1563640101
+fiveV_plPwr_volt=331776,1563640101
+fiveV_plPwr_curr=16896,1563640101
+daughter_aTmp=17380,1563640101
+daughter_aPwr_volt=0,1563640101
+daughter_aPwr_curr=0,1563640101
+rf_ampTmp=17764,1563640101
+threeV_pwr_volt=217088,1563640101
+threeV_pwr_curr=1312,1563640101
+daughter_bTmp=17316,1563640101
+daughter_bPwr_volt=0,1563640101
+daughter_bPwr_curr=0,1563640101
+boardTempNx=18212,1563640101
+solarC1PwrNx_volt=323584,1563640101
+solarC1PwrNx_curr=9216,1563640101
+solarC2PwrNx_volt=323584,1563640101
+solarC2PwrNx_curr=0,1563640101
+boardTempPx=17860,1563640101
+solarC1PwrPx_volt=323584,1563640101
+solarC1PwrPx_curr=0,1563640101
+solarC2PwrPx_volt=323584,1563640101
+solarC2PwrPx_curr=0,1563640101
+boardTempNy=19204,1563640101
+solarC1PwrNy_volt=323584,1563640101
+solarC1PwrNy_curr=0,1563640101
+solarC2PwrNy_volt=323584,1563640101
+solarC2PwrNy_curr=5120,1563640101
+boardTempPy=15652,1563640101
+solarC1PwrPy_volt=323584,1563640101
+solarC1PwrPy_curr=6144,1563640101
+solarC2PwrPy_volt=323584,1563640101
+solarC2PwrPy_curr=8192,1563640101
+boardTempPz=17860,1563640101
+boardTempNz=16932,1563640101
+solarC1PwrNz_volt=323584,1563640101
+solarC1PwrNz_curr=1024,1563640101
+battery0_volt=251904,1563640101
+battery0_curr=-512,1563640101
+battery0_tmp=17508,1563640101
+battery0_status=161,1563640101
+battery0_ctl_status=0,1563640101
+battery1_volt=253952,1563640101
+battery1_curr=0,1563640101
+battery1_tmp=17508,1563640101
+battery1_status=161,1563640101
+battery1_ctl_status=0,1563640101
+battery2_volt=251904,1563640101
+battery2_curr=-512,1563640101
+battery2_tmp=17476,1563640101
+battery2_status=161,1563640101
+battery2_ctl_status=0,1563640101
+battery3_volt=253952,1563640101
+battery3_curr=-512,1563640101
+battery3_tmp=17508,1563640101
+battery3_status=161,1563640101
+battery3_ctl_status=0,1563640101
+battery4_volt=253952,1563640101
+battery4_curr=-512,1563640101
+battery4_tmp=17444,1563640101
+battery4_status=161,1563640101
+battery4_ctl_status=0,1563640101
+battery5_volt=253952,1563640101
+battery5_curr=-512,1563640101
+battery5_tmp=17444,1563640101
+battery5_status=161,1563640101
+battery5_ctl_status=0,1563640101
+battery6_volt=253952,1563640101
+battery6_curr=0,1563640101
+battery6_tmp=17476,1563640101
+battery6_status=161,1563640101
+battery6_ctl_status=0,1563640101
+battery7_volt=253952,1563640101
+battery7_curr=-512,1563640101
+battery7_tmp=17476,1563640101
+battery7_status=165,1563640101
+battery7_ctl_status=0,1563640101
+longDurationCounter=30,1563640101
+userTime=37756,1563640101
+sysTime=61770,1563640101
+idleTime=675932,1563640101
+processes=1748,1563640101
+memFree=42472,1563640101
+buffers=0,1563640101
+cached=64048,1563640101
+freeDataFlash=573720,1563640101
+dataErasures=127,1563640101
+beaconCnt=1106,1563640101
+time=1563640098,1563640101
+boottime=1563632335,1563640101
+rx_pkts=0,1563640101
+rx_bytes=0,1563640101
+tx_pkts=1450,1563640101
+tx_bytes=610432,1563640101
+cam0_last_contact=4,1563640101
+cam0_enabled=1,1563640101
+cam0_powered=0,1563640101
+cam0_heater_enabled=1,1563640101
+cam0_heater_powered=1,1563640101
+cam0_busy=0,1563640101
+cam0_overtemp_enabled=1,1563640101
+cam0_overtemp=0,1563640101
+cam0_heater_running=0,1563640101
+cam0_temp=17732,1563640101
+cam0_pics_rem=20,1563640101
+cam0_failures=0,1563640101
+cam1_last_contact=4,1563640101
+cam1_enabled=1,1563640101
+cam1_powered=0,1563640101
+cam1_heater_enabled=1,1563640101
+cam1_heater_powered=1,1563640101
+cam1_busy=0,1563640101
+cam1_overtemp_enabled=1,1563640101
+cam1_overtemp=0,1563640101
+cam1_heater_running=0,1563640101
+cam1_temp=18468,1563640101
+cam1_pics_rem=20,1563640101
+cam1_failures=0,1563640101
+mode=0,1563640101
+flags=19,1563640101
+q0=-1900544,1563640101
+q1=-3276800,1563640101
+q2=6422528,1563640101
+q3=-3932160,1563640101
+rate_x=65536,1563640101
+rate_y=-65536,1563640101
+rate_z=524288,1563640101
+pib_gyro_x=0,1563640101
+pib_gyro_y=0,1563640101
+pib_gyro_z=0,1563640101
+mb_gyro_x=786432,1563640101
+mb_gyro_y=4294574080,1563640101
+mb_gyro_z=4063232,1563640101
+nx_sol_x=145,1563640101
+nx_sol_y=69,1563640101
+px_sol_x=31,1563640101
+px_sol_y=88,1563640101
+ny_sol_x=107,1563640101
+ny_sol_y=131,1563640101
+py_sol_x=88,1563640101
+py_sol_y=110,1563640101
+pz_sol_x=69,1563640101
+pz_sol_y=112,1563640101
+px_mag_x=24300,1563640101
+px_mag_y=4294963996,1563640101
+px_mag_z=4294958196,1563640101
+py_mag_x=4294952296,1563640101
+py_mag_y=4294945496,1563640101
+py_mag_z=12100,1563640101
+torq_x_reg_volt=0,1563640101
+torq_x_curr=-1024,1563640101
+torq_y_reg_volt=0,1563640101
+torq_y_curr=-1024,1563640101
+torq_z_reg_volt=0,1563640101
+torq_z_curr=0,1563640101
+motor_volt=0,1563640101
+motor_curr=0,1563640101
+nx_pan_depl=1,1563640101
+px_pan_depl=1,1563640101
+ny_pan_depl=1,1563640101
+py_pan_depl=1,1563640101
+deploy_armed=0,1563640101
+pic_on=0,1563640101
+pic_busy=0,1563640101
+pic_status=0,1563640101
+motor_pos=0,1563640101
+motor_limit=135563,1563640101
+wheel_speed=0,1563640101
+ss_votes_lt3_wrap=5800,1563640101
+ss_votes_eq3_wrap=400,1563640101
+ss_votes_gt3_wrap=1500,1563640101
+
+
+Raw packet contents:
+9C6C 86A0 4040 0296 966C 9092 A815 03CC
+4500 0100 0000 4000 0111 8487 8141 9323
+E000 0001 C350 0002 00EC 2FDF 0193 9191
+9FAD A2CC 5D85 A245 9E29 6A03 6921 A200
+0000 0000 9E09 9E00 9E00 9E05 9E00 9E08
+9E06 9E01 9E00 0093 7C00 00F1 4A00 0A50
+5C00 0006 D400 00A5 E800 0000 0000 00FA
+3000 08C1 1800 0000 7F04 525D 3341 225D
+3322 CF00 1E00 0005 AA00 0000 0000 0950
+80FF 7B97 A100 007C 97A1 00FF 7B96 A100
+FF7C 97A1 00FF 7C95 A100 FF7C 95A1 0000
+7C96 A100 FF7C 96A5 00FF EA00 13FF E3FF
+CE00 62FF C400 01FF FF00 0800 0000 0001
+0F00 FF6D 0091 0045 006B 0083 0045 0070
+001F 0058 0058 006E 0300 A400 FAF5 0FFD
+3F00 0709 F6F2 A600 002E 9E04 142E B504
+14FF 00FF 0000 0000 000F 0000 0002 118B
+
+IPv4 packet contents:
+4500 0100 0000 4000 0111 8487 8141 9323
+E000 0001 C350 0002 00EC 2FDF 0193 9191
+9FAD A2CC 5D85 A245 9E29 6A03 6921 A200
+0000 0000 9E09 9E00 9E00 9E05 9E00 9E08
+9E06 9E01 9E00 0093 7C00 00F1 4A00 0A50
+5C00 0006 D400 00A5 E800 0000 0000 00FA
+3000 08C1 1800 0000 7F04 525D 3341 225D
+3322 CF00 1E00 0005 AA00 0000 0000 0950
+80FF 7B97 A100 007C 97A1 00FF 7B96 A100
+FF7C 97A1 00FF 7C95 A100 FF7C 95A1 0000
+7C96 A100 FF7C 96A5 00FF EA00 13FF E3FF
+CE00 62FF C400 01FF FF00 0800 0000 0001
+0F00 FF6D 0091 0045 006B 0083 0045 0070
+001F 0058 0058 006E 0300 A400 FAF5 0FFD
+3F00 0709 F6F2 A600 002E 9E04 142E B504
+14FF 00FF 0000 0000 000F 0000 0002 118B
+
+

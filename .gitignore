@@ -1,0 +1,28 @@
+#
+# Please don't add IDE or OS artifacts in here!
+# There is support for a global .gitignore file that deals with them.
+# See:
+#
+# https://help.github.com/en/articles/ignoring-files
+# https://gist.github.com/octocat/9257657
+#
+
+.virtual_documents/
+.ipynb_checkpoints/
+__pycache__
+*.pyc
+*.pickle
+/venv
+.venv
+/docker/*/data/*
+.tox/
+polaris_ml.egg-info/
+*.log
+/build/
+/dist/
+/mlruns/
+.coverage
+.coverage.*
+/docs/_build/
+/.vscode
+/src/polaris_workspace/polaris/

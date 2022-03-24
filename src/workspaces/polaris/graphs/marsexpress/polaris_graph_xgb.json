@@ -1,0 +1,1023 @@
+{
+    "metadata": {
+        "data_format_version": 1,
+        "satellite_name": "marsexpress_dataset_medium"
+    },
+    "graph": {
+        "data_format_version": 1,
+        "nodes": [
+            {
+                "id": "NPWD2372",
+                "name": "NPWD2372",
+                "group": 0
+            },
+            {
+                "id": "NPWD2401",
+                "name": "NPWD2401",
+                "group": 0
+            },
+            {
+                "id": "NPWD2402",
+                "name": "NPWD2402",
+                "group": 0
+            },
+            {
+                "id": "NPWD2451",
+                "name": "NPWD2451",
+                "group": 0
+            },
+            {
+                "id": "NPWD2471",
+                "name": "NPWD2471",
+                "group": 0
+            },
+            {
+                "id": "NPWD2472",
+                "name": "NPWD2472",
+                "group": 0
+            },
+            {
+                "id": "NPWD2481",
+                "name": "NPWD2481",
+                "group": 0
+            },
+            {
+                "id": "NPWD2482",
+                "name": "NPWD2482",
+                "group": 0
+            },
+            {
+                "id": "NPWD2491",
+                "name": "NPWD2491",
+                "group": 0
+            },
+            {
+                "id": "NPWD2501",
+                "name": "NPWD2501",
+                "group": 0
+            },
+            {
+                "id": "NPWD2531",
+                "name": "NPWD2531",
+                "group": 0
+            },
+            {
+                "id": "NPWD2532",
+                "name": "NPWD2532",
+                "group": 0
+            },
+            {
+                "id": "NPWD2551",
+                "name": "NPWD2551",
+                "group": 0
+            },
+            {
+                "id": "NPWD2552",
+                "name": "NPWD2552",
+                "group": 0
+            },
+            {
+                "id": "NPWD2561",
+                "name": "NPWD2561",
+                "group": 0
+            },
+            {
+                "id": "NPWD2562",
+                "name": "NPWD2562",
+                "group": 0
+            },
+            {
+                "id": "NPWD2691",
+                "name": "NPWD2691",
+                "group": 0
+            },
+            {
+                "id": "NPWD2692",
+                "name": "NPWD2692",
+                "group": 0
+            },
+            {
+                "id": "NPWD2721",
+                "name": "NPWD2721",
+                "group": 0
+            },
+            {
+                "id": "NPWD2722",
+                "name": "NPWD2722",
+                "group": 0
+            },
+            {
+                "id": "NPWD2742",
+                "name": "NPWD2742",
+                "group": 0
+            },
+            {
+                "id": "NPWD2771",
+                "name": "NPWD2771",
+                "group": 0
+            },
+            {
+                "id": "NPWD2791",
+                "name": "NPWD2791",
+                "group": 0
+            },
+            {
+                "id": "NPWD2792",
+                "name": "NPWD2792",
+                "group": 0
+            },
+            {
+                "id": "NPWD2801",
+                "name": "NPWD2801",
+                "group": 0
+            },
+            {
+                "id": "NPWD2802",
+                "name": "NPWD2802",
+                "group": 0
+            },
+            {
+                "id": "NPWD2821",
+                "name": "NPWD2821",
+                "group": 0
+            },
+            {
+                "id": "NPWD2851",
+                "name": "NPWD2851",
+                "group": 0
+            },
+            {
+                "id": "NPWD2852",
+                "name": "NPWD2852",
+                "group": 0
+            },
+            {
+                "id": "NPWD2871",
+                "name": "NPWD2871",
+                "group": 0
+            },
+            {
+                "id": "NPWD2872",
+                "name": "NPWD2872",
+                "group": 0
+            },
+            {
+                "id": "NPWD2881",
+                "name": "NPWD2881",
+                "group": 0
+            },
+            {
+                "id": "NPWD2882",
+                "name": "NPWD2882",
+                "group": 0
+            },
+            {
+                "id": "sa",
+                "name": "sa",
+                "group": 0
+            },
+            {
+                "id": "sx",
+                "name": "sx",
+                "group": 0
+            },
+            {
+                "id": "sy",
+                "name": "sy",
+                "group": 0
+            },
+            {
+                "id": "sz",
+                "name": "sz",
+                "group": 0
+            },
+            {
+                "id": "sunmars_km",
+                "name": "sunmars_km",
+                "group": 0
+            },
+            {
+                "id": "earthmars_km",
+                "name": "earthmars_km",
+                "group": 0
+            },
+            {
+                "id": "sunmarsearthangle_deg",
+                "name": "sunmarsearthangle_deg",
+                "group": 0
+            },
+            {
+                "id": "solarconstantmars",
+                "name": "solarconstantmars",
+                "group": 0
+            },
+            {
+                "id": "eclipseduration_min",
+                "name": "eclipseduration_min",
+                "group": 0
+            },
+            {
+                "id": "occultationduration_min",
+                "name": "occultationduration_min",
+                "group": 0
+            },
+            {
+                "id": "AAA",
+                "name": "AAA",
+                "group": 0
+            },
+            {
+                "id": "HHH",
+                "name": "HHH",
+                "group": 0
+            },
+            {
+                "id": "MMM",
+                "name": "MMM",
+                "group": 0
+            },
+            {
+                "id": "OOO",
+                "name": "OOO",
+                "group": 0
+            },
+            {
+                "id": "PSF",
+                "name": "PSF",
+                "group": 0
+            },
+            {
+                "id": "PWF",
+                "name": "PWF",
+                "group": 0
+            },
+            {
+                "id": "SEQ",
+                "name": "SEQ",
+                "group": 0
+            },
+            {
+                "id": "SSS",
+                "name": "SSS",
+                "group": 0
+            },
+            {
+                "id": "SXX",
+                "name": "SXX",
+                "group": 0
+            },
+            {
+                "id": "TMB",
+                "name": "TMB",
+                "group": 0
+            },
+            {
+                "id": "TTT",
+                "name": "TTT",
+                "group": 0
+            },
+            {
+                "id": "VVV",
+                "name": "VVV",
+                "group": 0
+            },
+            {
+                "id": "XXX",
+                "name": "XXX",
+                "group": 0
+            },
+            {
+                "id": "ACF",
+                "name": "ACF",
+                "group": 0
+            },
+            {
+                "id": "DMC",
+                "name": "DMC",
+                "group": 0
+            },
+            {
+                "id": "DMF",
+                "name": "DMF",
+                "group": 0
+            },
+            {
+                "id": "flagcomms",
+                "name": "flagcomms",
+                "group": 0
+            },
+            {
+                "id": "ACROSS_TRACK",
+                "name": "ACROSS_TRACK",
+                "group": 0
+            },
+            {
+                "id": "D1PVMC",
+                "name": "D1PVMC",
+                "group": 0
+            },
+            {
+                "id": "D4PNPO",
+                "name": "D4PNPO",
+                "group": 0
+            },
+            {
+                "id": "EARTH",
+                "name": "EARTH",
+                "group": 0
+            },
+            {
+                "id": "INERTIAL",
+                "name": "INERTIAL",
+                "group": 0
+            },
+            {
+                "id": "MAINTENANCE",
+                "name": "MAINTENANCE",
+                "group": 0
+            },
+            {
+                "id": "NADIR",
+                "name": "NADIR",
+                "group": 0
+            },
+            {
+                "id": "RADIO_SCIENCE",
+                "name": "RADIO_SCIENCE",
+                "group": 0
+            },
+            {
+                "id": "SLEW",
+                "name": "SLEW",
+                "group": 0
+            },
+            {
+                "id": "WARMUP",
+                "name": "WARMUP",
+                "group": 0
+            }
+        ],
+        "links": [
+            {
+                "source": "NPWD2372",
+                "target": "NPWD2491",
+                "value": 0.11444403976202011
+            },
+            {
+                "source": "NPWD2401",
+                "target": "NPWD2471",
+                "value": 0.25726571679115295
+            },
+            {
+                "source": "NPWD2401",
+                "target": "NPWD2482",
+                "value": 0.6074777245521545
+            },
+            {
+                "source": "NPWD2472",
+                "target": "NPWD2792",
+                "value": 0.3275226950645447
+            },
+            {
+                "source": "NPWD2472",
+                "target": "NPWD2801",
+                "value": 0.10556660592556
+            },
+            {
+                "source": "NPWD2472",
+                "target": "PSF",
+                "value": 0.15645262598991394
+            },
+            {
+                "source": "NPWD2482",
+                "target": "NPWD2401",
+                "value": 0.7571135759353638
+            },
+            {
+                "source": "NPWD2482",
+                "target": "NPWD2722",
+                "value": 0.16310174763202667
+            },
+            {
+                "source": "NPWD2491",
+                "target": "NPWD2372",
+                "value": 0.22958455979824066
+            },
+            {
+                "source": "NPWD2501",
+                "target": "NPWD2801",
+                "value": 0.12402145564556122
+            },
+            {
+                "source": "NPWD2531",
+                "target": "NPWD2851",
+                "value": 0.26132094860076904
+            },
+            {
+                "source": "NPWD2532",
+                "target": "DMF",
+                "value": 0.21216055750846863
+            },
+            {
+                "source": "NPWD2561",
+                "target": "NPWD2881",
+                "value": 0.18623308837413788
+            },
+            {
+                "source": "NPWD2562",
+                "target": "NPWD2402",
+                "value": 0.2562132179737091
+            },
+            {
+                "source": "NPWD2562",
+                "target": "HHH",
+                "value": 0.3449964225292206
+            },
+            {
+                "source": "NPWD2562",
+                "target": "DMC",
+                "value": 0.30935007333755493
+            },
+            {
+                "source": "NPWD2691",
+                "target": "NPWD2501",
+                "value": 0.11457157135009766
+            },
+            {
+                "source": "NPWD2691",
+                "target": "NPWD2801",
+                "value": 0.12750037014484406
+            },
+            {
+                "source": "NPWD2692",
+                "target": "NPWD2801",
+                "value": 0.12991562485694885
+            },
+            {
+                "source": "NPWD2692",
+                "target": "NPWD2872",
+                "value": 0.33787596225738525
+            },
+            {
+                "source": "NPWD2721",
+                "target": "NPWD2802",
+                "value": 0.29959994554519653
+            },
+            {
+                "source": "NPWD2771",
+                "target": "NPWD2402",
+                "value": 0.33643674850463867
+            },
+            {
+                "source": "NPWD2771",
+                "target": "NPWD2451",
+                "value": 0.12788255512714386
+            },
+            {
+                "source": "NPWD2771",
+                "target": "NPWD2722",
+                "value": 0.1668882966041565
+            },
+            {
+                "source": "NPWD2792",
+                "target": "NPWD2472",
+                "value": 0.36408793926239014
+            },
+            {
+                "source": "NPWD2792",
+                "target": "eclipseduration_min",
+                "value": 0.14008449018001556
+            },
+            {
+                "source": "NPWD2792",
+                "target": "RADIO_SCIENCE",
+                "value": 0.2111029177904129
+            },
+            {
+                "source": "NPWD2801",
+                "target": "NPWD2882",
+                "value": 0.11604246497154236
+            },
+            {
+                "source": "NPWD2802",
+                "target": "NPWD2721",
+                "value": 0.3354780673980713
+            },
+            {
+                "source": "NPWD2821",
+                "target": "NPWD2501",
+                "value": 0.10585491359233856
+            },
+            {
+                "source": "NPWD2821",
+                "target": "NPWD2801",
+                "value": 0.12983432412147522
+            },
+            {
+                "source": "NPWD2821",
+                "target": "NPWD2882",
+                "value": 0.10933750122785568
+            },
+            {
+                "source": "NPWD2851",
+                "target": "NPWD2531",
+                "value": 0.8530118465423584
+            },
+            {
+                "source": "NPWD2851",
+                "target": "earthmars_km",
+                "value": 0.13677990436553955
+            },
+            {
+                "source": "NPWD2852",
+                "target": "NPWD2471",
+                "value": 0.24960432946681976
+            },
+            {
+                "source": "NPWD2852",
+                "target": "NPWD2501",
+                "value": 0.1373639702796936
+            },
+            {
+                "source": "NPWD2852",
+                "target": "NPWD2552",
+                "value": 0.10455897450447083
+            },
+            {
+                "source": "NPWD2852",
+                "target": "NPWD2692",
+                "value": 0.5168237090110779
+            },
+            {
+                "source": "NPWD2852",
+                "target": "NPWD2871",
+                "value": 1.0
+            },
+            {
+                "source": "NPWD2852",
+                "target": "NPWD2872",
+                "value": 0.32687628269195557
+            },
+            {
+                "source": "NPWD2852",
+                "target": "NPWD2882",
+                "value": 0.16771496832370758
+            },
+            {
+                "source": "NPWD2871",
+                "target": "NPWD2471",
+                "value": 0.2489740401506424
+            },
+            {
+                "source": "NPWD2871",
+                "target": "NPWD2501",
+                "value": 0.10781263560056686
+            },
+            {
+                "source": "NPWD2871",
+                "target": "NPWD2801",
+                "value": 0.1280864030122757
+            },
+            {
+                "source": "NPWD2871",
+                "target": "NPWD2852",
+                "value": 0.3328033983707428
+            },
+            {
+                "source": "NPWD2871",
+                "target": "NPWD2882",
+                "value": 0.12113773077726364
+            },
+            {
+                "source": "NPWD2872",
+                "target": "NPWD2552",
+                "value": 0.10578236728906631
+            },
+            {
+                "source": "NPWD2872",
+                "target": "NPWD2692",
+                "value": 0.4831763207912445
+            },
+            {
+                "source": "NPWD2872",
+                "target": "NPWD2801",
+                "value": 0.14113487303256989
+            },
+            {
+                "source": "NPWD2872",
+                "target": "NPWD2821",
+                "value": 0.12520171701908112
+            },
+            {
+                "source": "NPWD2872",
+                "target": "NPWD2852",
+                "value": 0.32954803109169006
+            },
+            {
+                "source": "NPWD2882",
+                "target": "NPWD2471",
+                "value": 0.2441559135913849
+            },
+            {
+                "source": "NPWD2882",
+                "target": "NPWD2801",
+                "value": 0.11394039541482925
+            },
+            {
+                "source": "NPWD2882",
+                "target": "NPWD2821",
+                "value": 0.13940003514289856
+            },
+            {
+                "source": "NPWD2882",
+                "target": "NPWD2852",
+                "value": 0.33764857053756714
+            },
+            {
+                "source": "NPWD2882",
+                "target": "NPWD2872",
+                "value": 0.3352477252483368
+            },
+            {
+                "source": "sa",
+                "target": "sx",
+                "value": 0.2794845402240753
+            },
+            {
+                "source": "sa",
+                "target": "OOO",
+                "value": 0.18810540437698364
+            },
+            {
+                "source": "sa",
+                "target": "SLEW",
+                "value": 0.1277369260787964
+            },
+            {
+                "source": "sx",
+                "target": "NPWD2722",
+                "value": 0.10983891785144806
+            },
+            {
+                "source": "sx",
+                "target": "sa",
+                "value": 0.20775829255580902
+            },
+            {
+                "source": "sx",
+                "target": "sz",
+                "value": 0.16273939609527588
+            },
+            {
+                "source": "sz",
+                "target": "sx",
+                "value": 0.38113147020339966
+            },
+            {
+                "source": "sz",
+                "target": "PWF",
+                "value": 0.11786991357803345
+            },
+            {
+                "source": "sunmars_km",
+                "target": "NPWD2722",
+                "value": 0.1237383559346199
+            },
+            {
+                "source": "sunmars_km",
+                "target": "solarconstantmars",
+                "value": 0.9998787045478821
+            },
+            {
+                "source": "earthmars_km",
+                "target": "sunmarsearthangle_deg",
+                "value": 0.8207398056983948
+            },
+            {
+                "source": "earthmars_km",
+                "target": "PSF",
+                "value": 0.10919511318206787
+            },
+            {
+                "source": "earthmars_km",
+                "target": "DMF",
+                "value": 0.36478400230407715
+            },
+            {
+                "source": "earthmars_km",
+                "target": "RADIO_SCIENCE",
+                "value": 0.12422225624322891
+            },
+            {
+                "source": "sunmarsearthangle_deg",
+                "target": "sx",
+                "value": 0.11972616612911224
+            },
+            {
+                "source": "sunmarsearthangle_deg",
+                "target": "earthmars_km",
+                "value": 0.1141919270157814
+            },
+            {
+                "source": "sunmarsearthangle_deg",
+                "target": "occultationduration_min",
+                "value": 0.2867611348628998
+            },
+            {
+                "source": "sunmarsearthangle_deg",
+                "target": "DMF",
+                "value": 0.10867384821176529
+            },
+            {
+                "source": "solarconstantmars",
+                "target": "NPWD2532",
+                "value": 0.12606434524059296
+            },
+            {
+                "source": "solarconstantmars",
+                "target": "sunmars_km",
+                "value": 0.9998979568481445
+            },
+            {
+                "source": "solarconstantmars",
+                "target": "earthmars_km",
+                "value": 0.5323288440704346
+            },
+            {
+                "source": "solarconstantmars",
+                "target": "eclipseduration_min",
+                "value": 0.13379254937171936
+            },
+            {
+                "source": "solarconstantmars",
+                "target": "occultationduration_min",
+                "value": 0.14945361018180847
+            },
+            {
+                "source": "eclipseduration_min",
+                "target": "NPWD2551",
+                "value": 0.11223823577165604
+            },
+            {
+                "source": "eclipseduration_min",
+                "target": "occultationduration_min",
+                "value": 0.35078805685043335
+            },
+            {
+                "source": "occultationduration_min",
+                "target": "eclipseduration_min",
+                "value": 0.3771510720252991
+            },
+            {
+                "source": "AAA",
+                "target": "NPWD2771",
+                "value": 0.10139569640159607
+            },
+            {
+                "source": "HHH",
+                "target": "NPWD2562",
+                "value": 0.42157459259033203
+            },
+            {
+                "source": "HHH",
+                "target": "TTT",
+                "value": 0.22720395028591156
+            },
+            {
+                "source": "HHH",
+                "target": "DMC",
+                "value": 0.12284419685602188
+            },
+            {
+                "source": "HHH",
+                "target": "ACROSS_TRACK",
+                "value": 0.16409412026405334
+            },
+            {
+                "source": "MMM",
+                "target": "NPWD2551",
+                "value": 0.13145458698272705
+            },
+            {
+                "source": "MMM",
+                "target": "NPWD2771",
+                "value": 0.11924109607934952
+            },
+            {
+                "source": "MMM",
+                "target": "sz",
+                "value": 0.17538900673389435
+            },
+            {
+                "source": "MMM",
+                "target": "TTT",
+                "value": 0.3305603861808777
+            },
+            {
+                "source": "OOO",
+                "target": "NPWD2561",
+                "value": 0.26713159680366516
+            },
+            {
+                "source": "PSF",
+                "target": "NPWD2372",
+                "value": 0.20819741487503052
+            },
+            {
+                "source": "PWF",
+                "target": "ACF",
+                "value": 0.3051297664642334
+            },
+            {
+                "source": "SEQ",
+                "target": "XXX",
+                "value": 0.2256346493959427
+            },
+            {
+                "source": "SSS",
+                "target": "INERTIAL",
+                "value": 0.3215574026107788
+            },
+            {
+                "source": "SXX",
+                "target": "XXX",
+                "value": 0.14071568846702576
+            },
+            {
+                "source": "SXX",
+                "target": "RADIO_SCIENCE",
+                "value": 0.1833038628101349
+            },
+            {
+                "source": "TTT",
+                "target": "HHH",
+                "value": 0.12087278068065643
+            },
+            {
+                "source": "TTT",
+                "target": "MMM",
+                "value": 0.17458432912826538
+            },
+            {
+                "source": "VVV",
+                "target": "D1PVMC",
+                "value": 0.6333162784576416
+            },
+            {
+                "source": "ACF",
+                "target": "NPWD2742",
+                "value": 0.4411185085773468
+            },
+            {
+                "source": "DMC",
+                "target": "ACF",
+                "value": 0.12044570595026016
+            },
+            {
+                "source": "DMF",
+                "target": "TMB",
+                "value": 0.11173351109027863
+            },
+            {
+                "source": "ACROSS_TRACK",
+                "target": "D4PNPO",
+                "value": 0.20530541241168976
+            },
+            {
+                "source": "ACROSS_TRACK",
+                "target": "INERTIAL",
+                "value": 0.10366776585578918
+            },
+            {
+                "source": "ACROSS_TRACK",
+                "target": "NADIR",
+                "value": 0.12331631034612656
+            },
+            {
+                "source": "ACROSS_TRACK",
+                "target": "SLEW",
+                "value": 0.10186371952295303
+            },
+            {
+                "source": "D1PVMC",
+                "target": "VVV",
+                "value": 0.5280371308326721
+            },
+            {
+                "source": "D1PVMC",
+                "target": "MAINTENANCE",
+                "value": 0.10005607455968857
+            },
+            {
+                "source": "D1PVMC",
+                "target": "WARMUP",
+                "value": 0.12966132164001465
+            },
+            {
+                "source": "D4PNPO",
+                "target": "NADIR",
+                "value": 0.1517125517129898
+            },
+            {
+                "source": "EARTH",
+                "target": "MAINTENANCE",
+                "value": 0.12131492048501968
+            },
+            {
+                "source": "INERTIAL",
+                "target": "SSS",
+                "value": 0.3750288188457489
+            },
+            {
+                "source": "INERTIAL",
+                "target": "ACROSS_TRACK",
+                "value": 0.11120539158582687
+            },
+            {
+                "source": "INERTIAL",
+                "target": "D4PNPO",
+                "value": 0.10745924711227417
+            },
+            {
+                "source": "INERTIAL",
+                "target": "SLEW",
+                "value": 0.24077945947647095
+            },
+            {
+                "source": "MAINTENANCE",
+                "target": "EARTH",
+                "value": 0.20212922990322113
+            },
+            {
+                "source": "NADIR",
+                "target": "ACROSS_TRACK",
+                "value": 0.10413027554750443
+            },
+            {
+                "source": "NADIR",
+                "target": "D4PNPO",
+                "value": 0.10498973727226257
+            },
+            {
+                "source": "NADIR",
+                "target": "INERTIAL",
+                "value": 0.10539774596691132
+            },
+            {
+                "source": "RADIO_SCIENCE",
+                "target": "SXX",
+                "value": 0.510847806930542
+            },
+            {
+                "source": "RADIO_SCIENCE",
+                "target": "flagcomms",
+                "value": 0.14280161261558533
+            },
+            {
+                "source": "SLEW",
+                "target": "NPWD2551",
+                "value": 0.13414883613586426
+            },
+            {
+                "source": "SLEW",
+                "target": "ACROSS_TRACK",
+                "value": 0.13799072802066803
+            },
+            {
+                "source": "SLEW",
+                "target": "D4PNPO",
+                "value": 0.12862950563430786
+            },
+            {
+                "source": "SLEW",
+                "target": "EARTH",
+                "value": 0.2861538827419281
+            },
+            {
+                "source": "SLEW",
+                "target": "NADIR",
+                "value": 0.29276081919670105
+            },
+            {
+                "source": "SLEW",
+                "target": "RADIO_SCIENCE",
+                "value": 0.1811012327671051
+            },
+            {
+                "source": "WARMUP",
+                "target": "NPWD2722",
+                "value": 0.16906489431858063
+            },
+            {
+                "source": "WARMUP",
+                "target": "MAINTENANCE",
+                "value": 0.2268713414669037
+            },
+            {
+                "source": "WARMUP",
+                "target": "SLEW",
+                "value": 0.15675662457942963
+            }
+        ]
+    }
+}

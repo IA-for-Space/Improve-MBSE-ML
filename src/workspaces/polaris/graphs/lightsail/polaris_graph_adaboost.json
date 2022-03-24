@@ -1,0 +1,2058 @@
+{
+    "metadata": {
+        "data_format_version": 1,
+        "satellite_name": "lightsail_dataset"
+    },
+    "graph": {
+        "data_format_version": 1,
+        "nodes": [
+            {
+                "id": "atmelPwr_curr",
+                "name": "atmelPwr_curr",
+                "group": 0
+            },
+            {
+                "id": "atmelPwr_volt",
+                "name": "atmelPwr_volt",
+                "group": 0
+            },
+            {
+                "id": "threeV_plTmp",
+                "name": "threeV_plTmp",
+                "group": 0
+            },
+            {
+                "id": "threeV_plPwr_volt",
+                "name": "threeV_plPwr_volt",
+                "group": 0
+            },
+            {
+                "id": "threeV_plPwr_curr",
+                "name": "threeV_plPwr_curr",
+                "group": 0
+            },
+            {
+                "id": "fiveV_plPwr_volt",
+                "name": "fiveV_plPwr_volt",
+                "group": 0
+            },
+            {
+                "id": "fiveV_plPwr_curr",
+                "name": "fiveV_plPwr_curr",
+                "group": 0
+            },
+            {
+                "id": "daughter_aTmp",
+                "name": "daughter_aTmp",
+                "group": 0
+            },
+            {
+                "id": "daughter_aPwr_volt",
+                "name": "daughter_aPwr_volt",
+                "group": 0
+            },
+            {
+                "id": "daughter_aPwr_curr",
+                "name": "daughter_aPwr_curr",
+                "group": 0
+            },
+            {
+                "id": "rf_ampTmp",
+                "name": "rf_ampTmp",
+                "group": 0
+            },
+            {
+                "id": "threeV_pwr_volt",
+                "name": "threeV_pwr_volt",
+                "group": 0
+            },
+            {
+                "id": "threeV_pwr_curr",
+                "name": "threeV_pwr_curr",
+                "group": 0
+            },
+            {
+                "id": "daughter_bTmp",
+                "name": "daughter_bTmp",
+                "group": 0
+            },
+            {
+                "id": "daughter_bPwr_volt",
+                "name": "daughter_bPwr_volt",
+                "group": 0
+            },
+            {
+                "id": "daughter_bPwr_curr",
+                "name": "daughter_bPwr_curr",
+                "group": 0
+            },
+            {
+                "id": "boardTempNx",
+                "name": "boardTempNx",
+                "group": 0
+            },
+            {
+                "id": "solarC1PwrNx_volt",
+                "name": "solarC1PwrNx_volt",
+                "group": 0
+            },
+            {
+                "id": "solarC1PwrNx_curr",
+                "name": "solarC1PwrNx_curr",
+                "group": 0
+            },
+            {
+                "id": "solarC2PwrNx_volt",
+                "name": "solarC2PwrNx_volt",
+                "group": 0
+            },
+            {
+                "id": "solarC2PwrNx_curr",
+                "name": "solarC2PwrNx_curr",
+                "group": 0
+            },
+            {
+                "id": "boardTempPx",
+                "name": "boardTempPx",
+                "group": 0
+            },
+            {
+                "id": "solarC1PwrPx_volt",
+                "name": "solarC1PwrPx_volt",
+                "group": 0
+            },
+            {
+                "id": "solarC1PwrPx_curr",
+                "name": "solarC1PwrPx_curr",
+                "group": 0
+            },
+            {
+                "id": "solarC2PwrPx_volt",
+                "name": "solarC2PwrPx_volt",
+                "group": 0
+            },
+            {
+                "id": "solarC2PwrPx_curr",
+                "name": "solarC2PwrPx_curr",
+                "group": 0
+            },
+            {
+                "id": "boardTempNy",
+                "name": "boardTempNy",
+                "group": 0
+            },
+            {
+                "id": "solarC1PwrNy_volt",
+                "name": "solarC1PwrNy_volt",
+                "group": 0
+            },
+            {
+                "id": "solarC1PwrNy_curr",
+                "name": "solarC1PwrNy_curr",
+                "group": 0
+            },
+            {
+                "id": "solarC2PwrNy_volt",
+                "name": "solarC2PwrNy_volt",
+                "group": 0
+            },
+            {
+                "id": "solarC2PwrNy_curr",
+                "name": "solarC2PwrNy_curr",
+                "group": 0
+            },
+            {
+                "id": "boardTempPy",
+                "name": "boardTempPy",
+                "group": 0
+            },
+            {
+                "id": "solarC1PwrPy_volt",
+                "name": "solarC1PwrPy_volt",
+                "group": 0
+            },
+            {
+                "id": "solarC1PwrPy_curr",
+                "name": "solarC1PwrPy_curr",
+                "group": 0
+            },
+            {
+                "id": "solarC2PwrPy_volt",
+                "name": "solarC2PwrPy_volt",
+                "group": 0
+            },
+            {
+                "id": "solarC2PwrPy_curr",
+                "name": "solarC2PwrPy_curr",
+                "group": 0
+            },
+            {
+                "id": "boardTempPz",
+                "name": "boardTempPz",
+                "group": 0
+            },
+            {
+                "id": "boardTempNz",
+                "name": "boardTempNz",
+                "group": 0
+            },
+            {
+                "id": "solarC1PwrNz_volt",
+                "name": "solarC1PwrNz_volt",
+                "group": 0
+            },
+            {
+                "id": "solarC1PwrNz_curr",
+                "name": "solarC1PwrNz_curr",
+                "group": 0
+            },
+            {
+                "id": "battery0_volt",
+                "name": "battery0_volt",
+                "group": 0
+            },
+            {
+                "id": "battery0_curr",
+                "name": "battery0_curr",
+                "group": 0
+            },
+            {
+                "id": "battery0_tmp",
+                "name": "battery0_tmp",
+                "group": 0
+            },
+            {
+                "id": "battery0_status",
+                "name": "battery0_status",
+                "group": 0
+            },
+            {
+                "id": "battery0_ctl_status",
+                "name": "battery0_ctl_status",
+                "group": 0
+            },
+            {
+                "id": "battery1_volt",
+                "name": "battery1_volt",
+                "group": 0
+            },
+            {
+                "id": "battery1_curr",
+                "name": "battery1_curr",
+                "group": 0
+            },
+            {
+                "id": "battery1_tmp",
+                "name": "battery1_tmp",
+                "group": 0
+            },
+            {
+                "id": "battery1_status",
+                "name": "battery1_status",
+                "group": 0
+            },
+            {
+                "id": "battery1_ctl_status",
+                "name": "battery1_ctl_status",
+                "group": 0
+            },
+            {
+                "id": "battery2_volt",
+                "name": "battery2_volt",
+                "group": 0
+            },
+            {
+                "id": "battery2_curr",
+                "name": "battery2_curr",
+                "group": 0
+            },
+            {
+                "id": "battery2_tmp",
+                "name": "battery2_tmp",
+                "group": 0
+            },
+            {
+                "id": "battery2_status",
+                "name": "battery2_status",
+                "group": 0
+            },
+            {
+                "id": "battery2_ctl_status",
+                "name": "battery2_ctl_status",
+                "group": 0
+            },
+            {
+                "id": "battery3_volt",
+                "name": "battery3_volt",
+                "group": 0
+            },
+            {
+                "id": "battery3_curr",
+                "name": "battery3_curr",
+                "group": 0
+            },
+            {
+                "id": "battery3_tmp",
+                "name": "battery3_tmp",
+                "group": 0
+            },
+            {
+                "id": "battery3_status",
+                "name": "battery3_status",
+                "group": 0
+            },
+            {
+                "id": "battery3_ctl_status",
+                "name": "battery3_ctl_status",
+                "group": 0
+            },
+            {
+                "id": "battery4_volt",
+                "name": "battery4_volt",
+                "group": 0
+            },
+            {
+                "id": "battery4_curr",
+                "name": "battery4_curr",
+                "group": 0
+            },
+            {
+                "id": "battery4_tmp",
+                "name": "battery4_tmp",
+                "group": 0
+            },
+            {
+                "id": "battery4_status",
+                "name": "battery4_status",
+                "group": 0
+            },
+            {
+                "id": "battery4_ctl_status",
+                "name": "battery4_ctl_status",
+                "group": 0
+            },
+            {
+                "id": "battery5_volt",
+                "name": "battery5_volt",
+                "group": 0
+            },
+            {
+                "id": "battery5_curr",
+                "name": "battery5_curr",
+                "group": 0
+            },
+            {
+                "id": "battery5_tmp",
+                "name": "battery5_tmp",
+                "group": 0
+            },
+            {
+                "id": "battery5_status",
+                "name": "battery5_status",
+                "group": 0
+            },
+            {
+                "id": "battery5_ctl_status",
+                "name": "battery5_ctl_status",
+                "group": 0
+            },
+            {
+                "id": "battery6_volt",
+                "name": "battery6_volt",
+                "group": 0
+            },
+            {
+                "id": "battery6_curr",
+                "name": "battery6_curr",
+                "group": 0
+            },
+            {
+                "id": "battery6_tmp",
+                "name": "battery6_tmp",
+                "group": 0
+            },
+            {
+                "id": "battery6_status",
+                "name": "battery6_status",
+                "group": 0
+            },
+            {
+                "id": "battery6_ctl_status",
+                "name": "battery6_ctl_status",
+                "group": 0
+            },
+            {
+                "id": "battery7_volt",
+                "name": "battery7_volt",
+                "group": 0
+            },
+            {
+                "id": "battery7_curr",
+                "name": "battery7_curr",
+                "group": 0
+            },
+            {
+                "id": "battery7_tmp",
+                "name": "battery7_tmp",
+                "group": 0
+            },
+            {
+                "id": "battery7_status",
+                "name": "battery7_status",
+                "group": 0
+            },
+            {
+                "id": "battery7_ctl_status",
+                "name": "battery7_ctl_status",
+                "group": 0
+            },
+            {
+                "id": "longDurationCounter",
+                "name": "longDurationCounter",
+                "group": 0
+            },
+            {
+                "id": "userTime",
+                "name": "userTime",
+                "group": 0
+            },
+            {
+                "id": "sysTime",
+                "name": "sysTime",
+                "group": 0
+            },
+            {
+                "id": "idleTime",
+                "name": "idleTime",
+                "group": 0
+            },
+            {
+                "id": "processes",
+                "name": "processes",
+                "group": 0
+            },
+            {
+                "id": "memFree",
+                "name": "memFree",
+                "group": 0
+            },
+            {
+                "id": "buffers",
+                "name": "buffers",
+                "group": 0
+            },
+            {
+                "id": "cached",
+                "name": "cached",
+                "group": 0
+            },
+            {
+                "id": "freeDataFlash",
+                "name": "freeDataFlash",
+                "group": 0
+            },
+            {
+                "id": "dataErasures",
+                "name": "dataErasures",
+                "group": 0
+            },
+            {
+                "id": "beaconCnt",
+                "name": "beaconCnt",
+                "group": 0
+            },
+            {
+                "id": "boottime",
+                "name": "boottime",
+                "group": 0
+            },
+            {
+                "id": "rx_pkts",
+                "name": "rx_pkts",
+                "group": 0
+            },
+            {
+                "id": "rx_bytes",
+                "name": "rx_bytes",
+                "group": 0
+            },
+            {
+                "id": "tx_pkts",
+                "name": "tx_pkts",
+                "group": 0
+            },
+            {
+                "id": "tx_bytes",
+                "name": "tx_bytes",
+                "group": 0
+            },
+            {
+                "id": "cam0_last_contact",
+                "name": "cam0_last_contact",
+                "group": 0
+            },
+            {
+                "id": "cam0_enabled",
+                "name": "cam0_enabled",
+                "group": 0
+            },
+            {
+                "id": "cam0_powered",
+                "name": "cam0_powered",
+                "group": 0
+            },
+            {
+                "id": "cam0_heater_enabled",
+                "name": "cam0_heater_enabled",
+                "group": 0
+            },
+            {
+                "id": "cam0_heater_powered",
+                "name": "cam0_heater_powered",
+                "group": 0
+            },
+            {
+                "id": "cam0_busy",
+                "name": "cam0_busy",
+                "group": 0
+            },
+            {
+                "id": "cam0_overtemp_enabled",
+                "name": "cam0_overtemp_enabled",
+                "group": 0
+            },
+            {
+                "id": "cam0_overtemp",
+                "name": "cam0_overtemp",
+                "group": 0
+            },
+            {
+                "id": "cam0_heater_running",
+                "name": "cam0_heater_running",
+                "group": 0
+            },
+            {
+                "id": "cam0_temp",
+                "name": "cam0_temp",
+                "group": 0
+            },
+            {
+                "id": "cam0_pics_rem",
+                "name": "cam0_pics_rem",
+                "group": 0
+            },
+            {
+                "id": "cam0_failures",
+                "name": "cam0_failures",
+                "group": 0
+            },
+            {
+                "id": "cam1_last_contact",
+                "name": "cam1_last_contact",
+                "group": 0
+            },
+            {
+                "id": "cam1_enabled",
+                "name": "cam1_enabled",
+                "group": 0
+            },
+            {
+                "id": "cam1_powered",
+                "name": "cam1_powered",
+                "group": 0
+            },
+            {
+                "id": "cam1_heater_enabled",
+                "name": "cam1_heater_enabled",
+                "group": 0
+            },
+            {
+                "id": "cam1_heater_powered",
+                "name": "cam1_heater_powered",
+                "group": 0
+            },
+            {
+                "id": "cam1_busy",
+                "name": "cam1_busy",
+                "group": 0
+            },
+            {
+                "id": "cam1_overtemp_enabled",
+                "name": "cam1_overtemp_enabled",
+                "group": 0
+            },
+            {
+                "id": "cam1_overtemp",
+                "name": "cam1_overtemp",
+                "group": 0
+            },
+            {
+                "id": "cam1_heater_running",
+                "name": "cam1_heater_running",
+                "group": 0
+            },
+            {
+                "id": "cam1_temp",
+                "name": "cam1_temp",
+                "group": 0
+            },
+            {
+                "id": "cam1_pics_rem",
+                "name": "cam1_pics_rem",
+                "group": 0
+            },
+            {
+                "id": "cam1_failures",
+                "name": "cam1_failures",
+                "group": 0
+            },
+            {
+                "id": "mode",
+                "name": "mode",
+                "group": 0
+            },
+            {
+                "id": "flags",
+                "name": "flags",
+                "group": 0
+            },
+            {
+                "id": "q0",
+                "name": "q0",
+                "group": 0
+            },
+            {
+                "id": "q1",
+                "name": "q1",
+                "group": 0
+            },
+            {
+                "id": "q2",
+                "name": "q2",
+                "group": 0
+            },
+            {
+                "id": "q3",
+                "name": "q3",
+                "group": 0
+            },
+            {
+                "id": "rate_x",
+                "name": "rate_x",
+                "group": 0
+            },
+            {
+                "id": "rate_y",
+                "name": "rate_y",
+                "group": 0
+            },
+            {
+                "id": "rate_z",
+                "name": "rate_z",
+                "group": 0
+            },
+            {
+                "id": "pib_gyro_x",
+                "name": "pib_gyro_x",
+                "group": 0
+            },
+            {
+                "id": "pib_gyro_y",
+                "name": "pib_gyro_y",
+                "group": 0
+            },
+            {
+                "id": "pib_gyro_z",
+                "name": "pib_gyro_z",
+                "group": 0
+            },
+            {
+                "id": "mb_gyro_x",
+                "name": "mb_gyro_x",
+                "group": 0
+            },
+            {
+                "id": "mb_gyro_y",
+                "name": "mb_gyro_y",
+                "group": 0
+            },
+            {
+                "id": "mb_gyro_z",
+                "name": "mb_gyro_z",
+                "group": 0
+            },
+            {
+                "id": "nx_sol_x",
+                "name": "nx_sol_x",
+                "group": 0
+            },
+            {
+                "id": "nx_sol_y",
+                "name": "nx_sol_y",
+                "group": 0
+            },
+            {
+                "id": "px_sol_x",
+                "name": "px_sol_x",
+                "group": 0
+            },
+            {
+                "id": "px_sol_y",
+                "name": "px_sol_y",
+                "group": 0
+            },
+            {
+                "id": "ny_sol_x",
+                "name": "ny_sol_x",
+                "group": 0
+            },
+            {
+                "id": "ny_sol_y",
+                "name": "ny_sol_y",
+                "group": 0
+            },
+            {
+                "id": "py_sol_x",
+                "name": "py_sol_x",
+                "group": 0
+            },
+            {
+                "id": "py_sol_y",
+                "name": "py_sol_y",
+                "group": 0
+            },
+            {
+                "id": "pz_sol_x",
+                "name": "pz_sol_x",
+                "group": 0
+            },
+            {
+                "id": "pz_sol_y",
+                "name": "pz_sol_y",
+                "group": 0
+            },
+            {
+                "id": "px_mag_x",
+                "name": "px_mag_x",
+                "group": 0
+            },
+            {
+                "id": "px_mag_y",
+                "name": "px_mag_y",
+                "group": 0
+            },
+            {
+                "id": "px_mag_z",
+                "name": "px_mag_z",
+                "group": 0
+            },
+            {
+                "id": "py_mag_x",
+                "name": "py_mag_x",
+                "group": 0
+            },
+            {
+                "id": "py_mag_y",
+                "name": "py_mag_y",
+                "group": 0
+            },
+            {
+                "id": "py_mag_z",
+                "name": "py_mag_z",
+                "group": 0
+            },
+            {
+                "id": "torq_x_reg_volt",
+                "name": "torq_x_reg_volt",
+                "group": 0
+            },
+            {
+                "id": "torq_x_curr",
+                "name": "torq_x_curr",
+                "group": 0
+            },
+            {
+                "id": "torq_y_reg_volt",
+                "name": "torq_y_reg_volt",
+                "group": 0
+            },
+            {
+                "id": "torq_y_curr",
+                "name": "torq_y_curr",
+                "group": 0
+            },
+            {
+                "id": "torq_z_reg_volt",
+                "name": "torq_z_reg_volt",
+                "group": 0
+            },
+            {
+                "id": "torq_z_curr",
+                "name": "torq_z_curr",
+                "group": 0
+            },
+            {
+                "id": "motor_volt",
+                "name": "motor_volt",
+                "group": 0
+            },
+            {
+                "id": "motor_curr",
+                "name": "motor_curr",
+                "group": 0
+            },
+            {
+                "id": "nx_pan_depl",
+                "name": "nx_pan_depl",
+                "group": 0
+            },
+            {
+                "id": "px_pan_depl",
+                "name": "px_pan_depl",
+                "group": 0
+            },
+            {
+                "id": "ny_pan_depl",
+                "name": "ny_pan_depl",
+                "group": 0
+            },
+            {
+                "id": "py_pan_depl",
+                "name": "py_pan_depl",
+                "group": 0
+            },
+            {
+                "id": "deploy_armed",
+                "name": "deploy_armed",
+                "group": 0
+            },
+            {
+                "id": "pic_on",
+                "name": "pic_on",
+                "group": 0
+            },
+            {
+                "id": "pic_busy",
+                "name": "pic_busy",
+                "group": 0
+            },
+            {
+                "id": "pic_status",
+                "name": "pic_status",
+                "group": 0
+            },
+            {
+                "id": "motor_pos",
+                "name": "motor_pos",
+                "group": 0
+            },
+            {
+                "id": "motor_limit",
+                "name": "motor_limit",
+                "group": 0
+            },
+            {
+                "id": "wheel_speed",
+                "name": "wheel_speed",
+                "group": 0
+            }
+        ],
+        "links": [
+            {
+                "source": "atmelPwr_volt",
+                "target": "solarC1PwrPy_volt",
+                "value": 0.1044647306609785
+            },
+            {
+                "source": "threeV_plTmp",
+                "target": "daughter_aTmp",
+                "value": 0.21027343293303036
+            },
+            {
+                "source": "threeV_plTmp",
+                "target": "daughter_bTmp",
+                "value": 0.3140244370676102
+            },
+            {
+                "source": "fiveV_plPwr_curr",
+                "target": "cam1_heater_running",
+                "value": 0.2659574468085107
+            },
+            {
+                "source": "fiveV_plPwr_curr",
+                "target": "mode",
+                "value": 1.0
+            },
+            {
+                "source": "fiveV_plPwr_curr",
+                "target": "torq_z_reg_volt",
+                "value": 0.9994966711990225
+            },
+            {
+                "source": "daughter_aTmp",
+                "target": "threeV_plTmp",
+                "value": 0.20536144481747204
+            },
+            {
+                "source": "daughter_aTmp",
+                "target": "daughter_bTmp",
+                "value": 0.12885739259053328
+            },
+            {
+                "source": "rf_ampTmp",
+                "target": "threeV_plTmp",
+                "value": 0.10548203116621155
+            },
+            {
+                "source": "rf_ampTmp",
+                "target": "daughter_aTmp",
+                "value": 0.20660441787441994
+            },
+            {
+                "source": "rf_ampTmp",
+                "target": "daughter_bTmp",
+                "value": 0.15542685354867908
+            },
+            {
+                "source": "daughter_bTmp",
+                "target": "threeV_plTmp",
+                "value": 0.21014386190625492
+            },
+            {
+                "source": "daughter_bTmp",
+                "target": "daughter_aTmp",
+                "value": 0.2554012840476683
+            },
+            {
+                "source": "daughter_bTmp",
+                "target": "boardTempNz",
+                "value": 0.11864618900610627
+            },
+            {
+                "source": "daughter_bTmp",
+                "target": "cam1_heater_running",
+                "value": 0.7340425531914893
+            },
+            {
+                "source": "boardTempNx",
+                "target": "threeV_plPwr_volt",
+                "value": 0.12295702836121676
+            },
+            {
+                "source": "boardTempNx",
+                "target": "boardTempPx",
+                "value": 0.19562452093984156
+            },
+            {
+                "source": "boardTempNx",
+                "target": "boardTempNy",
+                "value": 0.11421914066655191
+            },
+            {
+                "source": "boardTempNx",
+                "target": "boardTempPy",
+                "value": 0.21079976744050902
+            },
+            {
+                "source": "solarC2PwrNx_volt",
+                "target": "solarC2PwrNy_volt",
+                "value": 0.116104176851751
+            },
+            {
+                "source": "solarC2PwrNx_volt",
+                "target": "solarC1PwrPy_volt",
+                "value": 0.10926790305923229
+            },
+            {
+                "source": "solarC2PwrNx_volt",
+                "target": "solarC1PwrNz_volt",
+                "value": 0.11132360136346428
+            },
+            {
+                "source": "solarC2PwrNx_volt",
+                "target": "battery4_status",
+                "value": 1.0
+            },
+            {
+                "source": "solarC2PwrNx_curr",
+                "target": "px_mag_y",
+                "value": 0.2527960213519876
+            },
+            {
+                "source": "boardTempPx",
+                "target": "boardTempNx",
+                "value": 0.2831874917751953
+            },
+            {
+                "source": "boardTempPx",
+                "target": "boardTempNy",
+                "value": 0.7630572679141556
+            },
+            {
+                "source": "boardTempPx",
+                "target": "boardTempPy",
+                "value": 0.3581747259781494
+            },
+            {
+                "source": "solarC1PwrPx_volt",
+                "target": "solarC1PwrNz_volt",
+                "value": 0.10429835956313406
+            },
+            {
+                "source": "solarC2PwrPx_volt",
+                "target": "solarC2PwrNx_volt",
+                "value": 0.11125568131846247
+            },
+            {
+                "source": "boardTempNy",
+                "target": "boardTempNx",
+                "value": 0.3401076372330645
+            },
+            {
+                "source": "boardTempNy",
+                "target": "boardTempPx",
+                "value": 0.30008880591111864
+            },
+            {
+                "source": "boardTempNy",
+                "target": "boardTempPy",
+                "value": 0.3246963861397374
+            },
+            {
+                "source": "boardTempNy",
+                "target": "cam0_heater_running",
+                "value": 0.3433610134475101
+            },
+            {
+                "source": "solarC1PwrNy_volt",
+                "target": "solarC2PwrNy_volt",
+                "value": 0.11496962763836228
+            },
+            {
+                "source": "solarC1PwrNy_volt",
+                "target": "battery0_status",
+                "value": 1.0
+            },
+            {
+                "source": "solarC1PwrNy_volt",
+                "target": "battery5_status",
+                "value": 0.9998188738972198
+            },
+            {
+                "source": "solarC1PwrNy_curr",
+                "target": "pz_sol_x",
+                "value": 0.2220682031878152
+            },
+            {
+                "source": "solarC2PwrNy_volt",
+                "target": "solarC1PwrNx_volt",
+                "value": 0.15030172794119487
+            },
+            {
+                "source": "solarC2PwrNy_volt",
+                "target": "solarC2PwrNx_volt",
+                "value": 0.11580306447640273
+            },
+            {
+                "source": "solarC2PwrNy_volt",
+                "target": "solarC1PwrPy_volt",
+                "value": 0.10522727920976356
+            },
+            {
+                "source": "solarC2PwrNy_volt",
+                "target": "battery6_status",
+                "value": 0.9995993891375036
+            },
+            {
+                "source": "boardTempPy",
+                "target": "boardTempNx",
+                "value": 0.30768070896782784
+            },
+            {
+                "source": "boardTempPy",
+                "target": "boardTempPx",
+                "value": 0.31518014255959514
+            },
+            {
+                "source": "solarC1PwrPy_volt",
+                "target": "solarC1PwrPx_volt",
+                "value": 0.13183455660487078
+            },
+            {
+                "source": "solarC1PwrPy_volt",
+                "target": "solarC2PwrNy_volt",
+                "value": 0.12533650277361297
+            },
+            {
+                "source": "solarC1PwrPy_volt",
+                "target": "battery2_status",
+                "value": 1.0
+            },
+            {
+                "source": "solarC1PwrPy_volt",
+                "target": "battery4_ctl_status",
+                "value": 1.0
+            },
+            {
+                "source": "solarC2PwrPy_volt",
+                "target": "atmelPwr_volt",
+                "value": 0.11851860087360416
+            },
+            {
+                "source": "solarC2PwrPy_volt",
+                "target": "solarC1PwrNx_volt",
+                "value": 0.10291802876621801
+            },
+            {
+                "source": "solarC2PwrPy_volt",
+                "target": "battery3_status",
+                "value": 1.0
+            },
+            {
+                "source": "solarC2PwrPy_curr",
+                "target": "solarC2PwrPx_curr",
+                "value": 0.28575137618665825
+            },
+            {
+                "source": "boardTempPz",
+                "target": "px_mag_x",
+                "value": 0.15005588093296263
+            },
+            {
+                "source": "boardTempNz",
+                "target": "px_mag_x",
+                "value": 0.1799943381754636
+            },
+            {
+                "source": "solarC1PwrNz_volt",
+                "target": "atmelPwr_volt",
+                "value": 0.11540120508885772
+            },
+            {
+                "source": "solarC1PwrNz_volt",
+                "target": "solarC2PwrNx_volt",
+                "value": 0.10694785946529255
+            },
+            {
+                "source": "solarC1PwrNz_curr",
+                "target": "tx_pkts",
+                "value": 0.11735974899520289
+            },
+            {
+                "source": "solarC1PwrNz_curr",
+                "target": "ny_sol_y",
+                "value": 0.12578058006784057
+            },
+            {
+                "source": "battery0_volt",
+                "target": "flags",
+                "value": 0.7955771187289461
+            },
+            {
+                "source": "battery0_curr",
+                "target": "battery2_ctl_status",
+                "value": 1.0
+            },
+            {
+                "source": "battery0_curr",
+                "target": "battery5_ctl_status",
+                "value": 1.0
+            },
+            {
+                "source": "battery0_curr",
+                "target": "battery7_ctl_status",
+                "value": 1.0
+            },
+            {
+                "source": "battery0_tmp",
+                "target": "battery1_tmp",
+                "value": 0.10969058813831016
+            },
+            {
+                "source": "battery0_tmp",
+                "target": "battery3_tmp",
+                "value": 0.14580910657850796
+            },
+            {
+                "source": "battery0_tmp",
+                "target": "battery5_tmp",
+                "value": 0.1831552845487214
+            },
+            {
+                "source": "battery0_tmp",
+                "target": "battery6_tmp",
+                "value": 0.14726897791040375
+            },
+            {
+                "source": "battery0_tmp",
+                "target": "battery7_tmp",
+                "value": 0.12011540882663195
+            },
+            {
+                "source": "battery1_volt",
+                "target": "battery0_volt",
+                "value": 0.1073044232347049
+            },
+            {
+                "source": "battery1_tmp",
+                "target": "battery2_tmp",
+                "value": 0.10996417681935161
+            },
+            {
+                "source": "battery1_tmp",
+                "target": "battery3_tmp",
+                "value": 0.10630272796282393
+            },
+            {
+                "source": "battery1_tmp",
+                "target": "battery4_tmp",
+                "value": 0.16228943243023652
+            },
+            {
+                "source": "battery1_tmp",
+                "target": "cam0_temp",
+                "value": 0.14280497881985288
+            },
+            {
+                "source": "battery2_tmp",
+                "target": "battery0_tmp",
+                "value": 0.1264035628597023
+            },
+            {
+                "source": "battery2_tmp",
+                "target": "battery3_tmp",
+                "value": 0.141109309916858
+            },
+            {
+                "source": "battery2_tmp",
+                "target": "battery4_tmp",
+                "value": 0.1625842168631185
+            },
+            {
+                "source": "battery2_tmp",
+                "target": "battery6_tmp",
+                "value": 0.13325710176262695
+            },
+            {
+                "source": "battery2_tmp",
+                "target": "cam0_pics_rem",
+                "value": 0.10373443983402028
+            },
+            {
+                "source": "battery2_status",
+                "target": "battery1_status",
+                "value": 1.0
+            },
+            {
+                "source": "battery2_ctl_status",
+                "target": "battery3_ctl_status",
+                "value": 1.0
+            },
+            {
+                "source": "battery3_volt",
+                "target": "threeV_plPwr_curr",
+                "value": 0.1256543311681564
+            },
+            {
+                "source": "battery3_volt",
+                "target": "battery0_volt",
+                "value": 0.23719784646478334
+            },
+            {
+                "source": "battery3_volt",
+                "target": "py_pan_depl",
+                "value": 0.14088743800985415
+            },
+            {
+                "source": "battery3_curr",
+                "target": "battery0_volt",
+                "value": 0.11564990795284234
+            },
+            {
+                "source": "battery3_curr",
+                "target": "battery1_ctl_status",
+                "value": 1.0
+            },
+            {
+                "source": "battery3_curr",
+                "target": "battery6_curr",
+                "value": 0.1293530243167838
+            },
+            {
+                "source": "battery3_tmp",
+                "target": "threeV_pwr_curr",
+                "value": 0.12075923594671599
+            },
+            {
+                "source": "battery3_tmp",
+                "target": "battery1_tmp",
+                "value": 0.15897599293900996
+            },
+            {
+                "source": "battery3_tmp",
+                "target": "battery2_tmp",
+                "value": 0.13706397752292146
+            },
+            {
+                "source": "battery3_tmp",
+                "target": "battery6_tmp",
+                "value": 0.1665939049700276
+            },
+            {
+                "source": "battery3_tmp",
+                "target": "battery7_tmp",
+                "value": 0.1543205605286047
+            },
+            {
+                "source": "battery4_volt",
+                "target": "battery4_curr",
+                "value": 0.12028215562454972
+            },
+            {
+                "source": "battery4_volt",
+                "target": "battery6_volt",
+                "value": 0.15919859566810604
+            },
+            {
+                "source": "battery4_curr",
+                "target": "battery6_ctl_status",
+                "value": 1.0
+            },
+            {
+                "source": "battery4_tmp",
+                "target": "battery0_tmp",
+                "value": 0.13325382958743617
+            },
+            {
+                "source": "battery4_tmp",
+                "target": "battery2_tmp",
+                "value": 0.1352074182408748
+            },
+            {
+                "source": "battery4_tmp",
+                "target": "battery5_tmp",
+                "value": 0.1629079986267847
+            },
+            {
+                "source": "battery4_tmp",
+                "target": "battery7_tmp",
+                "value": 0.12376234926183276
+            },
+            {
+                "source": "battery5_volt",
+                "target": "processes",
+                "value": 0.14022696329740975
+            },
+            {
+                "source": "battery5_tmp",
+                "target": "battery0_tmp",
+                "value": 0.10954832463491505
+            },
+            {
+                "source": "battery5_tmp",
+                "target": "battery3_tmp",
+                "value": 0.10220650105878273
+            },
+            {
+                "source": "battery5_tmp",
+                "target": "battery7_tmp",
+                "value": 0.1690107193786199
+            },
+            {
+                "source": "battery5_status",
+                "target": "battery7_status",
+                "value": 0.8003243844710373
+            },
+            {
+                "source": "battery5_ctl_status",
+                "target": "cam1_pics_rem",
+                "value": 0.12437810945274039
+            },
+            {
+                "source": "battery6_volt",
+                "target": "battery7_volt",
+                "value": 0.1335836938812415
+            },
+            {
+                "source": "battery6_curr",
+                "target": "px_pan_depl",
+                "value": 0.1502733964330822
+            },
+            {
+                "source": "battery6_tmp",
+                "target": "battery0_tmp",
+                "value": 0.13604713841368746
+            },
+            {
+                "source": "battery6_tmp",
+                "target": "battery2_tmp",
+                "value": 0.19701772800997294
+            },
+            {
+                "source": "battery6_tmp",
+                "target": "battery3_tmp",
+                "value": 0.11126739753002063
+            },
+            {
+                "source": "battery6_tmp",
+                "target": "battery5_tmp",
+                "value": 0.1529442452643819
+            },
+            {
+                "source": "battery6_tmp",
+                "target": "cam0_temp",
+                "value": 0.10407251120281652
+            },
+            {
+                "source": "battery6_tmp",
+                "target": "px_pan_depl",
+                "value": 0.2293656030248399
+            },
+            {
+                "source": "battery6_ctl_status",
+                "target": "battery0_ctl_status",
+                "value": 1.0
+            },
+            {
+                "source": "battery7_volt",
+                "target": "battery4_volt",
+                "value": 0.14188338722876234
+            },
+            {
+                "source": "battery7_tmp",
+                "target": "battery0_tmp",
+                "value": 0.12354228827985841
+            },
+            {
+                "source": "battery7_tmp",
+                "target": "battery1_tmp",
+                "value": 0.10985933139835981
+            },
+            {
+                "source": "battery7_tmp",
+                "target": "battery3_tmp",
+                "value": 0.12496694776624445
+            },
+            {
+                "source": "battery7_tmp",
+                "target": "battery4_tmp",
+                "value": 0.11343692688547777
+            },
+            {
+                "source": "battery7_tmp",
+                "target": "battery5_tmp",
+                "value": 0.1585825324644507
+            },
+            {
+                "source": "battery7_tmp",
+                "target": "battery6_tmp",
+                "value": 0.11503907795296507
+            },
+            {
+                "source": "battery7_tmp",
+                "target": "battery7_status",
+                "value": 0.19967561552896276
+            },
+            {
+                "source": "battery7_ctl_status",
+                "target": "ny_pan_depl",
+                "value": 0.7955771187289461
+            },
+            {
+                "source": "longDurationCounter",
+                "target": "processes",
+                "value": 0.13827883027577748
+            },
+            {
+                "source": "longDurationCounter",
+                "target": "rx_pkts",
+                "value": 0.33444584010064005
+            },
+            {
+                "source": "longDurationCounter",
+                "target": "rx_bytes",
+                "value": 0.10867424641105905
+            },
+            {
+                "source": "userTime",
+                "target": "dataErasures",
+                "value": 0.21490669459378936
+            },
+            {
+                "source": "userTime",
+                "target": "tx_bytes",
+                "value": 0.16503844439364865
+            },
+            {
+                "source": "userTime",
+                "target": "cam0_heater_running",
+                "value": 0.12431252545614536
+            },
+            {
+                "source": "sysTime",
+                "target": "userTime",
+                "value": 0.11175802758349059
+            },
+            {
+                "source": "sysTime",
+                "target": "processes",
+                "value": 0.1545682181150993
+            },
+            {
+                "source": "sysTime",
+                "target": "cached",
+                "value": 0.10336068924698553
+            },
+            {
+                "source": "sysTime",
+                "target": "freeDataFlash",
+                "value": 0.1437865310995188
+            },
+            {
+                "source": "idleTime",
+                "target": "battery2_volt",
+                "value": 0.29300623233195655
+            },
+            {
+                "source": "idleTime",
+                "target": "battery4_volt",
+                "value": 0.26094257274673677
+            },
+            {
+                "source": "idleTime",
+                "target": "memFree",
+                "value": 0.11136431535202866
+            },
+            {
+                "source": "processes",
+                "target": "idleTime",
+                "value": 0.12328483521019215
+            },
+            {
+                "source": "memFree",
+                "target": "battery6_volt",
+                "value": 0.22130917628124833
+            },
+            {
+                "source": "memFree",
+                "target": "rx_bytes",
+                "value": 0.10165992531809112
+            },
+            {
+                "source": "cached",
+                "target": "longDurationCounter",
+                "value": 0.11153347239152211
+            },
+            {
+                "source": "cached",
+                "target": "sysTime",
+                "value": 0.12847097933246557
+            },
+            {
+                "source": "cached",
+                "target": "idleTime",
+                "value": 0.13231376622237934
+            },
+            {
+                "source": "cached",
+                "target": "beaconCnt",
+                "value": 0.10226064752433682
+            },
+            {
+                "source": "freeDataFlash",
+                "target": "dataErasures",
+                "value": 0.18760908312175517
+            },
+            {
+                "source": "dataErasures",
+                "target": "battery0_volt",
+                "value": 0.21604245418562107
+            },
+            {
+                "source": "dataErasures",
+                "target": "memFree",
+                "value": 0.10486008896594323
+            },
+            {
+                "source": "beaconCnt",
+                "target": "userTime",
+                "value": 0.10562412114475732
+            },
+            {
+                "source": "beaconCnt",
+                "target": "dataErasures",
+                "value": 0.11863795993511202
+            },
+            {
+                "source": "beaconCnt",
+                "target": "tx_bytes",
+                "value": 0.11007429006671768
+            },
+            {
+                "source": "rx_pkts",
+                "target": "tx_bytes",
+                "value": 0.10904154635899045
+            },
+            {
+                "source": "rx_bytes",
+                "target": "dataErasures",
+                "value": 0.1263026306293732
+            },
+            {
+                "source": "rx_bytes",
+                "target": "beaconCnt",
+                "value": 0.10887317785680209
+            },
+            {
+                "source": "rx_bytes",
+                "target": "rx_pkts",
+                "value": 0.21091068787660466
+            },
+            {
+                "source": "rx_bytes",
+                "target": "flags",
+                "value": 0.20442288127105387
+            },
+            {
+                "source": "tx_pkts",
+                "target": "boardTempPz",
+                "value": 0.11302170954954051
+            },
+            {
+                "source": "tx_pkts",
+                "target": "battery2_volt",
+                "value": 0.21046586117696742
+            },
+            {
+                "source": "tx_pkts",
+                "target": "battery6_volt",
+                "value": 0.12373102433110107
+            },
+            {
+                "source": "tx_pkts",
+                "target": "rate_z",
+                "value": 0.20823029381638944
+            },
+            {
+                "source": "tx_bytes",
+                "target": "battery6_volt",
+                "value": 0.10865930686928699
+            },
+            {
+                "source": "tx_bytes",
+                "target": "processes",
+                "value": 0.10384760238778867
+            },
+            {
+                "source": "tx_bytes",
+                "target": "dataErasures",
+                "value": 0.10405105900346075
+            },
+            {
+                "source": "cam0_last_contact",
+                "target": "cam1_last_contact",
+                "value": 0.9644401925504782
+            },
+            {
+                "source": "cam0_temp",
+                "target": "rf_ampTmp",
+                "value": 0.21428331135579698
+            },
+            {
+                "source": "cam0_temp",
+                "target": "cam1_temp",
+                "value": 0.43604161723488943
+            },
+            {
+                "source": "cam0_pics_rem",
+                "target": "cam1_pics_rem",
+                "value": 0.8756218905472596
+            },
+            {
+                "source": "cam0_pics_rem",
+                "target": "px_pan_depl",
+                "value": 0.20280406251310412
+            },
+            {
+                "source": "cam1_last_contact",
+                "target": "cam0_last_contact",
+                "value": 0.9306781781168934
+            },
+            {
+                "source": "cam1_last_contact",
+                "target": "cam0_heater_running",
+                "value": 0.1372493609133432
+            },
+            {
+                "source": "cam1_temp",
+                "target": "rf_ampTmp",
+                "value": 0.20334687201609478
+            },
+            {
+                "source": "cam1_temp",
+                "target": "battery2_volt",
+                "value": 0.3623167048412184
+            },
+            {
+                "source": "cam1_temp",
+                "target": "cam0_temp",
+                "value": 0.1871017163309473
+            },
+            {
+                "source": "cam1_pics_rem",
+                "target": "cam0_pics_rem",
+                "value": 0.8962655601659798
+            },
+            {
+                "source": "mode",
+                "target": "fiveV_plPwr_curr",
+                "value": 0.12740686097733891
+            },
+            {
+                "source": "flags",
+                "target": "rx_pkts",
+                "value": 0.2426061642532713
+            },
+            {
+                "source": "q0",
+                "target": "solarC2PwrNx_curr",
+                "value": 0.18956251884162603
+            },
+            {
+                "source": "q0",
+                "target": "q2",
+                "value": 0.15228900240192988
+            },
+            {
+                "source": "q0",
+                "target": "q3",
+                "value": 0.3330984777143181
+            },
+            {
+                "source": "q0",
+                "target": "px_mag_y",
+                "value": 0.16925717611680716
+            },
+            {
+                "source": "q0",
+                "target": "py_mag_x",
+                "value": 0.11750540597032585
+            },
+            {
+                "source": "q1",
+                "target": "daughter_aPwr_volt",
+                "value": 0.22271543613101563
+            },
+            {
+                "source": "q1",
+                "target": "solarC1PwrPy_curr",
+                "value": 0.12172572298493596
+            },
+            {
+                "source": "q1",
+                "target": "q2",
+                "value": 0.3215431399849262
+            },
+            {
+                "source": "q1",
+                "target": "pz_sol_y",
+                "value": 0.10480249799301414
+            },
+            {
+                "source": "q2",
+                "target": "daughter_aPwr_volt",
+                "value": 0.32715308251629144
+            },
+            {
+                "source": "q2",
+                "target": "solarC1PwrPx_curr",
+                "value": 0.1415497721015745
+            },
+            {
+                "source": "q2",
+                "target": "q0",
+                "value": 0.15417684270476845
+            },
+            {
+                "source": "q2",
+                "target": "q1",
+                "value": 0.4893893303403422
+            },
+            {
+                "source": "q3",
+                "target": "cam0_heater_running",
+                "value": 0.22575320348644934
+            },
+            {
+                "source": "q3",
+                "target": "q0",
+                "value": 0.3003520999549173
+            },
+            {
+                "source": "q3",
+                "target": "motor_curr",
+                "value": 0.10192338602343193
+            },
+            {
+                "source": "rate_x",
+                "target": "mb_gyro_x",
+                "value": 0.9999999584908694
+            },
+            {
+                "source": "rate_y",
+                "target": "mb_gyro_y",
+                "value": 0.9999999771126572
+            },
+            {
+                "source": "rate_z",
+                "target": "tx_pkts",
+                "value": 0.27664812813229916
+            },
+            {
+                "source": "rate_z",
+                "target": "mb_gyro_z",
+                "value": 0.78410474638729
+            },
+            {
+                "source": "mb_gyro_x",
+                "target": "rate_x",
+                "value": 0.8808648325314471
+            },
+            {
+                "source": "mb_gyro_x",
+                "target": "px_mag_y",
+                "value": 0.10472749754762962
+            },
+            {
+                "source": "mb_gyro_y",
+                "target": "rate_y",
+                "value": 0.9359658942100413
+            },
+            {
+                "source": "mb_gyro_z",
+                "target": "solarC2PwrPx_curr",
+                "value": 0.12232064517563138
+            },
+            {
+                "source": "mb_gyro_z",
+                "target": "boardTempPz",
+                "value": 0.1293856413964443
+            },
+            {
+                "source": "mb_gyro_z",
+                "target": "tx_pkts",
+                "value": 0.12635453472934355
+            },
+            {
+                "source": "mb_gyro_z",
+                "target": "rate_z",
+                "value": 0.44421001980216207
+            },
+            {
+                "source": "nx_sol_x",
+                "target": "px_sol_x",
+                "value": 0.4452070168741349
+            },
+            {
+                "source": "nx_sol_y",
+                "target": "solarC1PwrNx_curr",
+                "value": 0.19904056653252475
+            },
+            {
+                "source": "nx_sol_y",
+                "target": "px_sol_y",
+                "value": 0.5250322126102008
+            },
+            {
+                "source": "nx_sol_y",
+                "target": "py_sol_x",
+                "value": 0.3008450219460215
+            },
+            {
+                "source": "px_sol_x",
+                "target": "nx_sol_x",
+                "value": 0.5137803820512792
+            },
+            {
+                "source": "px_sol_x",
+                "target": "py_sol_y",
+                "value": 0.15249461659542854
+            },
+            {
+                "source": "px_sol_y",
+                "target": "nx_sol_y",
+                "value": 0.5518139414865154
+            },
+            {
+                "source": "px_sol_y",
+                "target": "ny_sol_x",
+                "value": 0.1345839179761122
+            },
+            {
+                "source": "ny_sol_x",
+                "target": "py_sol_x",
+                "value": 0.21250215857866056
+            },
+            {
+                "source": "ny_sol_y",
+                "target": "solarC1PwrNz_curr",
+                "value": 0.22264027130426553
+            },
+            {
+                "source": "ny_sol_y",
+                "target": "py_sol_y",
+                "value": 0.205262198711662
+            },
+            {
+                "source": "py_sol_x",
+                "target": "nx_sol_y",
+                "value": 0.1684203711005391
+            },
+            {
+                "source": "py_sol_x",
+                "target": "px_sol_y",
+                "value": 0.1430591703515164
+            },
+            {
+                "source": "py_sol_x",
+                "target": "ny_sol_x",
+                "value": 0.2599319009680092
+            },
+            {
+                "source": "py_sol_y",
+                "target": "px_sol_x",
+                "value": 0.17314960256084094
+            },
+            {
+                "source": "py_sol_y",
+                "target": "ny_sol_y",
+                "value": 0.3675808119987118
+            },
+            {
+                "source": "pz_sol_x",
+                "target": "threeV_pwr_curr",
+                "value": 0.12319328110436924
+            },
+            {
+                "source": "pz_sol_y",
+                "target": "battery4_curr",
+                "value": 0.15088237942525412
+            },
+            {
+                "source": "px_mag_x",
+                "target": "solarC2PwrPx_curr",
+                "value": 0.1621037720248062
+            },
+            {
+                "source": "px_mag_x",
+                "target": "solarC2PwrPy_curr",
+                "value": 0.24546528938843296
+            },
+            {
+                "source": "px_mag_x",
+                "target": "boardTempNz",
+                "value": 0.13421354686901746
+            },
+            {
+                "source": "px_mag_x",
+                "target": "battery6_volt",
+                "value": 0.1657269602372817
+            },
+            {
+                "source": "px_mag_x",
+                "target": "cam1_temp",
+                "value": 0.11068380644710647
+            },
+            {
+                "source": "px_mag_x",
+                "target": "px_pan_depl",
+                "value": 0.22946708172888586
+            },
+            {
+                "source": "px_mag_y",
+                "target": "py_mag_x",
+                "value": 0.11469928216870068
+            },
+            {
+                "source": "px_mag_y",
+                "target": "py_mag_z",
+                "value": 0.13937824291595086
+            },
+            {
+                "source": "px_mag_z",
+                "target": "solarC2PwrNx_curr",
+                "value": 0.24723848209880406
+            },
+            {
+                "source": "px_mag_z",
+                "target": "solarC2PwrNy_curr",
+                "value": 0.2935999820240847
+            },
+            {
+                "source": "px_mag_z",
+                "target": "py_mag_y",
+                "value": 0.3488211645048748
+            },
+            {
+                "source": "py_mag_x",
+                "target": "px_mag_y",
+                "value": 0.1029078681791998
+            },
+            {
+                "source": "py_mag_x",
+                "target": "py_mag_z",
+                "value": 0.12183043425102238
+            },
+            {
+                "source": "py_mag_y",
+                "target": "atmelPwr_curr",
+                "value": 0.13823805300886768
+            },
+            {
+                "source": "py_mag_y",
+                "target": "px_mag_z",
+                "value": 0.2277115620541582
+            },
+            {
+                "source": "py_mag_z",
+                "target": "solarC2PwrPy_curr",
+                "value": 0.2343484163016935
+            },
+            {
+                "source": "py_mag_z",
+                "target": "px_mag_y",
+                "value": 0.14625058132893817
+            },
+            {
+                "source": "torq_y_reg_volt",
+                "target": "py_mag_x",
+                "value": 0.10606351069953938
+            },
+            {
+                "source": "torq_z_reg_volt",
+                "target": "fiveV_plPwr_curr",
+                "value": 0.3237322427860308
+            },
+            {
+                "source": "torq_z_reg_volt",
+                "target": "torq_z_curr",
+                "value": 1.0
+            },
+            {
+                "source": "torq_z_curr",
+                "target": "fiveV_plPwr_curr",
+                "value": 0.30896377174356854
+            },
+            {
+                "source": "px_pan_depl",
+                "target": "nx_pan_depl",
+                "value": 1.0
+            },
+            {
+                "source": "px_pan_depl",
+                "target": "ny_pan_depl",
+                "value": 0.20442288127105387
+            }
+        ]
+    }
+}
