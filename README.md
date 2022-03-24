@@ -3,16 +3,14 @@
 <div align=center>
   <a href="https://www.universidadviu.com/es/"><img src="https://user-images.githubusercontent.com/15159632/155946766-9bf49086-a07f-473c-a703-65c1cc739c9c.png" alt="VIU" title="VIU" hspace="30" height="96px" /></a>
   <a href="https://iac.es/"><img src="https://user-images.githubusercontent.com/15159632/155946637-70e34166-80c8-407b-a719-c5d1ad421118.png" alt="IAC" title="IAC" hspace="30" height="96px" /></a>
-<center><a href="http://visionspace.com/"><img src="https://user-images.githubusercontent.com/15159632/117484138-f7920900-af66-11eb-8def-6e9880860c4a.png" alt="VisionSpace" title="VisionSpace" height="100px" /></a></center>
+<a href="http://visionspace.com/"><img src="https://user-images.githubusercontent.com/15159632/117484138-f7920900-af66-11eb-8def-6e9880860c4a.png" alt="VisionSpace" title="VisionSpace" height="100px" /></a>
+</div>
 
 <br/>
-=======
 
 Author: Moras Acosta, Manuel David ([@br0ly23](https://github.com/br0ly23)) (manomoras@gmail.com)
 
 Advisor: Guzman-Alvarez, Cesar Augusto ([@cguz](https://github.com/cguz)) 
-
-Co-Advisor: Garcia Lorenzo, Begona (-) 
 
 ---
 
