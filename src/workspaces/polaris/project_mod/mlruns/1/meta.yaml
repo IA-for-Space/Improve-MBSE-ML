@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/manni/Desktop/VIU/TFM/repo/Improve-MBSE-ML/src/workspaces/polaris/project_mod/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: ../../../datasets/preprocess_mars_express/MarsExpressPower/marsexpress_dataset
