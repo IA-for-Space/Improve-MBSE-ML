@@ -37,9 +37,6 @@ This project has been made following two porpuses:
 
 
 
-
-
-
 ## Requirements
 
 This work is implemented in python and for both the Dataset engineering and the Sequencer algorithm, requires the following:
