@@ -2,7 +2,7 @@
 
 <div align=center>
   <a href="https://www.universidadviu.com/es/"><img src="https://user-images.githubusercontent.com/15159632/155946766-9bf49086-a07f-473c-a703-65c1cc739c9c.png" alt="VIU" title="VIU" hspace="30" height="96px" /></a>
-<a href="http://visionspace.com/"><img src="https://user-images.githubusercontent.com/15159632/117484138-f7920900-af66-11eb-8def-6e9880860c4a.png" alt="VisionSpace" title="VisionSpace" height="100px" /></a>
+<a href="https://polarisml.space/"><img src="https://user-images.githubusercontent.com/15159632/160088399-417c7b0d-d09c-42cd-869f-94be6f7cb019.png" alt="Polaris" title="Polaris" height="100px" /></a>
 </div>
 
 <br/>
@@ -15,10 +15,8 @@ Advisor: Guzman-Alvarez, Cesar Augusto ([@cguz](https://github.com/cguz))
 
 ## Table of Content
 
-- [Integrating Model-Based System Engenieering and Machine Learning with telemetric data](#integrating-model-based-system-engenieering-and-machine-learning-with-telemetric-data)
-	- [Table of Content](#table-of-content)
-	- [Overview](#overview)
-	- [Requirements](#requirements)
+- [Overview](#overview)
+- [Requirements](#requirements)
   
 ## Overview
 
