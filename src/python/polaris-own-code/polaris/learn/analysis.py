@@ -634,3 +634,4 @@ class PolarisGraphWorkbench:
             self.visualize_graph("/polaris_graph_GradientBoosting.json")
         else:
             print("GradientBoosting graph has not been generated")
+            
