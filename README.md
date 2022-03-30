@@ -49,4 +49,4 @@ We have two main porpuses:
 
 ## License
 
-The general repository follows the GNU license. We respect the code and logo of polaris again with its license term. 
+The general repository follows the GNU license. We respect the code and logo of polaris and also its license term. 
