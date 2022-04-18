@@ -47,6 +47,8 @@ class XCorr(BaseEstimator, TransformerMixin):
             :type dataset_metadata: PolarisMetadata
             :param cross_correlation_params: XCorr parameters
             :type cross_correlation_params: CrossCorrelationParameters
+            :param regressor: name of the chosen regressor to perform the cross correlation
+            :type regressor: str
         """
         self._regressor = regressor
         self.models = None
@@ -85,6 +87,10 @@ class XCorr(BaseEstimator, TransformerMixin):
         
     @property
     def regressor(self):
+        """
+        Return the regressor chosen for building the graph.
+
+        """
         return self._regressor
     
     @regressor.setter
@@ -172,8 +178,8 @@ class XCorr(BaseEstimator, TransformerMixin):
             :type target_series: pd.Series
             :param model_params: Parameters for the XGB model
             :type model_params: dict
-            :return: A fitted XGBRegressor
-            :rtype: XGBRegressor
+            :return: A fitted Regressor
+            :rtype: XGBRegressor, RandomForestRegressor, AdaBoostRegressor, ExtraTreesRegressor or GradientBoostingRegressor depending on the chosen one
         """
         # Split df_in and target to train and test dataset
         df_in_train, df_in_test, target_train, target_test = train_test_split(
@@ -182,15 +188,25 @@ class XCorr(BaseEstimator, TransformerMixin):
             test_size=0.2,
             random_state=self.xcorr_params['random_state'])
 
-
-        regressors_dict = {"XGBoosting": XGBRegressor(**model_params),
-                           "RandomForest": RandomForestRegressor(),
-                           "AdaBoost": AdaBoostRegressor(),
-                           "ExtraTrees": ExtraTreesRegressor(),
-                           "GradientBoosting": GradientBoostingRegressor()}
-
+        # Declaration of the regressor 
+        if self._regressor == "XGBoosting":
+            regr_m = XGBRegressor(**model_params)
         
-        regr_m = regressors_dict[self._regressor]
+        elif self._regressor == "RandomForest":
+            regr_m = RandomForestRegressor()
+        
+        elif self._regressor == "AdaBoost":
+            regr_m = AdaBoostRegressor()
+        
+        elif self._regressor == "ExtraTrees":
+            regr_m = ExtraTreesRegressor()
+        
+        elif self._regressor == "GradientBoosting":
+            regr_m = GradientBoostingRegressor()
+            
+        else:
+            regr_m = XGBRegressor(**model_params)
+
         regr_m.fit(df_in_train, target_train)
 
         # Make predictions
@@ -288,7 +304,7 @@ class XCorr(BaseEstimator, TransformerMixin):
             in mlflow
         """
         log_param('Test size', self.xcorr_params['test_size'])
-        log_param('Model', 'XGBRegressor')
+        log_param('Model', self.regressor+"Regressor")
 
     def gridsearch_mlf_logging(self):
         """ Log the parameters used for gridsearch
