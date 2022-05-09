@@ -37,9 +37,9 @@ Directory structure:
 
 - src
     - Datasets: contains the datasets we're working with and the tools to preprocess it.
-    - Python: contains the Polaris code we've modificated.
+    - Python: contains the Polaris code we've modified.
         - Polaris: contains all the Polaris code with our modifications.
-        - Polaris-own-code: contains only the Polaris files we've modificated.
+        - Polaris-own-code: contains only the Polaris files we've modified.
     - Workspaces: 
         - Causalnex: contains all work made for Causalnex.
             - doc-guide: contains testing code got from the Causalnex guide, a space to learn how to use Causalnex.
@@ -75,7 +75,84 @@ pip install causalnex
 
 ## Use
 
-[TODO] Explain the process to use
+### Using Causalnex
+
+You can find the documentation for the latest stable release [here](https://causalnex.readthedocs.io/en/latest/)
+
+### Using Causalnex Custom Class
+
+We have implemented a new class to make easier working with Causalnex graphs for a dataset in Python Notebooks: CausalnexDataset.py
+
+consists of 9 functions:
+
+- **get_graph**. Returns an object containing the graph ready to be displayed. It accepts two optional parameters: a list of nodes so that only the relationships of those nodes are taken into account, and a boolean to indicate if you want to get only the largest subgraph in case there is more than one. If the parameter of specific nodes is not specified, by default all nodes will be taken into account, and if the parameter of choosing the largest subgraph is not specified, the representation will be calculated for all subgraphs.
+  
+- **edges_to_dataframe**. Returns a Pandas DataFrame object with all the edges of the computed graph. Each row contains the name of the source node and the name of the target node, as well as the edge weight. It accepts as optional parameter a list of nodes so that only their relationships are taken into account; by default this list is empty and takes into consideration all the nodes of the network.
+  
+- **get_edges_data**. It does a "describe()" of the Pandas DataFrame that has been generated, that is, it returns statistical data such as quartiles, mean and variance among others. If a previous dataframe had not been generated, it generates it. It accepts as optional parameter also a list of nodes to calculate it only on the relationships of those nodes in case the parameter is reported.
+  
+- **remove_edges**. Removes from the network the edges that the user considers. If an expert concludes that a relationship between two nodes does not conform to reality or is inaccurate, this function can be used to discard it from the network. It accepts as parameter a list of edges each consisting of a Python tuple with the source node and the destination node.
+  
+- **add_edges**. Adds to the network the edges that the user considers. If the expert concludes that there are relationships that the algorithm has not calculated but do exist, he can use this function to create that relationship within the network. It accepts as parameter a list of edges, also formed by a tuple with the source node and the destination node.
+  
+- **get_all_edges**. Returns a list of tuples with all the edges of the network. These tuples contain the source node, the destination node and the weight.
+  
+- **save_edges_as_dataset**. Generates a CSV file with the edges of the network. The generated columns are "source" (source node) "target" (target node) and "weight" (weight).
+  
+- **reset_threshold**. In case you want to change the threshold weight for the generation of the network, this function recalculates the network with the threshold passed by parameter (0 by default), so that all the relations calculated by the algorithm whose weight exceeds this threshold are taken into account. It also accepts by parameter the boolean "keep_previous_changes". If True, once the network is recalculated, the transformations (add and remove edges) that had already been applied are applied, and if False, the new network is left as calculated by the algorithm from the indicated threshold. By default this last parameter is True.
+
+
+### Using Polaris
+
+You can find Polaris documentation [here](https://gitlab.com/librespacefoundation/polaris/polaris/-/wikis/Home)
+
+### Using Polaris Custom Class
+
+We have named this class PolarisGraphWorkbench.
+
+This class is designed to be used from a Python notebook, and will use all the modifications we have made to the Polaris code.
+
+To declare an instance of this class, we will pass the following parameters:
+
+- *file*. Indicates the path to the csv file of the dataset. It is mandatory.
+  
+- *index_column*. Indicates the column to be used as index of the dataset. Required.
+  
+- *delimiter_char*. Indicates the character to separate the data in the csv file of the dataset. By default it is ','.
+  
+- *method*. Indicates the correlation method with which the initial network will be calculated. Default is XGBoosting.
+  
+- *route_to_graphs*. Specifies the path where the graphs generated by Polaris will be saved. Default is C:/tmp/polaris_graphs.
+  
+- *dropna*. Boolean that indicates if the rows of the dataset containing NaN values are deleted or not. Default is False.
+
+The functions implemented in this class are the following:
+
+- **visualize_graph**. Initially it was implemented for the code to execute the Python command "polaris viz", but due to the difficulties it presented, it was decided to simply provide the user with the command line to execute in his Python terminal. Once the user executes the provided command they will be able to access the 3D graph from their browser.
+
+- **get_graph_nodes_and_links**. It is passed the file name of the graph by parameter and returns a tuple composed of a dataframe with all the edges of the graph and a list with the names of all the nodes.
+  
+- **get_free_nodes**. Returns the number of nodes that remain unrelated for the network passed by parameter.	
+  
+- **compare_methods**. Returns a dataframe comparing the number of nodes, the number of edges, the number of nodes left unrelated and the average edge weight; of all the graphs that have been calculated for this instance. It is used to be able to compare the results of each correlation method and to be able to consider which one is more appropriate for the objective sought by the user.
+  
+- **correlate_XGBoosting**, **correlate_RandomForest**, **correlate_AdaBoost**, **correlate_ExtraTrees** and **correlate_GradientBoosting**. They compute the network of the dataset with the method in the name. They use the cross_correlate function we have seen before. 
+  
+- **XGBoosting_graph_to_dataframe**, **RandomForest_graph_to_dataframe**, **AdaBoost_graph_to_dataframe**, **ExtraTrees_graph_to_dataframe** and **GradientBoosting_graph_to_dataframe**. They store and display the dataframe created with the get_graph_nodes_and_links function for the method indicated in the name. You can indicate whether you want to display the dataframe or not using the display_dataframe parameter, which by default is True.
+  
+- **remove_edges**. Removes the indicated edges from the network passed by parameter.
+  
+- **remove_edges_from_RandomForest_graph**, **remove_edges_from_AdaBoost_graph**, **remove_edges_from_ExtraTrees_graph**, **remove_edges_from_GradientBoosting_graph** and **remove_edges_from_XGBoosting_graph**. They call remove_edges passing by parameter the graph they have in the name. Accept by parameter the list of edges to remove.
+  
+- **add_edges**. Adds edges. It relates nodes that the algorithm had not related and the user considers that there is a relationship between them. It accepts by parameter the network and the list of edges to add.
+  
+- **add_edges_from_RandomForest_graph**, **add_edges_from_AdaBoost_graph**, **add_edges_from_ExtraTrees_graph**, **add_edges_from_GradientBoosting_graph** and **add_edges_from_XGBoosting_graph**. They call add_edges passing by parameter the graph they carry in the name and the edges to add. Accept by parameter the list of edges to add.
+
+- **visualize_XGBoosting_graph**, **visualize_RandomForest_graph**, **visualize_AdaBoost_graph**, **visualize_ExtraTrees_graphy**, **visualize_GradientBoosting_graph**. They call visualize_graph passing by parameter the graph in the function's name.
+
+
+
+
 
 ## License
 
